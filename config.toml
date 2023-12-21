@@ -3,6 +3,8 @@ base_url = "https://iol2024.org"
 
 title = "IOL 2024"
 
+theme = "juice"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -16,3 +18,5 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+juice_logo_name = "IOL 2024"
+juice_logo_path = "logo-header.svg"
