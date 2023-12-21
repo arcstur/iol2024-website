@@ -6,3 +6,15 @@
 {% block fonts %}
 <link href="https://fonts.cdnfonts.com/css/neris" rel="stylesheet">
 {% endblock fonts %}
+
+{% block hero %}
+<section class="text-center">
+  <img class="hero-image" src="{{ get_url(path="logo.svg") }}" style="width: 600px" />
+  <h1 class="heading-text" style="font-size: 50px">
+    For the first time in the Southern Hemisphere.
+  </h1>
+  <h3 class="title-text">
+    XXI International Linguistics Olympiad
+  </h3>
+</section>
+{% endblock hero %}
