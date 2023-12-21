@@ -2,6 +2,8 @@
 base_url = "https://iol2024.org"
 
 title = "IOL 2024"
+description = "The official IOL 2024 website"
+default_language = "en"
 
 theme = "juice"
 
