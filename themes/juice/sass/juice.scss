@@ -36,6 +36,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -82,7 +86,7 @@ header {
 
 main {
   display: flex;
-  padding: 50px 100px;
+  padding: 100px 100px;
   flex-grow: 1;
 
   .toc {
@@ -124,7 +128,7 @@ main {
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
-  top: 10px;
+  top: 100px;
   padding: 10px 0 20px;
   max-height: 100vh;
   overflow: auto;
@@ -181,6 +185,7 @@ footer {
 
   main {
     padding: 30px;
+    padding-top: 120px;
   }
 
   .content {
