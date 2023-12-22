@@ -46,6 +46,6 @@ The **colors** are meant to represent Brazilian nature and culture. The green on
 
 The **central figure** in the sun-shaped O, and the animal spirit for IOL 2024, is the Uiraçu or Harpy Eagle (Harpia harpyja), the apex raptor bird of the forests of Central and South America. Often called the jaguar of the skies, the Uiraçu's wide view, strength and precision in action are inspirations for the process of opening the minds of participants and making them fly to the heights of human thought and culture. 
 
-<!-- {{ content_image(source="/logo.svg", width="650px") }} -->
+{{ content_image(source="/what/color-palette.png", width="650px") }}
 
 It is worth remembering that the IOL acronym is deliberately chosen not to represent the name of the Olympiad in English or any of the participating languages, instead being equally valid to name the event in all languages. 
