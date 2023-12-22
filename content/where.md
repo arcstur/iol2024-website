@@ -1,6 +1,7 @@
 +++
 title = "Where"
 weight = 6
+description = "Where?"
 +++
 
 # Venue

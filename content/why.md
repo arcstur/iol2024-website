@@ -1,7 +1,7 @@
 +++
 title = "Why"
 weight = 2
-description = "Why"
+description = "Why?"
 +++
 
 # Science Olympiads
