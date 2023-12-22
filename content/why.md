@@ -10,7 +10,7 @@ The **Science Olympiads** or **Knowledge Olympiads** are a set of educational en
 On the other hand, these high school science competitions were also simultaneous to other important educational movements, especially the writings of John Dewey in the U.S., later developing into project- and problem-based learning methods. However, the high-school competitions only got the name "olympiad" in the Soviet Union, first with the so-called Leningrad and Moscow Mathematics Olympiad (Ленинградская / Московская математическая олимпиада) in 1934 and 1935. The problem-based competition, hand in hand with the famous Mathematical Circles, was very successful in approaching edge-on academic research to curious and talented school students, so the model quickly spread through all the Sovietic industrial centers, and also got replicated in other science subjects: physics, astronomy, chemistry, biology etc. 
 The format slowly spread through other countries, eventually leading to cross-country collaborations and finally to the International Olympiads of Mathematics (IMO, in 1959, Physics (IPhO, in 1967), Chemistry (IChO, in 1968) — and also Linguistics, among the younger siblings, in 2003. In each region of the planet, the science olympiads went on to take shapes suited to each context: be it developing high-level young scientists, supporting the technological sector, raising science education and awareness on a broader societal scale, etc. Nowadays, every year we have hundreds of millions of students participating every year in one or more science olympiads, which creates a big and widespread impact. In Brazil alone, the Brazilian Mathematical Olympiad for Public Schools has around 19 million students participating per year. 
 
-{{ content_image(source="/why/encantamento-autonomia-relacoes.png", width="400px") }}
+<!-- {{ content_image(source="/why/encantamento-autonomia-relacoes.png", width="400px") }} -->
 
 In this way, the science olympiads use the Olympic competition as a motor, as a playboard, to develop three sets of qualities: 
 - Enchantment or interest in the world: the perception that the world is much bigger and more diverse than we imagined, and the willingness to deepen its understanding and engagement with it; 
@@ -24,12 +24,12 @@ But more specifically, how does <link>the Linguistics Olympiads</link> do it?
 Among the science olympiads, a **Linguistics Olympiad** stands out by having a naturally transdisciplinary approach — after all, all disciplines are permeated by language. Thus, passing through the natural and cognitive sciences, the sciences of mathematics and information, and the human and social sciences, the linguistics problems act as integrators of knowledge, uniting analytic and cultural, mathematical and social, cognitive and communicational abilities. 
 The Linguistics Olympiads mostly work with the genre of "self-sufficient linguistics problems", such as this example: 
 
-{{ content_image(source="/why/problem-example.png", width="400px") }}
+<!-- {{ content_image(source="/why/problem-example.png", width="400px") }} -->
 
 The idea is that, to solve the problem, the solver doesn't have to rely on proficiency in any other language or on theoretical knowledge about linguistics; instead, they have to use a good amount of reasoning, their linguistic intuition (as a speaker of at least one human language) and a piece of general knowledge about the world. By doing that, they end up discovering something that works differently in that language, interplaying between the diversity of cultural references and the unity of the human condition. In that way, reasoning, communicational skills and cultural sensibility work together to develop the capacity to deal with complex problems.
 At school, linguistics problems can be a trigger device or focal point for working around different fronts: linguistic and cultural diversity; metalinguistic knowledge about one's own language; proficiency in additional languages; contact with scientific investigation about language; logic and reasoning; transversal dialogues across disciplines. 
 
-{{ content_image(source="/why/ciencias-naturais-e-cognitivas.png", width="700px") }}
+<!-- {{ content_image(source="/why/ciencias-naturais-e-cognitivas.png", width="700px") }} -->
 
 But what does it mean to the <link>broader societal level</link>? 
 
