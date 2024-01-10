@@ -24,7 +24,7 @@ The **21st edition** of IOL is going to happen on July 23-31, 2024, in the city 
 
 {{ youtube(id="LXU70FEBm20") }}
 
-Brazil is known to be formed by a great cauldron of cultures in the last centuries -- not peacefully but with fights and superpositions that translated as powerful and creative cultural expressions. Although its population is largely monolingual, with Portuguese as the official and dominant language, the lands of Brazil still hold a good chunk of the world's linguistic diversity – estimates are around 250 languages spoken in the Brazilian territory. 
+Brazil is known to be formed by a great cauldron of cultures in the last centuries – not peacefully but with fights and superpositions that were translated as powerful and creative cultural expressions. Although its population is largely monolingual, with Portuguese as the official and dominant language, the lands of Brazil still hold a good chunk of the world's linguistic diversity – estimates are around 250 languages spoken in the Brazilian territory.
 
 Also, the social dynamics that modeled the country make it so that Brazil today positions itself as a global focal point for social justice, environmental issues and dialogues among the countries. It is with that spirit that we aim to organize the 21st IOL, reinforcing its social mission of [promoting the diversity of languages and cultures, the active and investigative learning and the languages as they are](/why/#education-language-and-diversity).
 
@@ -48,4 +48,4 @@ The **central figure** in the sun-shaped O, and the animal spirit for IOL 2024, 
 
 {{ content_image(source="/what/color-palette.png", width="650px") }}
 
-It is worth remembering that the IOL acronym is deliberately chosen not to represent the name of the Olympiad in English or any of the participating languages, instead being equally valid to name the event in all languages. 
+It is worth remembering that the IOL acronym is deliberately chosen not to represent the name of the Olympiad in English or any of the participating languages, instead being equally valid to name the event in all languages.
