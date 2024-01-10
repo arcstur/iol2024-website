@@ -42,7 +42,7 @@ But what does it mean to the broader societal level?
 
 # Education, Language and Diversity
 
-As an educational event, the Linguistics Olympiads aim at transforming individuals in the specific ways described before: by fostering interest in the world, autonomy with one's own capacities and good community relations, by using the interdisciplinary place of linguistics to work through multiple topics and developing reasoning, communicational skills and cultural sensibilities.
+As an educational event, the Linguistics Olympiads aim at transforming individuals in the specific ways described before: by fostering [interest in the world, autonomy with one's own capacities and good community relations](#science-olympiads), by using the interdisciplinary place of linguistics to work through multiple topics and [developing reasoning, communicational skills and cultural sensibilities](#linguistics-olympiads).
 
 But a linguistics olympiad is also a political event, in the sense that it foresees and aims at certain transformations in the collective and structural levels of society. We aim to use the spotlights of the event to promote, discuss and perfect policies around three flags:
 
