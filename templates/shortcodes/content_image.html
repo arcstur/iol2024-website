@@ -1,1 +1,6 @@
-<img  src="{{ source }}" style="width: {{ width }}" />
+<figure>
+    <img  src="{{ source }}" style="width: {{ width }}" />
+    {% if caption %} 
+    <figcaption style="text-align: center; font-size: small; line-height: normal;">{{ caption }}</figcaption>
+    {% endif %}
+</figure>
