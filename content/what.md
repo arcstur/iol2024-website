@@ -14,8 +14,6 @@ The **participants** are members of delegations sent by accredited organizations
 
 The **event** happens yearly in one of the participating countries, lasting five to seven days, usually at the end of July and beginning of August. In addition to the competitions, students also engage in informal games and plays, academic activities involving linguistics, activities showing the culture and the lands of the host country, as well as gatherings and celebrations to bring the participants together. In addition to the main event among students and delegations, the IOL also promotes activities aiming at bringing tools to local school teachers as well as gatherings aiming at public policies and private initiatives involving [education, language and diversity](/why/#education-language-and-diversity).
 
-The **21st edition** of IOL is going to happen on July 23-31, 2024, in the city of Brasilia, Brazil –  for the first time in the southern hemisphere and in Latin America. Want to know more about what we are preparing?
-
 # IOL 2024
 
 Bem-vindos à IOL 2024!
