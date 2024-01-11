@@ -1,0 +1,30 @@
+<style>
+  .organizer-info-box {
+    flex-grow: 1;
+    width: 23%;
+    margin: 1%;
+  }
+  @media (max-width: 815px) {
+    .organizer-info-box {
+      width: auto;
+      margin: auto;
+      flex-grow: 0;
+    }
+  }
+</style>
+
+{% set data = load_data(path="static/local-organizing-comittee.toml") %}
+<div style="display: flex; flex-wrap: wrap; justify-content: center">
+  {% for item in data.organizers %}
+  <div class="organizer-info-box">
+    <img src="{{ item.photo }}" style="width: 150px" />
+    <p style="text-align: center">
+      <strong>{{ item.name }}</strong>
+      <br />
+      {{ item.description }}
+      <br />
+      <font color="#b0920b">{{ item.role }}</font>
+    </p>
+  </div>
+  {% endfor %}
+</div>
