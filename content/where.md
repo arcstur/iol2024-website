@@ -6,9 +6,7 @@ description = "Where?"
 
 # Venue, Flights & Map
 
-IOL 2024 will be held in the city of Brasilia, the political capital of Brazil. The city [is famously projected from scratch as a modernist urban planning masterpiece](/where/#Brasília), taking the shape of an airplane and later growing organically around it.
-
-image - detailed map
+IOL 2024 will be held in the city of Brasilia, the political capital of Brazil. The city [is famously projected from scratch as a modernist urban planning masterpiece](#brasilia), taking the shape of an airplane and later growing organically around it.
 
 ## Arrivals and departures
 
