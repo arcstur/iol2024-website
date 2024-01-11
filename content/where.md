@@ -8,6 +8,8 @@ description = "Where?"
 
 IOL 2024 will be held in the city of Brasilia, the political capital of Brazil. The city [is famously projected from scratch as a modernist urban planning masterpiece](#brasilia), taking the shape of an airplane and later growing organically around it.
 
+{{ map() }}
+
 ## Arrivals and departures
 
 {{ content_image(source="/where/Aeroporto-de-Brasília.jpg", width="450px", caption="Airport of Brasilia. Source: Inframerica Aeroportos /  Aeroporto de Brasilia") }}
