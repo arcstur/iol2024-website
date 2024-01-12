@@ -23,7 +23,7 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center">
   {% for item in data.organizers %}
   <div class="organizer-info-box">
-    <img class="img-rounded" src="{{ item.photo }}" style="width: 150px" />
+    <img class="img-rounded" src="{{ item.photo|safe }}" style="width: 150px" />
     <p style="text-align: center">
       <strong>{{ item.name }}</strong>
       <br />
