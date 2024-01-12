@@ -4,6 +4,12 @@
     width: 23%;
     margin: 1%;
   }
+
+  .img-rounded {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
   @media (max-width: 815px) {
     .organizer-info-box {
       width: auto;
@@ -17,7 +23,7 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center">
   {% for item in data.organizers %}
   <div class="organizer-info-box">
-    <img src="{{ item.photo }}" style="width: 150px" />
+    <img class="img-rounded" src="{{ item.photo }}" style="width: 150px" />
     <p style="text-align: center">
       <strong>{{ item.name }}</strong>
       <br />

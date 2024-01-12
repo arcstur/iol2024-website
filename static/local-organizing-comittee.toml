@@ -2,13 +2,13 @@
 name = "Bruno L'Astorina"
 description = "IOL, Instituto Vertere"
 role = "Chair"
-photo = "/logo.svg"
+photo = "/who/Bruno-Lastorina.png"
 
 [[organizers]]
 name = "Natália Guimarães"
 description = "Instituto Vertere | Caçapava, SP"
 role = "Vice-Chair, Logistics"
-photo = "/who/Natalia-Castro.jpg"
+photo = "/who/Natalia-Castro.jpeg"
 
 [[organizers]]
 name =  "Eloisa Pilati"
