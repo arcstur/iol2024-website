@@ -1,11 +1,8 @@
-{% extends "juice/templates/index.html" %} 
-{% block favicon %}
+{% extends "juice/templates/index.html" %} {% block favicon %}
 <link rel="icon" type="image/png" href="/favicon.png" />
-{% endblock favicon %} 
-{% block fonts %}
+{% endblock favicon %} {% block fonts %}
 <link href="https://fonts.cdnfonts.com/css/neris" rel="stylesheet" />
-{% endblock fonts %} 
-{% block hero %}
+{% endblock fonts %} {% block hero %}
 <section class="text-center">
   <img class="hero-image" src="/logo.svg" style="width: 80%" />
   <h1 class="heading-text" style="font-size: 40px">
@@ -13,8 +10,7 @@
   </h1>
   <h3 class="title-text">XXI International Linguistics Olympiad</h3>
 </section>
-{% endblock hero %} 
-{% block footer %}
+{% endblock hero %} {% block footer %}
 <style type="text/css" rel="stylesheet">
   .footer_social_media_box {
     align-items: center;
@@ -32,6 +28,7 @@
   }
 
   .footer_sponsor_box {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -46,28 +43,14 @@
   }
 </style>
 
-<footer style="padding-bottom: 10px;">
-  <h1 style="border: 0px; font-weight: bold; font-size:xx-large;">
-    Sponsored by:
-  </h1>
+<footer style="padding-bottom: 10px">
+  <a href="https://ioling.org/">
+    <img class="footer_sponsor_logo" src="/footer/logo_iol.png" />
+  </a>
+  <h1 style="border: 0px; font-weight: bold; font-size: xx-large">Support:</h1>
   <div class="footer_sponsor_box">
-    <a href="https://www.gov.br/mcti/pt-br">
-      <img class="footer_sponsor_logo" src="/footer/logo_mcti.png" />
-    </a>
-    <a href="https://www.unb.br/">
-      <img class="footer_sponsor_logo" src="/footer/logo_unb.png"/>
-    </a>
     <a href="https://obling.org/">
       <img class="footer_sponsor_logo" src="/footer/logo_obl.png" />
-    </a>
-    <a href="https://ioling.org/">
-      <img class="footer_sponsor_logo" src="/footer/logo_iol.png" />
-    </a>
-    <a href="https://www.aclweb.org/portal/">
-      <img class="footer_sponsor_logo" src="/footer/logo_acl.png" />
-    </a>
-    <a href="https://www.abralin.org/site/">
-      <img class="footer_sponsor_logo" src="/footer/logo_abralin.svg" />
     </a>
     <a href="https://institutovertere.org/">
       <img
@@ -76,21 +59,35 @@
         style="height: 50px"
       />
     </a>
+    <a href="https://www.unb.br/">
+      <img class="footer_sponsor_logo" src="/footer/logo_unb.png" />
+    </a>
+    <a href="https://www.abralin.org/site/">
+      <img class="footer_sponsor_logo" src="/footer/logo_abralin.svg" />
+    </a>
+  </div>
+  <h1 style="border: 0px; font-weight: bold; font-size: xx-large">Sponsors:</h1>
+  <div class="footer_sponsor_box">
+    <a href="https://www.aclweb.org/portal/">
+      <img class="footer_sponsor_logo" src="/footer/logo_acl.png" />
+    </a>
+    <a href="https://www.gov.br/mcti/pt-br">
+      <img class="footer_sponsor_logo" src="/footer/logo_mcti.png" />
+    </a>
   </div>
 
   <div class="footer_social_media_box">
-    <h2 style="flex-grow: 1;">
-      © 2024 - International Linguistics Olympiad
-    </h2>
-    <a href="https://www.instagram.com/ioling.official" style="align-items: center; align-content: center;">
+    <h2 style="flex-grow: 1">© 2024 - International Linguistics Olympiad</h2>
+    <a
+      href="https://www.instagram.com/ioling.official"
+      style="align-items: center; align-content: center"
+    >
       <img class="footer_social_media_logo" src="/footer/instagram_logo.png" />
     </a>
     <a href="mailto:iol2024@obling.org">
       <img class="footer_social_media_logo" src="/footer/email_logo.png" />
     </a>
-    <a href="mailto:iol2024@obling.org">
-      iol2024@obling.org
-    </a>
+    <a href="mailto:iol2024@obling.org"> iol2024@obling.org </a>
   </div>
 </footer>
 {% endblock footer %}
