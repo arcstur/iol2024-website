@@ -4,14 +4,22 @@
   font-weight: 600;
   padding: 10px 0 25px 0;
   color: var(--primary-text-color);
+  border-left: none;
 }
 
-h1, .title-text {
+.title-text {
   font-family: var(--header-font-family);
   font-size: 25px;
   font-weight: 500;
   color: var(--primary-text-color);
-  border-left: var(--primary-color) 8px solid;
+}
+
+h1 {
+  font-family: var(--header-font-family);
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  border-left: var(--iol-yellow) 8px solid;
   padding-left: 10px;
 }
 
@@ -20,6 +28,7 @@ h2, .subtitle-text {
   font-size: 20px;
   font-weight: 500;
   color: var(--primary-text-color);
+  padding-left: 6px;
 }
 
 .text {
