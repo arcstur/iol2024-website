@@ -18,7 +18,7 @@ The Delegations will mostly arrive through [Brasilia International Airport, Pres
 
 The airport receives direct commercial flights from a number of countries, but it is also possible that your arrival to Brazil will be through the busier airports of São Paulo - Guarulhos ([Governador André Franco Montoro, GRU](https://www.gru.com.br/index.html)) or Rio de Janeiro - Galeão ([Antônio Carlos Jobim, GIG](https://www.riogaleao.com/passageiros)). In these scenarios, it can be convenient to check separately the international leg of your flight and the Brazilian domestic one.
 
-The main air companies operating in Brazil are [LATAM](https://www.latamairlines.com/), [Gol](https://www.voegol.com.br), [Azul](https://www.voeazul.com.br/) and [Avianca](https://www.avianca.com/). They also operate international flights, either directly or in partnership with other international companies.  
+The main air companies operating in Brazil are [LATAM](https://www.latamairlines.com/), [Gol](https://www.voegol.com.br), and [Azul](https://www.voeazul.com.br/). They also operate international flights, either directly or in partnership with other international companies.
 
 ## Activities
 
