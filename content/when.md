@@ -6,7 +6,7 @@ description = "When?"
 
 # Program
 
-IOL has a traditional calendar, currently expanding to a 7-days format. The event comprises:
+The 21st edition of IOL will happen from **July 23 to 31**, **2024**, in [Brasília](/where), the capital city of Brazil. The olympiad has a traditional calendar, currently expanding to a 7-days format. The event comprises:
 
 * Two official competitions (Individual and in teams) – see the [rules for the competition](https://ioling.org/rules/IOL_Rules.pdf).
 * Five unofficial games (Integration Game, Quiz, IOLwiki, Guess-the-country, IOL's Got Talent)
