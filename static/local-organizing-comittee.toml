@@ -13,14 +13,14 @@ photo = "/who/Natalia-Castro.jpeg"
 
 [[organizers]]
 name =  "Eloisa Pilati"
-description = "University of Brasilia (UnB)"
+description = "University of Brasilia"
 location = "Brasília, DF"
 role = "Academic, Institutional"
 photo = "/who/Eloisa-Pilati.jpg"
 
 [[organizers]]
 name = "Janaína Weissheimer"
-description = "Federal University of Rio Grande do Norte (UFRN)"
+description = "Federal University of Rio Grande do Norte"
 location = "Natal, RN"
 role = "Academic"
 photo = "/who/Janaina-Weissheimer.jpg"
