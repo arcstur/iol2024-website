@@ -29,6 +29,10 @@
       <br />
       {{ item.description }}
       <br />
+      {% if item.location %}
+        <small> {{ item.location }} </small>
+      <br />
+      {% endif %}
       <font color="#b0920b">{{ item.role }}</font>
     </p>
   </div>
