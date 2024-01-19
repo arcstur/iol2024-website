@@ -22,7 +22,7 @@ The main air companies operating in Brazil are [LATAM](https://www.latamairlines
 
 ## Activities
 
-{{ content_image(source="/where/UnB.jpg", width="600px", caption="UnB's Central Pavillion. Source: Correio Braziliense.") }}
+{{ content_image(source="/where/UnB.jpg", width="600px", caption="UnB's Central Pavillion.", source_name="Correio Braziliense", source_link="https://www.correiobraziliense.com.br/app/noticia/eu-estudante/ensino_ensinosuperior/2017/12/27/ensino_ensinosuperior_interna,650050/unb-investiga-fraude-no-sistema-de-cotas.shtml") }}
 
 Most of the activities, including ceremonies and competitions, will happen in the central campus of [Universidade de Brasília](https://www.unb.br) (UnB) one of the main universities in Brazil, located at the frontline of the city's Northern Wing.
 
@@ -60,7 +60,7 @@ Brasilia's Pilot Plan has two main road axis.
 
 The first, shorter and straight, is the [Monumental Axis](https://en.wikipedia.org/wiki/Monumental_Axis), representing the body of the airplane. Its tail touches the BR-450, the main highway that connects the city to the outer highways, while its body includes some very iconic towers, museums, memorials and the Brasilia Cathedral, and towards the head come the Esplanade of the Ministries, aligned right and left to the axis, ending in the Plaza of the Three Powers, bordered by the three centers of power of the republic: the National Congress (legislative), the Planalto Presidential Palace (executive) and the Supreme Federal Court (judiciary). 
 
-{{ content_image(source="/where/esplanada.jpg", width="620px", caption="Esplanada of Ministries, with the National Congress at the center. The open plate is the bigger chamber, of the federal deputies; while the closed plate, dome-like, is the chamber of the senators. The two towers are the administrative offices (further expanded in lateral, support buildings). Source: Thandy Yung, Unsplash.") }}
+{{ content_image(source="/where/esplanada.jpg", width="620px", caption="Esplanada of Ministries, with the National Congress at the center. The open plate is the bigger chamber, of the federal deputies; while the closed plate, dome-like, is the chamber of the senators. The two towers are the administrative offices (further expanded in lateral, support buildings).", source_name="Thandy Yung, Unsplash", source_link="https://unsplash.com/pt-br/fotografias/edificios-da-cidade-sob-o-ceu-azul-durante-o-dia-40sPNStw_40") }}
 
 The second, longer and curved, is the Rodoviary Axis, or Big Axis (pt. Eixão), making the wings of the airplane. The metro of Brasília runs under the Eixão (although the North Wing continuation was not inaugurated yet). Other long avenues run parallel to the Eixão, to the West (called W1, W2 etc, up to W7) and to the East (L1 to L4). 
 
@@ -84,7 +84,7 @@ In fact, the Cerrado is the second-biggest biome of Brazil, surrounded by the Am
 
 The wet season, meanwhile, sees the strongest passage of the Flying Rivers, the water that comes from the Atlantic, thickens with the transpiration of the Amazon in a westward air current, is deflected by the Andes and comes to fertilize the Central-South parts of Brazil. This name, flying rivers, is a name born from recent climatological models, due to the fact that the amount of water carried by this phenomenon sums up to 4 times the waterflow of the Amazon river, in itself the biggest river in the world in water volume. 
 
-{{ content_image(source="/where/chapada-dos-veadeiros.jpg", width="425px", caption="Parque Nacional da Chapada dos Veadeiros,  including the 120 m waterfall of the Black River. Source: Lucas Marcomini, Unsplash") }}
+{{ content_image(source="/where/chapada-dos-veadeiros.jpg", width="425px", caption="Parque Nacional da Chapada dos Veadeiros,  including the 120 m waterfall of the Black River.", source_name="Lucas Marcomini, Unsplash", source_link="https://unsplash.com/pt-br/fotografias/cachoeiras-no-meio-de-arvores-verdes-CrHDq3sBYm8") }}
 
 The Cerrado is extremely rich in vegetal and animal species, and the Central Plateau enriches it further with tall landscapes, waterfalls and very beautiful places. Unfortunately, it is also a strongly threatened biome in Brazil, being depleted by large export-oriented plantations of grains such as soy, corn and wheat. Already in 1961, the president Juscelino Kubitschek, after founding Brasília, also founded the Chapada dos Veadeiros National Park, a 65 000 hectares conservation area some 150 km north of the capital. The Park stands nowadays as one of the main tourist attractions in the whole Central Plateau. 
 
