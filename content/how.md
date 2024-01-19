@@ -6,11 +6,11 @@ description = "How?"
 
 # Registration
 
-Registration for IOL 2024 is made by representatives of accredited National Linguistics Olympiads, via IOL's Registration System. Each country can participate with one or two teams, each team composed of 1 team leader (legally adult both in Brazil and in the country of origin) and 4 contestants (pre-university students, less than 20 years old on the first day of the competition, selected from an accredited National Olympiad). Additionally, the delegations can bring additional adult Observers at request.
+Registration for IOL 2024 is made by representatives of accredited National Linguistics Olympiads, via IOL's Registration System. Each accredited country can participate with one or two teams, each team composed of 1 team leader (legally adult both in Brazil and in the country of origin) and 4 contestants (pre-university students, less than 20 years old on the first day of the competition, selected from an accredited National Olympiad). Additionally, the delegations can bring additional adult Observers at request.
 
-**The registration will open and registration fees will be declared on January 23rd, 2024.**
+**The registration will open and registration fees will be declared on January 26th, 2024.**
 
-**Early Bird Registration will be from January 23rd to February 23rd.**
+**Early Bird Registration will be from January 26th to February 26th.**
 
 # Visas
 
