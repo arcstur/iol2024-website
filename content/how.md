@@ -28,7 +28,7 @@ For more details, about working languages [read here](https://ioling.org/working
 
 # Visas
 
-{{ content_image(source="/how/updated_visa_policy.svg", width="99%", caption="In green, countries exempt from visas for short visits (up to 30, 60 or 90 days, check specific agreements); in blue, countries from which citizens can enter without passports, using an ID card. Source: Wikimedia Commons.") }}
+{{ content_image(source="/how/updated_visa_policy.svg", width="99%", caption="In green, countries exempt from visas for short visits (up to 30, 60 or 90 days, check specific agreements); in blue, countries from which citizens can enter without passports, using an ID card. Source: Wikimedia Commons (modified).") }}
 
 Among the accredited countries, citizens of the following ones are [exempt from Visitor Visas](https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country):
 
