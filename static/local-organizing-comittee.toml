@@ -1,0 +1,47 @@
+[[organizers]]
+name = "Bruno L'Astorina"
+description = "IOL, Instituto Vertere"
+role = "Chair"
+photo = "/who/Bruno-Lastorina.png"
+
+[[organizers]]
+name = "Natália Guimarães"
+description = "Instituto Vertere"
+location = "Caçapava, SP"
+role = "Vice-Chair, Logistics"
+photo = "/who/Natalia-Castro.jpeg"
+
+[[organizers]]
+name =  "Eloisa Pilati"
+description = "University of Brasilia"
+location = "Brasília, DF"
+role = "Academic, Institutional"
+photo = "/who/Eloisa-Pilati.jpg"
+
+[[organizers]]
+name = "Janaína Weissheimer"
+description = "Federal University of Rio Grande do Norte"
+location = "Natal, RN"
+role = "Academic"
+photo = "/who/Janaina-Weissheimer.jpg"
+
+[[organizers]]
+name = "Rodrigo Tiradentes"
+description = "Portuguese Teacher"
+location = "Rio de Janeiro, RJ"
+role = "Program"
+photo = "/who/Rodrigo-Pinto.jpg"
+
+[[organizers]]
+name = "Cynthia Herkenhoff"
+description = "IOL 2017, Applied Mathematician"
+location = "Paris, France"
+role = "User Experience"
+photo = "/who/Cynthia-Herkenhoff.jpg"
+
+[[organizers]]
+name = "Artur Corrêa Souza"
+description = "IOL 2018, Software Developer"
+location = "Porto Alegre, RS"
+role = "Technology"
+photo = "/who/Artur-Correa-Souza.jpg"
