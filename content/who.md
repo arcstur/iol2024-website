@@ -28,7 +28,7 @@ The LOC can only coordinate the IOL effort by counting with the help of several 
 | **Thiago Augusto Santos** | ELO 2023 | Social media |
 | **Senas Araújo** | ELO 2023 | Social media |
 
-# Institutions
+## Institutions
 
 In addition, the IOL 2024 is supported by various institutions. The organizational nucleus is drawn from [Olimpíada Brasileira de Linguística (OBL)](https://obling.org), the Brazilian counterpart of the Linguistics Olympiads. As such, we have direct strategic support from [Instituto Vertere](https://institutovertere.org) and academic support from the [Brazilian Linguistics Association (ABRALIN)](https://www.abralin.org/site/).
 
