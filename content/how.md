@@ -18,12 +18,12 @@ Registration for IOL 2024 is made by representatives of accredited National Ling
 
 Among the accredited countries, citizens of the following ones are [exempt from Visitor Visas](https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country):
 
-*Bulgaria, Colombia, Czechia, Estonia, Finland, Germany, Hong Kong, Hungary, Ireland, Isle of Man, Japan, Kazakhstan, Latvia, Malaysia, Malta, Moldova, Netherlands, Poland, Republic of Korea, Romania, Russia, Singapore, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Kingdom.*
+*Bulgaria, Colombia, Czechia, Estonia, Finland, Germany, Hong Kong, Hungary, Ireland, Isle of Man, Japan, Kazakhstan, Latvia, Malaysia, Malta, Moldova, Netherlands, Poland, Republic of Korea, Romania, Russia, Singapore, Slovenia, Spain, Sweden, Switzerland, Thailand, Türkiye, Ukraine, United Kingdom.*
 
 However, from April 10, 2024, citizens of *Australia, Canada (Anglophone and Francophone) and the United States of America* will resume being asked a Visitor Visa (VIVIS) to enter the country, which [can be done electronically](https://www.gov.br/mre/pt-br/consulado-miami/noticias-do-consulado/electronic-visas-e-visas-for-tourism-and-business-start-of-issuance-december-1st-2023).
 
 Other than these, citizens of the following ones [need to issue in advance a Visitor Visa (VIVIS)](https://www.gov.br/mre/pt-br/embaixada-liubliana/servicos-consulares-1/vistos-vizumi-visas-1/visto-de-visita-vivis) – please check the details with the Brazilian Embassy in your country:
 
-*Bangladesh, China, India, Nepal, Taiwan, Thailand.*
+*Bangladesh, China, India, Nepal, Taiwan.*
 
 Invitation letters can be issued on a case-by-case basis, please contact us if you need one.
