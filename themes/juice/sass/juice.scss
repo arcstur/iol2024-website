@@ -52,6 +52,11 @@ h2 {
 
 h1 {
   scroll-margin-top: 90px;
+  font-weight: bold;
+}
+
+p + h1 {
+  margin-top: 70px;
 }
 
 .logo {
