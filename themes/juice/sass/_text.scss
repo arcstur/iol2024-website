@@ -11,8 +11,7 @@ h1, .title-text {
   font-size: 25px;
   font-weight: 500;
   color: var(--primary-text-color);
-  border-left: var(--primary-color) 8px solid;
-  padding-left: 10px;
+  padding-left: 3px;
 }
 
 h2, .subtitle-text {
@@ -20,6 +19,7 @@ h2, .subtitle-text {
   font-size: 20px;
   font-weight: 500;
   color: var(--primary-text-color);
+  padding-left: 6px;
 }
 
 .text {
