@@ -18,6 +18,10 @@
 </section>
 {% endblock hero %}
 
+{% block content %}
+{{ section.content|safe }}
+{% endblock content %}
+
 {% block footer %}
 <style type="text/css" rel="stylesheet">
   .footer_social_media_box {
