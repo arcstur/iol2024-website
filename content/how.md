@@ -12,7 +12,7 @@ Registration for IOL 2024 is made by representatives of accredited National Ling
 
 **Early Bird Registration will be from January 26th to February 26th.**
 
-## Working languages
+# Working languages
 
 At IOL, we consider that all participants have the right to solve the problems in their own native language (or one of them). The problems are composed in parallel in all working languages, in a way that *all language versions are equal* – meaning that no participant has advantages in solving the problems in any particular language.
 
