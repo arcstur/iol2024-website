@@ -1,0 +1,123 @@
+{% set data = load_data(path="static/latest-updates-timeline.toml") %}
+
+<style>
+  @mixin tablet-and-up {
+    @media screen and (min-width: 769px) {
+      @content;
+    }
+  }
+  @mixin mobile-and-up {
+    @media screen and (min-width: 601px) {
+      @content;
+    }
+  }
+  @mixin tablet-and-down {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @mixin mobile-only {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  }
+
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul > li {
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-top: 0px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    padding: 3rem 0;
+  }
+  .wrapper {
+    padding: 2rem;
+    border-radius: 15px;
+    flex-grow: 1;
+  }
+  h1 {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    border: none;
+  }
+  .sessions {
+    margin-top: 2rem;
+    border-radius: 12px;
+    position: relative;
+  }
+  li {
+    padding-bottom: 1.5rem;
+    border-left: 1px solid #A62121;
+    position: relative;
+    padding-left: 40px;
+    margin-left: 10px;
+    &:last-child {
+      border-color: transparent;
+      padding-bottom: 0;
+    }
+    &:before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: #A62121;
+      border: 1px solid #A62121;
+      border-radius: 50%;
+      position: absolute;
+      left: -9px;
+      top: 0px;
+    }
+  }
+  .time {
+    left: -25px;
+    top: -4px;
+    position: relative;
+    color: #2a2839;
+    font-weight: 500;
+    @include mobile-and-up {
+      font-size: 0.9rem;
+    }
+    @include mobile-only {
+      margin-bottom: 0.3rem;
+      font-size: 0.85rem;
+    }
+  }
+  p {
+    color: #4f4f4f;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    @include mobile-only {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<div class="container">
+  <div class="wrapper">
+    <h1>Latest updates</h1>
+    <ul class="sessions">
+      {% for item in data.items %}
+      <li>
+        <div class="time">{{ item.date }}</div>
+        <h4 style="margin: 0px">{{ item.title }}</h4>
+        {% if item.description %}
+        <p>{{ item.description }}</p>
+        {% endif %}
+      </li>
+
+      {% endfor %}
+    </ul>
+  </div>
+</div>

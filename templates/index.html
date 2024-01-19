@@ -11,12 +11,21 @@
 {% block hero %}
 <section class="text-center">
   <img class="hero-image" src="/logo.svg" style="width: 80%" />
-  <h1 class="heading-text" style="font-size: 40px">
+  <h1 class="heading-text" style="font-size: 32px">
     For the first time in the Southern Hemisphere.
   </h1>
   <h3 class="title-text">XXI International Linguistics Olympiad</h3>
+  <h3 class="title-text">
+  <a href="/when">July 23-31, 2024</a>
+  |
+  <a href="/where">Brasília, Brazil</a>
+  </h3>
 </section>
 {% endblock hero %}
+
+{% block content %}
+{{ section.content|safe }}
+{% endblock content %}
 
 {% block footer %}
 <style type="text/css" rel="stylesheet">

@@ -14,6 +14,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--primary-link-color);
 }
 
 ul {
@@ -44,6 +45,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
 }
 
 h2 {
