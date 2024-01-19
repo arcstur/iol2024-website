@@ -48,10 +48,16 @@ header {
 
 h2 {
   scroll-margin-top: 90px;
+  font-weight: bold;
 }
 
 h1 {
   scroll-margin-top: 90px;
+  font-weight: bold;
+}
+
+p + h1 {
+  margin-top: 70px;
 }
 
 .logo {
