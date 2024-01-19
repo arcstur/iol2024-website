@@ -1,6 +1,15 @@
 <figure>
     <img  src="{{ source }}" style="width: {{ width }}" />
     {% if caption %} 
-    <figcaption style="text-align: center; font-size: small; line-height: normal;">{{ caption }}</figcaption>
+    <figcaption style="text-align: center; font-size: small; line-height: normal;">
+        {{ caption }}
+
+        {% if source_name and source_link %}
+        Source: <a href="{{ source_link }}">{{ source_name }}</a>.
+        {% elif source_name %}
+        Source: {{ source_name }}.
+        {% endif %}
+
+    </figcaption>
     {% endif %}
 </figure>
