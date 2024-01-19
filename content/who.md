@@ -12,6 +12,8 @@ The IOL is an event organized by many hands, all contributing on a volunteer bas
 
 {{ organizer_photos() }}
 
+If you wish to enter in contact, you can write to [iol2024@obling.org](mailto:iol2024@obling.org).
+
 ## Supporting Team
 
 The LOC can only coordinate the IOL effort by counting with the help of several other kind and enthusiastic people – many of them former IOL or ELO (Brazilian Olympiad's last round) participants. Those include:
