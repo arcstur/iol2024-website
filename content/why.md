@@ -12,7 +12,7 @@ On the other hand, these high school science competitions were also simultaneous
 
 The format slowly spread through other countries, eventually leading to cross-country collaborations and finally to the International Olympiads of Mathematics (IMO, in 1959, Physics (IPhO, in 1967), Chemistry (IChO, in 1968) — and also Linguistics, among the younger siblings, in 2003. In each region of the planet, the science olympiads went on to take shapes suited to each context: be it developing high-level young scientists, supporting the technological sector, raising science education and awareness on a broader societal scale, etc. Nowadays, every year we have hundreds of millions of students participating every year in one or more science olympiads, which creates a big and widespread impact. In Brazil alone, the Brazilian Mathematical Olympiad for Public Schools has around 19 million students participating per year. 
 
-<!-- {{ content_image(source="/why/encantamento-autonomia-relacoes.png", width="400px") }} -->
+{{ content_image(source="/why/enchantment-autonomy-relations.png", width="400px") }}
 
 In this way, the science olympiads use the Olympic competition as a motor, as a playboard, to develop three sets of qualities: 
 
@@ -30,13 +30,13 @@ Among the science olympiads, a **Linguistics Olympiad** stands out by having a n
 
 The Linguistics Olympiads mostly work with the genre of "self-sufficient linguistics problems", such as this example: 
 
-<!-- {{ content_image(source="/why/problem-example.png", width="400px") }} -->
+{{ content_image(source="/why/problem-example.png", width="400px") }}
 
 The idea is that, to solve the problem, the solver doesn't have to rely on proficiency in any other language or on theoretical knowledge about linguistics; instead, they have to use a good amount of reasoning, their linguistic intuition (as a speaker of at least one human language) and a piece of general knowledge about the world. By doing that, they end up discovering something that works differently in that language, interplaying between the diversity of cultural references and the unity of the human condition. In that way, reasoning, communicational skills and cultural sensibility work together to develop the capacity to deal with complex problems.
 
 At school, linguistics problems can be a trigger device or focal point for working around different fronts: linguistic and cultural diversity; metalinguistic knowledge about one's own language; proficiency in additional languages; contact with scientific investigation about language; logic and reasoning; transversal dialogues across disciplines. 
 
-<!-- {{ content_image(source="/why/ciencias-naturais-e-cognitivas.png", width="700px") }} -->
+{{ content_image(source="/why/sciences.png", width="700px") }}
 
 But what does it mean to the broader societal level?
 
