@@ -29,14 +29,6 @@
 
 {% block footer %}
 <style type="text/css" rel="stylesheet">
-  .footer_social_media_box {
-    align-items: center;
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-
   .footer_social_media_logo {
     align-self: center;
     align-items: center;
@@ -58,6 +50,17 @@
     height: 120px;
     filter: brightness(0) invert(1);
   }
+
+  @media ( max-width: 815px ) {
+    .footer_sponsor_box {
+      flex-direction: column;
+    }
+    .footer_sponsor_logo {
+      height: auto;
+      max-height: 120px;
+      max-width: 99%;
+    }
+  }
 </style>
 
 <footer style="padding-bottom: 10px">
@@ -70,17 +73,13 @@
       <img class="footer_sponsor_logo" src="/footer/logo_obl.png" />
     </a>
     <a href="https://institutovertere.org/">
-      <img
-        class="footer_sponsor_logo"
-        src="/footer/logo_vertere.svg"
-        style="height: 50px"
-      />
+      <img class="footer_sponsor_logo" src="/footer/logo_vertere.svg" style="height: 50px" />
     </a>
     <a href="https://www.unb.br/">
       <img class="footer_sponsor_logo" src="/footer/logo_unb.png" />
     </a>
     <a href="https://www.abralin.org/site/">
-      <img class="footer_sponsor_logo" src="/footer/logo_abralin.svg" />
+      <img class="footer_sponsor_logo" src="/footer/logo_abralin.svg" style="height: 120px" />
     </a>
   </div>
   <h1 style="border: 0px; font-weight: bold; font-size: xx-large">Sponsors</h1>
@@ -93,8 +92,8 @@
     </a>
   </div>
 
-  <div class="footer_social_media_box">
-    <h2 style="flex-grow: 1">© 2024 - International Linguistics Olympiad</h2>
+  <h2>© 2024 - International Linguistics Olympiad</h2>
+  <div class="footer_sponsor_box" style="width: 100%; flex-direction: row">
     <a
       href="https://www.instagram.com/ioling.official"
       style="align-items: center; align-content: center"
