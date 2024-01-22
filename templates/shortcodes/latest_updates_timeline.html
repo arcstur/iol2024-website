@@ -111,7 +111,7 @@
       {% for item in data.items %}
       <li>
         <div class="time">{{ item.date }}</div>
-        <h4 style="margin: 0px">{{ item.title }}</h4>
+        <h4 style="margin: 0px">{{ item.title|safe }}</h4>
         {% if item.description %}
         <p>{{ item.description }}</p>
         {% endif %}
