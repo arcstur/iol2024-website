@@ -58,6 +58,8 @@ The aim of the event, in consonance to [IOL's aforementioned societal aims](/why
 
 As such, it is also our aim to promote among School Teachers different tools and strategies drawn from Linguistics Olympiads (such as the self-sufficient problems or the development of categorization and investigation skills) or from convergent approaches (such as *Gramaticoteca* in Brazil, *laboratorios gramaticais* in Portugal or the *thinking linguistically approach* in the U.S.).
 
-The activities would be led by professors from the Brazilian academic community but also from the IOL community. After all, we are sure that, among the organizers of the different Linguistics Olympiads, there is a great richness of experiences and conceptions that can be directly beneficial to the school environment. That is why **we want to invite you to propose a workshop for the event**.
+The activities would be led by professors from the Brazilian academic community but also from the IOL community. After all, we are sure that, among the organizers of the different Linguistics Olympiads, there is a great richness of experiences and conceptions that can be directly beneficial to the school environment. That is why *we want to invite you to propose a workshop for the event*. Proposals are open until **February 9th, 2024**.
+
+{{ single_button(link="https://forms.gle/R6VD6WGPo59aPSqv6", text="Propose a workshop for IOL Teacher's Program")}}
 
 We hope the teacher's even can generate good fruits and become a tradition for the next editions of IOL, giving back to education in different countries.
