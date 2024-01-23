@@ -62,4 +62,4 @@ The activities would be led by professors from the Brazilian academic community 
 
 {{ single_button(link="https://forms.gle/R6VD6WGPo59aPSqv6", text="Propose a workshop for IOL Teacher's Program")}}
 
-We hope the teacher's even can generate good fruits and become a tradition for the next editions of IOL, giving back to education in different countries.
+We hope the teacher's event can generate good fruits and become a tradition for the next editions of IOL, giving back to education in different countries.
