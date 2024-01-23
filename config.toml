@@ -22,3 +22,6 @@ highlight_code = false
 # Put all your custom variables here
 juice_logo_name = "IOL 2024"
 juice_logo_path = "logo-header.svg"
+juice_exclude_menu = [
+  "Volunteers",
+]
