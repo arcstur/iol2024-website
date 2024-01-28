@@ -64,7 +64,7 @@ The values for the Delegations participating at IOL 2024 are the following:
 | Early Bird + Previous Host | € 1304 | € 2608 |
 | Observer | € 500 | |
 
-* Previous Host is the Delegation of a country that hosted IOL in the past, such as: Bulgaria, Russia, The Netherlands, Estonia, Poland, Sweden, United States, Slovenia, United Kingdom, China, India, Ireland, Czechia, Republic of Korea, Latvia and Isle of Man.
+*Previous Host is the Delegation of a country that hosted IOL in the past, such as: Bulgaria, Russia, The Netherlands, Estonia, Poland, Sweden, United States, Slovenia, United Kingdom, China, India, Ireland, Czechia, Republic of Korea, Latvia and Isle of Man.
 
 With the registration fee, the organization covers:
 
