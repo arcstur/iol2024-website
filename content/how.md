@@ -78,15 +78,23 @@ td,th {
 
 With the registration fee, the organization covers:
 
+<div style="margin-top: -15px; margin-bottom: -15px">
+
 * Accommodation arriving on Tuesday 23rd  and departing on Thursday 31st July 2024
 * Meals from the dinner of  23rd to the breakfast of 31st July 2024
 * Transportation from the Airport of Brasilia to the hotel and all the excursions and transportation during the event
 
+</div>
+
 What we do not cover (each Delegation must arrange its own):
+
+<div style="margin-top: -15px; margin-bottom: -15px">
 
 * Tickets arriving to or departing from Brasilia
 * Visa, health insurance and other travel costs
 * Costs for extra days in Brazil
+
+</div>
 
 All participants are normally arranged in double or triple rooms. If you want to request a **single room** for the duration of the event, there is an extra fee of €300/person.
 
