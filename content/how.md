@@ -30,7 +30,7 @@ These are the important dates for the registration process:
 
 **Early Bird Registration**: *In this modality, you should pay a 30% deposit by 1 March 2024. If the deposit is not paid on time, registration is automatically converted to Standard Registration and respective rates apply.*
 
-* Early Bird Registration opens: 27 January 2024
+* Early Bird Registration opens: 28 January 2024
 * Early Bird Registration closes: 27 February 2024
 * Early Bird 30% deposit has to be paid by:  1 March 2024. If the deposit is not paid on time, registration is automatically converted to Standard Registration and respective rates apply.
 * Early Bird full payment has to be done by: 3 May 2024.
