@@ -56,13 +56,32 @@ The registration fees for IOL 2024 are donations made by the National Delegation
 
 The values for the Delegations participating at IOL 2024 are the following:
 
-| | First team | Second team |
+<style>
+table {
+  text-align: center;
+  width: 700px;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+td:nth-child(1), th:nth-child(1) {
+  text-align: left;
+}
+td,th {
+  border: 1.5px solid #ffb219;
+  padding: 4px 8px;
+}
+</style>
+<div align="center">
+
+| Registration | First team | Second team |
 |---|---|---|
 | Regular Registration | € 1630 | € 3260 |
 | Early Bird Registration | € 1467 | € 2934 |
 | Previous Host* Registration | € 1467 | € 2934 |
 | Early Bird + Previous Host | € 1304 | € 2608 |
 | Observer | € 500 | |
+
+</div>
 
 *Previous Host is the Delegation of a country that hosted IOL in the past, such as: Bulgaria, Russia, The Netherlands, Estonia, Poland, Sweden, United States, Slovenia, United Kingdom, China, India, Ireland, Czechia, Republic of Korea, Latvia and Isle of Man.
 
