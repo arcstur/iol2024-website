@@ -28,16 +28,15 @@ Please notice that *only one user should register the whole delegation of a coun
 
 These are the important dates for the registration process:
 
-**Early Bird Registration**: *In this modality, you should pay a 30% deposit by 1 March 2024. If the deposit is not paid on time, registration is automatically converted to Standard Registration and respective rates apply.*
+Early Bird Registration: *In this modality, you should pay a 30% deposit by 1 March 2024. If the deposit is not paid on time, registration is automatically converted to Standard Registration and respective rates apply.*
 
 * Early Bird Registration opens: 28 January 2024
 * Early Bird Registration closes: 27 February 2024
-* Early Bird 30% deposit has to be paid by:  1 March 2024. If the deposit is not paid on time, registration is automatically converted to Standard Registration and respective rates apply.
 * Early Bird full payment has to be done by: 3 May 2024.
 
 [Requesting of working languages](https://ioling.org/working_language/) ends: 12 February 2024
 
-**Standard Registration**: *In this modality, you should pay the full registration by 3 May 2024. If the deposit is not paid on time, registration is automatically converted to Late Registration and respective rates apply.*
+Standard Registration: *In this modality, you should pay the full registration by 3 May 2024.*
 
 * Standard Registration opens: 27 February 2024
 * Standard Registration closes: 27 April 2024
