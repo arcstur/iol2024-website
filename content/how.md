@@ -8,9 +8,96 @@ description = "How?"
 
 Registration for IOL 2024 is made by representatives of accredited National Linguistics Olympiads, via IOL's Registration System. Each accredited country can participate with one or two teams, each team composed of 1 team leader (legally adult both in Brazil and in the country of origin) and 4 contestants (pre-university students, less than 20 years old on the first day of the competition, selected from an accredited National Olympiad). Additionally, the delegations can bring additional adult Observers at request.
 
-**The registration will open and registration fees will be declared on January 26th, 2024.**
+{{ single_button(link="https://regsy.linguistics.bg", text="Registration System")}}
 
-**Early Bird Registration will be from January 26th to February 26th.**
+## Instructions
+
+If you are already registered in the system for IOL 2023, you can log in normally. If you aren’t, you have to put your real name, a valid e-mail and a valid phone number. In this case, your registration has to be approved manually, so please wait up to 3 working days.
+Normally, the registration of a Delegation must be made by a representative or a team leader of a National Linguistics Olympiad that is accredited by IOL.
+Once logged in, the registration has four layers:
+
+1. Register your **country/national olympiad** for IOL 2024. You have to declare some initial data: number of teams, number of observers, working languages and some basic information about your National Olympiad. *This is the step you must fulfill in order to register a Delegation.*
+2. Create your **teams**. Choose their names and select the working language for the team contest for each of them.
+3. Create the **members of the delegation**: contestants, team leaders and observers. You'll need to put names, documents, personal details, room preferences, dietary requirements, working language, assign arrival and departure transport records, etc.
+4. Create your **arrival and departure transport** records in a specific tab: type of transport, number, date and time of arrival or departure. After that you can attribute the created trajectories to specific people of your delegation.
+
+Please notice that *only one user should register the whole delegation of a country.*
+**Jury members**, **volunteers** and **observers** not connected to a Delegation must register by themselves, following similar steps.
+
+## Schedule
+
+These are the important dates for the registration process:
+
+Early Bird Registration: *In this modality, you should pay a 30% deposit by 1 March 2024. If the deposit is not paid on time, registration is automatically converted to Standard Registration and respective rates apply.*
+
+* Early Bird Registration opens: 28 January 2024
+* Early Bird Registration closes: 27 February 2024
+* Early Bird full payment has to be done by: 3 May 2024.
+
+[Requesting of working languages](https://ioling.org/working_language/) ends: 12 February 2024
+
+Standard Registration: *In this modality, you should pay the full registration by 3 May 2024.*
+
+* Standard Registration opens: 27 February 2024
+* Standard Registration closes: 27 April 2024
+
+## Fees
+
+The registration fees for IOL 2024 are donations made by the National Delegations to help sustain IOL and sponsor the event. Thanks to the registration fees, we are able to cover the local costs for the corresponding people (First Team, Second Team, Observer) during the event – including accommodation, food and transfer.
+The values for the Delegations participating at IOL 2024 are the following:
+
+<style>
+table {
+  text-align: center;
+  width: 700px;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+td:nth-child(1), th:nth-child(1) {
+  text-align: left;
+}
+td,th {
+  border: 1.5px solid #ffb219;
+  padding: 4px 8px;
+}
+</style>
+<div align="center">
+
+| Registration | First team | Second team |
+|---|---|---|
+| Regular Registration | € 1630 | € 3260 |
+| Early Bird Registration | € 1467 | € 2934 |
+| Previous Host* Registration | € 1467 | € 2934 |
+| Early Bird + Previous Host | € 1304 | € 2608 |
+| Observer | € 500 | |
+
+</div>
+
+*Previous Host is the Delegation of a country that hosted IOL in the past, such as: Bulgaria, Russia, The Netherlands, Estonia, Poland, Sweden, United States, Slovenia, United Kingdom, China, India, Ireland, Czechia, Republic of Korea, Latvia and Isle of Man.
+
+With the registration fee, the organization covers:
+
+<div style="margin-top: -15px; margin-bottom: -15px">
+
+* Accommodation arriving on Tuesday 23rd  and departing on Thursday 31st July 2024
+* Meals from the dinner of  23rd to the breakfast of 31st July 2024
+* Transportation from the Airport of Brasilia to the hotel and all the excursions and transportation during the event
+
+</div>
+
+What we do not cover (each Delegation must arrange its own):
+
+<div style="margin-top: -15px; margin-bottom: -15px">
+
+* Tickets arriving to or departing from Brasilia
+* Visa, health insurance and other travel costs
+* Costs for extra days in Brazil
+
+</div>
+
+All participants are normally arranged in double or triple rooms. If you want to request a **single room** for the duration of the event, there is an extra fee of €300/person.
+
+If you need to stay additional nights in the event's hotel, there is an extra fee of €60/person/day.
 
 # Working languages
 
