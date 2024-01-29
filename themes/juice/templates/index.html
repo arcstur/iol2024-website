@@ -96,8 +96,14 @@
         </div>
         {% endif %}
         {% endblock toc %}
-
-        <div class="content text" style="margin-top: 50px">
+        <style>
+            @media (max-width: 400px){
+                .content.text {
+                    margin-top: 50px
+                }
+            }
+        </style>
+        <div class="content text">
             {% block content %}
             <div id="features" class="heading-text">Overview</div>
             {{ section.content | safe }}
