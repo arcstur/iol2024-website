@@ -7,7 +7,7 @@
     </div>
 </a>
 
-<nav>
+<nav style="display: flex; justify-content: center; flex-wrap: wrap;">
     {% for page in section.pages %}
     {% set exclude_menu = config.extra.juice_exclude_menu | default(value=[]) %}
     {% if exclude_menu is not containing(page.title) %}

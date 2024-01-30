@@ -77,7 +77,8 @@ p + h1 {
 }
 
 .nav-item {
-  margin: 0 10px;
+  text-align: center;
+  padding: 05px 10px;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -85,6 +86,21 @@ p + h1 {
   &:hover {
     color: var(--primary-text-color-over);
     text-decoration: underline;
+    background-color: #f5f5f3;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-item {
+    flex-basis: calc(24% - 10px);
+  }
+  h2 {
+    scroll-margin-top: 150px;
+  }
+
+  h1 {
+    scroll-margin-top: 150px;
   }
 }
 
@@ -204,7 +220,6 @@ footer {
   }
 
   .nav-item {
-    margin: 0 5px;
     font-size: 14px;
   }
 
