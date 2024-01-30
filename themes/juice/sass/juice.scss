@@ -78,7 +78,7 @@ p + h1 {
 
 .nav-item {
   text-align: center;
-  padding: 10px 10px;
+  padding: 05px 10px;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -94,6 +94,13 @@ p + h1 {
 @media screen and (max-width: 400px) {
   .nav-item {
     flex-basis: calc(24% - 10px);
+  }
+  h2 {
+    scroll-margin-top: 150px;
+  }
+
+  h1 {
+    scroll-margin-top: 150px;
   }
 }
 
