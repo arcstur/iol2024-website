@@ -32,6 +32,12 @@
     max-width: 99%;
   }
 
+  .vertical_separator {
+    align-self: stretch;
+    width: 1px;
+    background-color: var(--primary-color);
+  }
+
   @media (max-width: 815px) {
     .footer_content_box {
       flex-direction: column;
@@ -74,7 +80,7 @@
         />
       </a>
     </div>
-    <div>
+    <div class="vertical_separator"></div>
       <div class="footer_sponsor_box">
         <h1 style="border: 0px; font-weight: bold; font-size: xx-large">
           Sponsors
@@ -83,10 +89,9 @@
           <img class="footer_sponsor_logo" src="/footer/logo_acl.png" />
         </a>
         <a href="https://www.gov.br/mcti/pt-br">
-          <img class="footer_sponsor_logo" src="/footer/logo_mcti.png" />
+          <img class="footer_sponsor_logo" style="max-height: 300px;" src="/footer/logo_mcti.png" />
         </a>
       </div>
-    </div>
   </div>
 
   <h2 style="text-align: center;">© 2024 - International Linguistics Olympiad</h2>
