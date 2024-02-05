@@ -20,8 +20,8 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-juice_logo_name = "IOL 2024"
-juice_logo_path = "logo-header.svg"
+juice_logo_name = "IOL brasília 2024"
+juice_logo_path = "logo-header-sol.svg"
 juice_exclude_menu = [
   "Volunteers",
 ]
