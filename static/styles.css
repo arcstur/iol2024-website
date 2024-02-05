@@ -8,8 +8,10 @@
 }
 
 .hero{
-    padding: 0;
+    padding: 60px 0;
     flex-direction: column;
+    justify-content: unset;
+    height: auto;
 }
 .hero-heading{
     font-size: 32px;
@@ -22,4 +24,11 @@
 .hero-image{
     margin-top: 80px;
     width: 68%;
+}
+.sun-divider {
+    width: 100%;
+    background-image: url(/zigzag.svg);
+    background-repeat: repeat-x;
+    padding: 10px;
+    margin: 20px 0;
 }
