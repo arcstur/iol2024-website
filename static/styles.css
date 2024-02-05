@@ -1,0 +1,12 @@
+.hero-heading (
+    font-size: 32px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+)
+.hero-divider (
+    margin-bottom: 6px;
+)
+.hero-image (
+    margin-top: 80px;
+    width: 68%;
+)
