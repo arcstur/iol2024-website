@@ -16,6 +16,9 @@
     {% endblock fonts %}
     <link rel="stylesheet" href="/normalize.css">
     <link rel="stylesheet" href="/juice.css">
+    {% block stylesheets %}
+
+    {% endblock stylesheets %}
     {% block head %}
     {% endblock head %}
 </head>
@@ -23,7 +26,7 @@
 <body>
     {% block header %}
 
-    <header>
+    <header id="header">
         {{ macros::render_header() }}
     </header>
 

@@ -1,5 +1,9 @@
 {% extends "juice/templates/index.html" %}
 
+{% block stylesheets %}
+  <link rel="stylesheet" href="/styles.css">
+{% endblock stylesheets %}
+
 {% block favicon %}
 <link rel="icon" type="image/png" href="/favicon.png" />
 {% endblock favicon %}
@@ -9,6 +13,7 @@
 {% endblock fonts %}
 
 {% block hero %}
+<div id="header-margin"></div>
 <div class="sun-divider"></div>
 <section class="text-center">
   <img class="hero-image" src="/logo.svg" style="width: 80%" />
@@ -24,7 +29,14 @@
   </h3>
 </section>
 <div class="sun-divider"></div>
+<script type="text/javascript">
+      headerHeight = document.getElementById("header").clientHeight;
+      const marginElement = document.getElementById("header-margin");
+      marginElement.style.height = (headerHeight - 55) + "px";
+</script>
 {% endblock hero %}
+
+
 
 {% block content %}
 {{ section.content|safe }}
