@@ -1,5 +1,9 @@
 {% extends "juice/templates/index.html" %}
 
+{% block stylesheets %}
+  <link rel="stylesheet" href="/styles.css">
+{% endblock stylesheets %}
+
 {% block favicon %}
 <link rel="icon" type="image/png" href="/favicon.png" />
 {% endblock favicon %}
@@ -9,11 +13,14 @@
 {% endblock fonts %}
 
 {% block hero %}
+<div id="header-margin"></div>
+<div class="sun-divider"></div>
 <section class="text-center">
   <img class="hero-image" src="/logo.svg" style="width: 80%" />
-  <h1 class="heading-text" style="font-size: 32px">
+  <h1 class="heading-text, hero-heading">
     For the first time in the Southern Hemisphere.
   </h1>
+  <img class="hero-divider" src="/sul.svg">
   <h3 class="title-text">XXI International Linguistics Olympiad</h3>
   <h3 class="title-text">
   <a href="/when">July 23-31, 2024</a>
@@ -21,7 +28,15 @@
   <a href="/where">Brasília, Brazil</a>
   </h3>
 </section>
+<div class="sun-divider"></div>
+<script type="text/javascript">
+      headerHeight = document.getElementById("header").clientHeight;
+      const marginElement = document.getElementById("header-margin");
+      marginElement.style.height = (headerHeight - 55) + "px";
+</script>
 {% endblock hero %}
+
+
 
 {% block content %}
 {{ section.content|safe }}
