@@ -21,26 +21,7 @@ In addition to the international gathering of **high-school students**, IOL also
 
 The schematic, day-by-day calendar, will be as such:
 
-<style>
-td {
-  padding: 4px 20px;
-}
-</style>
-<div align="center" style="overflow-x:auto;">
-
-| Day | Activity |
-|-----|----------|
-| Tuesday, July 23 |  Arrivals |
-| Wednesday, July 24 |  Opening Ceremony, Integration Games |
-| Thursday, July 25 |  IOLwiki, City Tour |
-| Friday, July 26 |  **Individual Contest**, Party |
-| Saturday, July 27 |  Excursion |
-| Sunday, July 28 |  Cultural and Learning activities in Brasília |
-| Monday, July 29 |  **Team Contest**, IOL Quiz |
-| Tuesday, July 30 |  Solution Presentation, Closing Ceremony,<br/>IOL's Got Talent, Farewell Party |
-| Wednesday, July 31 |  Departures |
-
-</div>
+{{ schedule() }}
 
 This page is being constantly updated; details about each activity will come in due time.
 

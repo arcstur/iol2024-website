@@ -1,0 +1,45 @@
+{% set data = load_data(path="static/schedule.toml") %}
+<style>
+  .grid-container {
+    display: grid;
+    overflow: auto;
+  }
+
+  .week-day {
+    display: flex;
+    min-width: 120px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9bebe;
+    border: 1px solid var(--primary-text-color);
+    span {
+        flex-grow: 1;
+        align-self: center;
+        
+    }
+}
+
+  .day-row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .activity {
+    flex: 1 1 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffd684;
+    border: 1px solid var(--iol-yellow);
+  }
+</style>
+
+<div class="grid-container">
+  {% for day in data.days %}
+  <div class="day-row">
+    <div class="week-day"><span>{{ day.weekday }}, {{ day.name }}</span></div>
+    {% for activity in day.activities %}
+    <div class="activity"> <span>{{ activity.name | safe }}</span></div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
