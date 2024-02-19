@@ -47,13 +47,11 @@ Names of the Jury members for IOL 2024 will be also published later.
 
 In addition to the permanent bodies and to the LOC, running the actual IOL involves a lot of hands-on activities, performed by a group of national and international volunteers – working especially in coordinating, escorting and concierge-ing the students, but also preparing activities, distributing materials and keeping the flow and the energy of daily-life at IOL.
 
-If you want to volunteer for IOL 2024, there is a form open here. We are accepting applications from January 21st up to February 11th.
-
 We are looking for both Brazilian and International volunteers who can be comfortable and excited in a multilingual environment. You should be able to speak good English and have some knowledge of other languages, and for international volunteers we expect some knowledge of how IOL works.
 
 The work is done on a volunteer basis. We cover food and lodging from the volunteers for the duration of the event; however, each volunteer should come to the city of Brasilia by its own means.
 
-{{ single_button(link="https://forms.gle/nHvVt2kJeksysNW9A", text="Volunteer application form")}}
+We were accepting applications from January 21st to February 11th. Thank you for everyone who applied! Soon we will announce the final list of volunteers
 
 # Participants
 
