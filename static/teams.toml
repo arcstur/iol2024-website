@@ -38,10 +38,6 @@ name = "China"
 flag = "/country_flags/china.png"
 
 [[countries]]
-name = "Russia"
-flag = "/country_flags/russia.png"
-
-[[countries]]
 name = "Colombia"
 flag = "/country_flags/colombia.png"
 

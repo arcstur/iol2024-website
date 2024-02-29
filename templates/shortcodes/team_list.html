@@ -1,15 +1,10 @@
 {% set data = load_data(path="static/teams.toml") %}
 <style>
   .table-contaier {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
     justify-content: space-between;
-  }
-
-  .country-container {
-    width: 130px;
-    margin: 10px;
+    grid-gap: 20px;
   }
 
   .country-flag {
