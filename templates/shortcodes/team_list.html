@@ -1,0 +1,44 @@
+{% set data = load_data(path="static/teams.toml") %}
+<style>
+  .table-contaier {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .country-container {
+    width: 120px;
+    margin: 10px;
+  }
+
+  .country-flag {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+</style>
+<div class="table-contaier">
+  {% for country in data.countries | sort(attribute="name") %}
+  <div class="country-container">
+    <img
+    class = "country-flag"
+    src= {{ country.flag }}
+    />
+    <p style="text-align: center; padding: 0; margin: 0">{{ country.name }}</p>
+    <ul> 
+      {% if country.teams %}
+        {% for team in country.teams %}
+        <li>
+          <h2>{{ team.name }}</h2>
+          <ul>
+            {% for participant in team.participants %}
+            <li>{{ participant }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

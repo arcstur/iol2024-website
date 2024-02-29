@@ -1,0 +1,66 @@
+[[countries]]
+name = "Brazil"
+flag = "/country_flags/brazil.png"
+# [[countries.teams]]
+# name = "Brazil 1"
+# participants = ["Fulano 1", "Fulana 2", "Fulano 3", "Fulana 4"]
+
+[[countries]]
+name = "United Kingdom"
+flag = "/country_flags/uk.png"
+
+[[countries]]
+name = "Thailand"
+flag = "/country_flags/thailand.png"
+
+[[countries]]
+name = "Ukraine"
+flag = "/country_flags/ukraine.png"
+
+[[countries]]
+name = "Ireland"
+flag = "/country_flags/ireland.png"
+
+[[countries]]
+name = "Germany"
+flag = "/country_flags/germany.png"
+
+[[countries]]
+name = "Australia"
+flag = "/country_flags/australia.png"
+
+[[countries]]
+name = "Malaysia"
+flag = "/country_flags/malaysia.png"
+
+[[countries]]
+name = "China"
+flag = "/country_flags/china.png"
+
+[[countries]]
+name = "Russia"
+flag = "/country_flags/russia.png"
+
+[[countries]]
+name = "Colombia"
+flag = "/country_flags/colombia.png"
+
+[[countries]]
+name = "Bangladesh"
+flag = "/country_flags/bangladesh.png"
+
+[[countries]]
+name = "Latvia"
+flag = "/country_flags/latvia.png"
+
+[[countries]]
+name = "Finland"
+flag = "/country_flags/finland.png"
+
+[[countries]]
+name = "Japan"
+flag = "/country_flags/japan.png"
+
+[[countries]]
+name = "South Korea"
+flag = "/country_flags/south_korea.webp"
