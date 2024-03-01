@@ -58,7 +58,7 @@ name = "Japan"
 flag = "/country_flags/japan.png"
 
 [[countries]]
-name = "South Korea"
+name = "Republic of Korea"
 flag = "/country_flags/south_korea.webp"
 
 [[countries]]
@@ -70,7 +70,7 @@ name = "Slovenia"
 flag = "/country_flags/slovenia.png"
 
 [[countries]]
-name = "Moldova"
+name = "Republic of Moldova"
 flag = "/country_flags/moldova.png"
 
 [[countries]]
@@ -82,7 +82,7 @@ name = "Poland"
 flag = "/country_flags/poland.png"
 
 [[countries]]
-name = "Canada"
+name = "Canada Anglophone"
 flag = "/country_flags/canada.png"
 
 [[countries]]
