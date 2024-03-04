@@ -133,3 +133,6 @@ flag = "/country_flags/switzerland.png"
 name = "Canada Francophone"
 flag = "/country_flags/canada_fr.png"
 
+[[countries]]
+name = "Belka Team"
+flag = "/country_flags/belka_team.png"
