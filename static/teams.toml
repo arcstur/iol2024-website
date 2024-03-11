@@ -1,0 +1,138 @@
+[[countries]]
+name = "Brazil"
+flag = "/country_flags/brazil.png"
+# [[countries.teams]]
+# name = "Brazil 1"
+# participants = ["Fulano 1", "Fulana 2", "Fulano 3", "Fulana 4"]
+
+[[countries]]
+name = "United Kingdom"
+flag = "/country_flags/uk.png"
+
+[[countries]]
+name = "Thailand"
+flag = "/country_flags/thailand.png"
+
+[[countries]]
+name = "Ukraine"
+flag = "/country_flags/ukraine.png"
+
+[[countries]]
+name = "Ireland"
+flag = "/country_flags/ireland.png"
+
+[[countries]]
+name = "Germany"
+flag = "/country_flags/germany.png"
+
+[[countries]]
+name = "Australia"
+flag = "/country_flags/australia.png"
+
+[[countries]]
+name = "Malaysia"
+flag = "/country_flags/malaysia.png"
+
+[[countries]]
+name = "China"
+flag = "/country_flags/china.png"
+
+[[countries]]
+name = "Colombia"
+flag = "/country_flags/colombia.png"
+
+[[countries]]
+name = "Bangladesh"
+flag = "/country_flags/bangladesh.png"
+
+[[countries]]
+name = "Latvia"
+flag = "/country_flags/latvia.png"
+
+[[countries]]
+name = "Finland"
+flag = "/country_flags/finland.png"
+
+[[countries]]
+name = "Japan"
+flag = "/country_flags/japan.png"
+
+[[countries]]
+name = "Republic of Korea"
+flag = "/country_flags/south_korea.webp"
+
+[[countries]]
+name = "Taiwan"
+flag = "/country_flags/taiwan.png"
+
+[[countries]]
+name = "Slovenia"
+flag = "/country_flags/slovenia.png"
+
+[[countries]]
+name = "Republic of Moldova"
+flag = "/country_flags/moldova.png"
+
+[[countries]]
+name = "Kazakhstan"
+flag = "/country_flags/kazakhstan.png"
+
+[[countries]]
+name = "Poland"
+flag = "/country_flags/poland.png"
+
+[[countries]]
+name = "Canada Anglophone"
+flag = "/country_flags/canada.png"
+
+[[countries]]
+name = "Estonia"
+flag = "/country_flags/estonia.png"
+
+[[countries]]
+name = "Netherlands"
+flag = "/country_flags/netherlands.png"
+
+[[countries]]
+name = "Vietnam"
+flag = "/country_flags/vietnam.png"
+
+[[countries]]
+name = "United States of America"
+flag = "/country_flags/usa.png"
+
+[[countries]]
+name = "Hungary"
+flag = "/country_flags/hungary.png"
+
+[[countries]]
+name = "India"
+flag = "/country_flags/india.png"
+
+[[countries]]
+name = "Israel"
+flag = "/country_flags/israel.png"
+
+[[countries]]
+name = "Czechia"
+flag = "/country_flags/czechia.png"
+
+[[countries]]
+name = "Bulgaria"
+flag = "/country_flags/bulgaria.png"
+
+[[countries]]
+name = "Hong Kong"
+flag = "/country_flags/hong_kong.png"
+
+[[countries]]
+name = "Switzerland"
+flag = "/country_flags/switzerland.png"
+
+[[countries]]
+name = "Canada Francophone"
+flag = "/country_flags/canada_fr.png"
+
+[[countries]]
+name = "Belka Team"
+flag = "/country_flags/belka_team.png"
