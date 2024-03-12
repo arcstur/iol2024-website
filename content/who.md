@@ -55,6 +55,6 @@ We were accepting applications from January 21st to February 11th. Thank you for
 
 # Participants
 
-An event is fundamentally made by its participants, selected from the many National Linguistics Olympiads around the globe. Below are all the delegations attending IOL 2024. This page is constantly being updated up to the date of the event.
+An event is fundamentally made by its participants, selected from the many National Linguistics Olympiads around the globe. Below are the delegations registered for IOL 2024 so far (names of contestants and team leaders will come soon). This page is constantly being updated up to the date of the event.
 
 {{ team_list() }}
