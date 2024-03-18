@@ -22,7 +22,6 @@ The LOC can only coordinate the IOL effort by counting with the help of several 
 |-------------|-------------| --- |
 | **Charles L'Astorina** | Estúdio Vértebra | General Design |
 | **Pedro Leão** | IOL 2019 | Website |
-| **Ana Luiza Nunes** | IOL 2018 | Registration system |
 | **Roosmari Pihlak** | IOL 2019, 2021 | Social media |
 | **Marina Kawamura** | ELO 2020 | Video editing, communication |
 | **Carolina Motta Bastos** | IOL 2023 | Communication |
