@@ -14,6 +14,18 @@ The IOL is an event organized by many hands, all contributing on a volunteer bas
 
 If you wish to enter in contact, you can write to [iol2024@obling.org](mailto:iol2024@obling.org).
 
+## Academic Council
+
+The LOC is supported in all academic and scientific matters by the Academic Council, who gives valuable advices and institutional support for the best flow of the event. The Council is composed by:
+
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
+| **Eduardo Cardoso Martins** | Federal University of Amazonas (UFAM) |
+| **Eloisa Pilati** | University of Brasília (UnB) |
+| **Heloisa de Almeida Salles** | University of Brasília (UnB) |
+| **Janaina Weissheimer** | Federal University of Rio Grande do Norte (UFRN) |
+| **Joara Martin Bergsleithner** | University of Brasília (UnB) |
+
 ## Supporting Team
 
 The LOC can only coordinate the IOL effort by counting with the help of several other kind and enthusiastic people – many of them former IOL or ELO (Brazilian Olympiad's last round) participants. Those include:
@@ -27,6 +39,9 @@ The LOC can only coordinate the IOL effort by counting with the help of several 
 | **Carolina Motta Bastos** | IOL 2023 | Communication |
 | **Thiago Augusto Santos** | ELO 2023 | Communication |
 | **Senas Araújo** | ELO 2023 | Communication |
+| **Maria Luporini** | UFRJ | Cultural Program |
+| **Rafael Santiago** | UnB | Cerimonial |
+| **Lai Otsuka** | IOL 2022 | Exam Logistics |
 
 ## Institutions
 
