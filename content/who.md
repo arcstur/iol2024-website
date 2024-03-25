@@ -61,8 +61,6 @@ Names of the Jury members for IOL 2024 will be also published later.
 
 In addition to the permanent bodies and to the LOC, running the actual IOL involves a lot of hands-on activities, performed by a group of national and international volunteers – working especially in coordinating, escorting and concierge-ing the students, but also preparing activities, distributing materials and keeping the flow and the energy of daily-life at IOL.
 
-In addition to the permanent bodies and to the LOC, running the actual IOL involves a lot of hands-on activities, performed by a group of national and international volunteers – working especially in coordinating, escorting and concierge-ing the students, but also preparing activities, distributing materials and keeping the flow and the energy of daily-life at IOL.
-
 The team of volunteers for IOL 2024 was selected in January and February as a diverse team composed by enthusiastic, experienced and linguistics-loving individuals – and as the Local Organizing Team we deeply thank everyone who offered themselves. The final team are the following people:
 
 * Alexandra Jelihovschi – Chisinau, Moldova 🇲🇩
