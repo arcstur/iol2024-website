@@ -74,7 +74,7 @@ The team of volunteers for IOL 2024 was selected in January and February as a di
 * Leo Paillo – Fortaleza, Brazil 🇧🇷
 * Mariana Lins Wolmer – Recife, Brazil 🇧🇷
 * Marina Abreu – Brasília, Brazil 🇧🇷
-* Michelle Matie Morikawa – Londrina, Brazil 🇧🇷
+* Michelle Morikawa – Londrina, Brazil 🇧🇷
 * Mihail Paskov – Sofia, Bulgária 🇧🇬
 * Pedro Leão – Campinas, Brazil 🇧🇷
 * Roosmari Pihlak – Tallinn, Estonia 🇪🇪
