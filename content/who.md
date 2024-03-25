@@ -63,26 +63,7 @@ In addition to the permanent bodies and to the LOC, running the actual IOL invol
 
 The team of volunteers for IOL 2024 was selected in January and February as a diverse team composed by enthusiastic, experienced and linguistics-loving individuals – and as the Local Organizing Team we deeply thank everyone who offered themselves. The final team are the following people:
 
-* Alexandra Jelihovschi – Chisinau, Moldova 🇲🇩
-* Carolina Bastos – São José dos Campos, Brazil 🇧🇷
-* Dana Ospanova – Astana, Kazakhstan 🇰🇿
-* Ece Karagöz – Istanbul, Turkey 🇹🇷
-* Esteban Mayorga – Bogotá, Colombia 🇨🇴
-* Fernando César – São Paulo, Brazil 🇧🇷
-* Isadora Lopes – Vitória, Brazil 🇧🇷
-* Justin Cunningham – Kildare, Ireland 🇮🇪
-* Leo Paillo – Fortaleza, Brazil 🇧🇷
-* Mariana Lins Wolmer – Recife, Brazil 🇧🇷
-* Marina Abreu – Brasília, Brazil 🇧🇷
-* Michelle Morikawa – Londrina, Brazil 🇧🇷
-* Mihail Paskov – Sofia, Bulgária 🇧🇬
-* Pedro Leão – Campinas, Brazil 🇧🇷
-* Roosmari Pihlak – Tallinn, Estonia 🇪🇪
-* Samara Dália – Natal, Brazil 🇧🇷
-* Senas Araujo – São Paulo, Brazil 🇧🇷
-* Tamara Ivanof – Cluj-Napoca, Romania 🇷🇴
-* Thiago Augusto – Aracaju, Brazil 🇧🇷
-* Vítor Córdoba – Brasília, Brazil 🇧🇷
+{{ volunteers() }}
 
 # Participants
 

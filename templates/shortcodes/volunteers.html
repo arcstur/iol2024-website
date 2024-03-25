@@ -1,0 +1,22 @@
+{% set data = load_data(path="static/volunteers.toml") %}
+
+<style>
+.volunteer-country-flag {
+  display: inline !important;
+  width: 1em;
+}
+</style>
+
+<ul>
+  {% for volunteer in data.volunteer  | sort(attribute="name") %}
+  <li>
+    {{ volunteer.name }}
+    –
+    {{ volunteer.city }}
+    <img
+    class = "volunteer-country-flag"
+    src= {{ volunteer.flag }}
+    />
+  </li>
+  {% endfor %}
+</ul>
