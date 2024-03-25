@@ -61,11 +61,28 @@ Names of the Jury members for IOL 2024 will be also published later.
 
 In addition to the permanent bodies and to the LOC, running the actual IOL involves a lot of hands-on activities, performed by a group of national and international volunteers – working especially in coordinating, escorting and concierge-ing the students, but also preparing activities, distributing materials and keeping the flow and the energy of daily-life at IOL.
 
-We are looking for both Brazilian and International volunteers who can be comfortable and excited in a multilingual environment. You should be able to speak good English and have some knowledge of other languages, and for international volunteers we expect some knowledge of how IOL works.
+The team of volunteers for IOL 2024 was selected in January and February as a diverse team composed by enthusiastic, experienced and linguistics-loving individuals – and as the Local Organizing Team we deeply thank everyone who offered themselves. The final team are the following people:
 
-The work is done on a volunteer basis. We cover food and lodging from the volunteers for the duration of the event; however, each volunteer should come to the city of Brasilia by its own means.
-
-We were accepting applications from January 21st to February 11th. Thank you for everyone who applied! Soon we will announce the final list of volunteers
+* Alexandra Jelihovschi – Chisinau, Moldova 🇲🇩
+* Carolina Bastos – São José dos Campos, Brazil 🇧🇷
+* Dana Ospanova – Astana, Kazakhstan 🇰🇿
+* Ece Karagöz – Istanbul, Turkey 🇹🇷
+* Esteban Mayorga – Bogotá, Colombia 🇨🇴
+* Fernando César – São Paulo, Brazil 🇧🇷
+* Isadora Lopes – Vitória, Brazil 🇧🇷
+* Justin Cunningham – Kildare, Ireland 🇮🇪
+* Leo Paillo – Fortaleza, Brazil 🇧🇷
+* Mariana Lins Wolmer – Recife, Brazil 🇧🇷
+* Marina Abreu – Brasília, Brazil 🇧🇷
+* Michelle Morikawa – Londrina, Brazil 🇧🇷
+* Mihail Paskov – Sofia, Bulgária 🇧🇬
+* Pedro Leão – Campinas, Brazil 🇧🇷
+* Roosmari Pihlak – Tallinn, Estonia 🇪🇪
+* Samara Dália – Natal, Brazil 🇧🇷
+* Senas Araujo – São Paulo, Brazil 🇧🇷
+* Tamara Ivanof – Cluj-Napoca, Romania 🇷🇴
+* Thiago Augusto – Aracaju, Brazil 🇧🇷
+* Vítor Córdoba – Brasília, Brazil 🇧🇷
 
 # Participants
 
