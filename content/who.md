@@ -53,9 +53,9 @@ The IOL 2024 is mainly sponsored by Brazil's [Ministry of Science, Technology an
 
 The academic nucleus of IOL is the **Problem Committee** (IOL PC) , a permanent body composed of researchers, teachers and former participants, all experienced solvers, testers and composers of the genre of Self-sufficient linguistics problems. The PC works the whole year in the multilingual composition of the problems, in order to guarantee that *all language versions of the problems are functionally equal*. You can read more about it [here](https://ioling.org/pc/).
 
-During the event, the academic work (distributing the problems, overseeing the exams, marking the papers, presenting solutions, giving awards) is done by an **International Jury**, composed by 20+ members, mostly drawn from PC. Soon we will publish more details on how the Jury works.
+During the event, the academic work (distributing the problems, overseeing the exams, marking the papers, presenting solutions, giving awards) is done by an **International Jury**, composed by 20+ members, mostly drawn from PC.
 
-Names of the Jury members for IOL 2024 will be also published later.
+{{ jury() }}
 
 # Volunteers
 

@@ -1,0 +1,91 @@
+{% set data = load_data(path="static/jury.toml") %}
+
+<style>
+  .jury-container {
+    width: 97%;
+  }
+
+  .jury-photo {
+    width: 5em;
+    margin: 5px !important;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .jury-member {
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    background-color: #fff7e8;
+    border: 1px solid #fff4e0;
+  }
+
+  .jury-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .jury-name {
+    margin-left: 1em;
+    font-weight: bold;
+  }
+
+  .jury-bio {
+    text-align: justify;
+    margin-left: 118px;
+    margin-right: 50px;
+  }
+
+  @media ( max-width: 815px ) {
+    .jury-bio {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .down-button {
+    margin-right: 20px;
+    margin-left: auto;
+    background-image: url("icons/chevron-down.svg");
+    width:18px;
+    height:18px;
+    background-repeat:no-repeat;
+    background-size:contain;
+  }
+
+  input[type="checkbox"] {
+    appearance: none;
+    position: fixed;
+    top: -100vh;
+    left: -100vh;
+
+    & ~ div {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+
+    &:checked ~ div {
+      max-height: 500px;
+      overflow: visible;
+    }
+
+    &:checked ~ label > .down-button {
+      background-image: url("icons/chevron-up.svg");
+    }
+  }
+</style>
+<div class="jury-container">
+  {% for jury in data.jury | sort(attribute="initials") %}
+  <div class="jury-member">
+    <input id={{ loop.index ~ "-jury-member"}} type="checkbox" name={{ loop.index ~ "-jury-member"}} />
+    <label for={{ loop.index ~ "-jury-member"}} class="jury-info">
+      <img class="jury-photo" src={{ jury.photo }} />
+      <div class="jury-name">{{ jury.name }}</div>
+      <div class="down-button"></div>
+    </label>
+    <div class="jury-bio">{{ jury.bio }}</div>
+  </div>
+  {% endfor %}
+</div>
