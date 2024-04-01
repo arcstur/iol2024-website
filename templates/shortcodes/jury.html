@@ -20,7 +20,7 @@
     border: 1px solid #fff4e0;
     summary {
       cursor: pointer;
-      transition: margin 0.5s;
+      transition: margin 100ms;
       display: flex;
       align-items: center;
       width: 100%;
@@ -29,6 +29,9 @@
 
   details[open] summary {
     margin-bottom: 10px;
+    .down-button {
+      transform: rotate(180deg);
+    }
   }
 
   .jury-name {
@@ -52,11 +55,12 @@
   .down-button {
     margin-right: 20px;
     margin-left: auto;
-    background-image: url("icons/chevron-down.svg");
+    background-image: url("/icons/chevron-down.svg");
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
     background-size: contain;
+    transition: transform 250ms;
   }
 </style>
 <div class="jury-container">
