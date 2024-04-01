@@ -45,6 +45,13 @@
     margin-right: 50px;
   }
 
+  .gray-text {
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+  }
+
   @media (max-width: 815px) {
     .jury-bio {
       margin-left: 10px;
@@ -71,7 +78,21 @@
       <div class="jury-name">{{ jury.name }}</div>
       <div class="down-button"></div>
     </summary>
-    <div class="jury-bio">{{ jury.bio }}</div>
+    <div class="jury-bio">
+      {% if jury.member_since %}
+      <div class="gray-text">
+        PC member since
+        {{ jury.member_since }}
+      </div>
+      {% endif %}
+      {% if jury.iol_contestant_in %}
+      <div class="gray-text">
+        IOL contestant in
+        {{ jury.iol_contestant_in }}
+      </div>
+      {% endif %}
+      {{ jury.bio }}
+    </div>
   </details>
   {% endfor %}
 </div>
