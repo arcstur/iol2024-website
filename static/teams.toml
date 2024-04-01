@@ -136,3 +136,16 @@ flag = "/country_flags/canada_fr.png"
 [[countries]]
 name = "Belka Team"
 flag = "/country_flags/belka_team.png"
+
+[[countries]]
+name = "Nepal"
+flag = "/country_flags/nepal.png"
+no_box_shadow = true
+
+[[countries]]
+name = "Iran"
+flag = "/country_flags/iran.png"
+
+[[countries]]
+name = "Sweden"
+flag = "/country_flags/sweden.png"
