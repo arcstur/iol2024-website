@@ -60,7 +60,7 @@
   }
 </style>
 <div class="jury-container">
-  {% for jury in data.jury | sort(attribute="initials") %}
+  {% for jury in data.jury | sort(attribute="name") %}
   <details>
     <summary>
       <img class="jury-photo" src={{ jury.photo }} />
