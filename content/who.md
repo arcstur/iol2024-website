@@ -42,6 +42,7 @@ The LOC can only coordinate the IOL effort by counting with the help of several 
 | **Maria Luporini** | UFRJ | Cultural Program |
 | **Rafael Santiago** | UnB | Cerimonial |
 | **Lai Otsuka** | IOL 2022 | Exam Logistics |
+| **Fernando César** | IOL 2022 | User Experience |
 
 ## Institutions
 
