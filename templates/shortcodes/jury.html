@@ -1,0 +1,98 @@
+{% set data = load_data(path="static/jury.toml") %}
+
+<style>
+  .jury-container {
+    width: 97%;
+  }
+
+  .jury-photo {
+    width: 5em;
+    margin: 5px !important;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  details {
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    background-color: #fff7e8;
+    border: 1px solid #fff4e0;
+    summary {
+      cursor: pointer;
+      transition: margin 100ms;
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  details[open] summary {
+    margin-bottom: 10px;
+    .down-button {
+      transform: rotate(180deg);
+    }
+  }
+
+  .jury-name {
+    margin-left: 1em;
+    font-weight: bold;
+  }
+
+  .jury-bio {
+    text-align: justify;
+    margin-left: 118px;
+    margin-right: 50px;
+  }
+
+  .gray-text {
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+  }
+
+  @media (max-width: 815px) {
+    .jury-bio {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .down-button {
+    margin-right: 20px;
+    margin-left: auto;
+    background-image: url("/icons/chevron-down.svg");
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 250ms;
+  }
+</style>
+<div class="jury-container">
+  {% for jury in data.jury | sort(attribute="name") %}
+  <details>
+    <summary>
+      <img class="jury-photo" src={{ jury.photo }} />
+      <div class="jury-name">{{ jury.name }}</div>
+      <div class="down-button"></div>
+    </summary>
+    <div class="jury-bio">
+      {% if jury.member_since %}
+      <div class="gray-text">
+        PC member since
+        {{ jury.member_since }}
+      </div>
+      {% endif %}
+      {% if jury.iol_contestant_in %}
+      <div class="gray-text">
+        IOL contestant in
+        {{ jury.iol_contestant_in }}
+      </div>
+      {% endif %}
+      {{ jury.bio }}
+    </div>
+  </details>
+  {% endfor %}
+</div>
