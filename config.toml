@@ -24,4 +24,5 @@ juice_logo_name = "IOL brasília 2024"
 juice_logo_path = "logo-header-sol.svg"
 juice_exclude_menu = [
   "Volunteers",
+  "Professores",
 ]
