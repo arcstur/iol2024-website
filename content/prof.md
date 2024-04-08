@@ -1,5 +1,5 @@
 +++
-title = "Professores"
+title = "Evento de Professores"
 description = "Evento de Professores"
 weight = 70
 +++

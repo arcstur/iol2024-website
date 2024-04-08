@@ -20,9 +20,8 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-juice_logo_name = "IOL brasília 2024"
+juice_logo_name = "IOL's Teachers Event"
 juice_logo_path = "logo-header-sol.svg"
-juice_exclude_menu = [
-  "Volunteers",
-  "Professores",
+juice_extra_menu = [
+    { title = "Main website", link = "https://iol2024.org"}
 ]
