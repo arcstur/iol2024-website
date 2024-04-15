@@ -37,6 +37,14 @@ member_since = "2019"
 iol_contestant_in = "2014 and 2015"
 
 [[jury]]
+name = "Daniel Rucki"
+bio = "Studied Linguistics at the University of Cambridge, has collaborated with the Polish and Estonian LOs. Interested in language acquisition, historical linguistics, board games and travelling (especially to places with mountains)."
+photo = "/who/jury/DR.jpg"
+initials = "DR"
+member_since = "2012"
+iol_contestant_in = "2010, 2011 and 2012"
+
+[[jury]]
 name = "Elysia Warner"
 bio = "UKLO committee member. Studied Chinese and Linguistics at the University of Cambridge. Tax specialist for HM Government. Enjoys knitting, cryptic crosswords, and Bollywood dancing."
 photo = "/who/jury/EW.jpg"
