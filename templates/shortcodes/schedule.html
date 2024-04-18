@@ -42,10 +42,15 @@
 <div class="grid-container">
   {% for day in data.days %}
   <div class="day-row">
-    <div class="week-day"><span>{{ day.weekday }}, {{ day.name }}</span></div>
-    {% for activity in day.activities %}
-    <div class="activity"> <span>{{ activity.name | safe }}</span></div>
-    {% endfor %}
+    <div class="week-day" style="width: 100%">
+    <span>{{ day.weekday }}, {{ day.name }}</span>
+    </div>
   </div>
+  {% for activity in day.activities %}
+  <div class="day-row">
+    <div class="week-day"><span>{{ activity.start }} - {{ activity.end }}</span></div>
+    <div class="activity"> <span>{{ activity.name | safe }}</span></div>
+  </div>
+  {% endfor %}
   {% endfor %}
 </div>

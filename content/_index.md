@@ -26,3 +26,45 @@ Esperamos, então, estimular e favorecer práticas de ensino-aprendizagem de por
 * oportunizem atividades baseadas em autonomia, criatividade e investigação.
 
 Esta edição do evento é organizada pelo Comitê Organizador Local da IOL, com o apoio do Instituto de Letras da Universidade de Brasília (IL/UnB), do Ministério da Ciência, Tecnologia e Informação (MCTI) e da Associação Brasileira de Linguística (ABRALIN).
+
+# IOl
+
+A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimento em que estudantes de Ensino Médio se desafiam a resolver problemas complexos que envolvem línguas e linguística. Trata-se também da fase final das diferentes olimpíadas de linguística nacionais. O evento ocorre anualmente em um dos países participantes, durante cinco a sete dias, e reúne atualmente cerca de 40 delegações. Além das competições por medalhas, a IOL conta com atividades acadêmicas, culturais e lúdicas para os participantes, bem como promove ações para compartilhar boas práticas pedagógicas, aprimorar o ensino escolar e favorecer políticas públicas e iniciativas privadas envolvendo educação, língua e diversidade.
+
+# Programação
+
+{{ schedule() }}
+
+Atenção! Todos os títulos são provisórios ainda.
+
+# Inscrição
+
+O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada, que estejam em atuação no Brasil. As inscrições para o evento devem ser feitas através do seguinte formulário. Inscrições abertas **até 20 de junho**.
+
+| <!-- --> | <!-- --> |
+|---|---|
+| Gratuidade para DF | R$ 0,00 |
+| Até 20/06 | R$ 80,00 |
+| Inscrições na hora | R$ 100,00 |
+
+Após preencher o formulário, solicitamos que efetue o pagamento mediante depósito bancário, conforme dados abaixo.
+
+- Beneficiário: Instituto Vertere
+- CNPJ (e PIX): 29.078.053/0001-07
+- Banco Itaú
+- Agência 0445
+- Conta 93347-6
+
+
+# Para saber mais
+
+Caso tenha interesse em aprender mais sobre as Olimpíadas de Linguística, recomendamos acessar o [site da Olimpíada Internacional de Linguística](https://ioling.org) (IOL) e o [site da Olimpíada Brasileira de Linguística](https://obling.org) (OBL). Há bastante material interessante também no [canal de Youtube da OBL](https://www.youtube.com/linguimpiada).
+
+# Contato
+
+Se precisar entrar em contato, envie mensagem para o e-mail oficial do evento: [iol2024@obling.org](mailto:iol2024@obling.org).
+
+Siga também os perfis da Olimpíada Internacional de Linguística e da Olimpíada Brasileira de Linguística nas redes sociais.
+
+- [instagram da IOL](https://www.instagram.com/ioling.official)
+- [instagram da OBL](https://www.instagram.com/obelegram)

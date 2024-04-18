@@ -1,67 +1,98 @@
 [[days]]
-name = "July 23"
-weekday = "Tue"
+name = "23/07"
+weekday = "terça-feira"
+
 [[days.activities]]
-name = "Arrivals"
+name = "Credenciamento"
+start = "7h"
+end = "8h"
+
+[[days.activities]]
+start = "8h"
+end = "8h45"
+name = "Abertura - Boas-vindas ao Universo Olímpico "
+
+[[days.activities]]
+start = "8h45"
+end = "9h45"
+name = "Palestra 1 - Conhecendo as Olimpíadas de Linguística"
+
+[[days.activities]]
+start = "9h45"
+end = "10h"
+name = "Café"
+
+[[days.activities]]
+start = "10h"
+end = "12h"
+name = "Oficina 1 - Problemas de linguística em sala de aula <br><small>Rodrigo Tiradentes (OBL / Olimpíada Brasileira de Linguística)</small>"
+
+[[days.activities]]
+start = "13h30"
+end = "15h"
+name = "Oficina 2 - a definir Ivan Derjanski"
+
+[[days.activities]]
+start = "15h"
+end = "15h30"
+name = "Café"
+
+[[days.activities]]
+start = "15h30"
+end = "17h"
+name = "Oficina 3 - a definir"
+
 
 [[days]]
-name = "July 24"
-weekday = "Wed"
+name = "24/07"
+weekday = "quarta-feira"
+
 [[days.activities]]
-name = "Opening Ceremory"
-[[days.activities]]
-name = "Integration Games"
+start = "14h"
+end = "18h"
+name = "Cerimônia de Abertura da IOL"
+
 
 [[days]]
-name = "July 25"
-weekday = "Thu"
-[[days.activities]]
-name = "IOLwiki"
-[[days.activities]]
-name = "City Tour"
+name = "25/07"
+weekday = "quinta-feira"
 
-[[days]]
-name = "July 26"
-weekday = "Fri"
 [[days.activities]]
-name = "<strong>Individual Contest</strong>"
-[[days.activities]]
-name = "Party"
+start = "8h"
+end = "10h"
+name = "Oficina 4 - Gramaticoteca <br><small>Prof. Eloisa Pilati (UnB)</small>"
 
-[[days]]
-name = "July 27"
-weekday = "Sat"
 [[days.activities]]
-name = "Excursion"
+start = "10h"
+end = "10h30"
+name = "Café"
 
-[[days]]
-name = "July 28"
-weekday = "Sun"
 [[days.activities]]
-name = "Cultural and Learning activities in Brasília"
+start = "10h30"
+end = "11h"
+name = "Palestra 2 - Módulo de Olimpíada de Linguística nas escolas: relatos de experiências na Irlanda  <br><small>Cara Tighe (AILO / Olimpíada de Linguística da Irlanda)</small>"
 
-[[days]]
-name = "July 29"
-weekday = "Mon"
 [[days.activities]]
-name = "<strong>Team Contest</strong>"
-[[days.activities]]
-name = "IOL Quiz"
+start = "11h"
+end = "12h"
+name = "Oficina 5 - a definir"
 
-[[days]]
-name = "July 30"
-weekday = "Tue"
 [[days.activities]]
-name = "Solution Presentation"
-[[days.activities]]
-name = "Closing Ceremony"
-[[days.activities]]
-name = "IOL's Got Talent"
-[[days.activities]]
-name = "Farewell Party"
+start = "13h30"
+end = "14h30"
+name = "Oficina 6 - Usando o Google Tradutor com aprendizes de língua <br><small>Harold Somers (AILO / Olimpíada de Linguística da Irlanda)</small>"
 
-[[days]]
-name = "July 31"
-weekday = "Wed"
 [[days.activities]]
-name = "Departures"
+start = "14h30"
+end = "15h"
+name = "Palestra 3 - Conhecimento linguístico <br><small>Balaram Prasain (Hlon / Olimpíada de Linguística Computacional do Himalaia - Nepal) (Universidade Tribhuvan - Nepal) </small>"
+
+[[days.activities]]
+start = "15h"
+end = "15h30"
+name = "Café"
+
+[[days.activities]]
+start = "15h30"
+end = "17h"
+name = "Palestra 4 - Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil <br><small>Janaina Weissheimer (UFRN / Rede CpE) <br> Nathalie Topaj (DOL / Olimpíada Alemã de Linguística) (ZAS / Leibniz-Centre General Linguistics)</small>"
