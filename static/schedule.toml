@@ -25,7 +25,8 @@ name = "Café"
 [[days.activities]]
 start = "10h"
 end = "12h"
-name = "Oficina 1 - Problemas de linguística em sala de aula <br><small>Rodrigo Tiradentes (OBL / Olimpíada Brasileira de Linguística)</small>"
+name = "Oficina 1 - Problemas de linguística em sala de aula"
+who = "Rodrigo Tiradentes (OBL / Olimpíada Brasileira de Linguística)"
 
 [[days.activities]]
 start = "13h30"
@@ -60,7 +61,8 @@ weekday = "quinta-feira"
 [[days.activities]]
 start = "8h"
 end = "10h"
-name = "Oficina 4 - Gramaticoteca <br><small>Prof. Eloisa Pilati (UnB)</small>"
+name = "Oficina 4 - Gramaticoteca"
+who = "Prof. Eloisa Pilati (UnB)"
 
 [[days.activities]]
 start = "10h"
@@ -70,7 +72,8 @@ name = "Café"
 [[days.activities]]
 start = "10h30"
 end = "11h"
-name = "Palestra 2 - Módulo de Olimpíada de Linguística nas escolas: relatos de experiências na Irlanda  <br><small>Cara Tighe (AILO / Olimpíada de Linguística da Irlanda)</small>"
+name = "Palestra 2 - Módulo de Olimpíada de Linguística nas escolas: relatos de experiências na Irlanda "
+who = "Cara Tighe (AILO / Olimpíada de Linguística da Irlanda)"
 
 [[days.activities]]
 start = "11h"
@@ -80,12 +83,14 @@ name = "Oficina 5 - a definir"
 [[days.activities]]
 start = "13h30"
 end = "14h30"
-name = "Oficina 6 - Usando o Google Tradutor com aprendizes de língua <br><small>Harold Somers (AILO / Olimpíada de Linguística da Irlanda)</small>"
+name = "Oficina 6 - Usando o Google Tradutor com aprendizes de língua"
+who = "Harold Somers (AILO / Olimpíada de Linguística da Irlanda)"
 
 [[days.activities]]
 start = "14h30"
 end = "15h"
-name = "Palestra 3 - Conhecimento linguístico <br><small>Balaram Prasain (Hlon / Olimpíada de Linguística Computacional do Himalaia - Nepal) (Universidade Tribhuvan - Nepal) </small>"
+name = "Palestra 3 - Conhecimento linguístico"
+who = "Balaram Prasain (Hlon / Olimpíada de Linguística Computacional do Himalaia - Nepal) (Universidade Tribhuvan - Nepal) "
 
 [[days.activities]]
 start = "15h"
@@ -95,4 +100,5 @@ name = "Café"
 [[days.activities]]
 start = "15h30"
 end = "17h"
-name = "Palestra 4 - Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil <br><small>Janaina Weissheimer (UFRN / Rede CpE) <br> Nathalie Topaj (DOL / Olimpíada Alemã de Linguística) (ZAS / Leibniz-Centre General Linguistics)</small>"
+name = "Palestra 4 - Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
+who = "Janaina Weissheimer (UFRN / Rede CpE) <br> Nathalie Topaj (DOL / Olimpíada Alemã de Linguística) (ZAS / Leibniz-Centre General Linguistics)"

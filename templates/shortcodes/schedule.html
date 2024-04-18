@@ -49,7 +49,14 @@
   {% for activity in day.activities %}
   <div class="day-row">
     <div class="week-day"><span>{{ activity.start }} - {{ activity.end }}</span></div>
-    <div class="activity"> <span>{{ activity.name | safe }}</span></div>
+    <div class="activity">
+      <span>
+        {{ activity.name | safe }}
+        {% if activity.who %}
+        <br><small> {{ activity.who | safe }} </small>
+        {% endif %}
+      </span>
+    </div>
   </div>
   {% endfor %}
   {% endfor %}
