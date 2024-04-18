@@ -27,7 +27,7 @@ Esperamos, então, estimular e favorecer práticas de ensino-aprendizagem de por
 
 Esta edição do evento é organizada pelo Comitê Organizador Local da IOL, com o apoio do Instituto de Letras da Universidade de Brasília (IL/UnB), do Ministério da Ciência, Tecnologia e Informação (MCTI) e da Associação Brasileira de Linguística (ABRALIN).
 
-# IOl
+# IOL
 
 A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimento em que estudantes de Ensino Médio se desafiam a resolver problemas complexos que envolvem línguas e linguística. Trata-se também da fase final das diferentes olimpíadas de linguística nacionais. O evento ocorre anualmente em um dos países participantes, durante cinco a sete dias, e reúne atualmente cerca de 40 delegações. Além das competições por medalhas, a IOL conta com atividades acadêmicas, culturais e lúdicas para os participantes, bem como promove ações para compartilhar boas práticas pedagógicas, aprimorar o ensino escolar e favorecer políticas públicas e iniciativas privadas envolvendo educação, língua e diversidade.
 
