@@ -11,6 +11,8 @@ Para compartilhar as experiências acumuladas das variadas olimpíadas nacionais
 
 Convidamos para o Encontro de Professores os **docentes brasileiros de escolas públicas e privadas**. Professores de todas as áreas são bem-vindos, mas fazemos o convite especialmente para os professores de língua materna e estrangeira. As atividades do I Encontro de Professores da IOL ocorrerão em paralelo aos primeiros dias da olimpíada, 23 a 25 de julho de 2024, na Universidade de Brasília (UnB). Faça sua inscrição até o dia 20 de junho e venha se conectar com o espírito olímpico!
 
+{{ single_button(link="#inscricao", text="Inscreva-se!", target="_self")}}
+
 # Proposta
 
 O Encontro de Professores da Olimpíada Internacional de Linguística é um evento de formação continuada para professores da Educação Básica – em especial para os que lecionam língua materna e língua estrangeira. Está em sua primeira edição e surgiu do desejo de compartilhar a gama de conhecimentos construídos em torno do movimento de olimpíadas de linguística para impactar positivamente o ensino escolar das localidades em que a IOL é sediada.
@@ -29,17 +31,17 @@ Esta edição do evento é organizada pelo Comitê Organizador Local da IOL, com
 
 # IOL
 
-A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimento em que estudantes de Ensino Médio se desafiam a resolver problemas complexos que envolvem línguas e linguística. Trata-se também da fase final das diferentes olimpíadas de linguística nacionais. O evento ocorre anualmente em um dos países participantes, durante cinco a sete dias, e reúne atualmente cerca de 40 delegações. Além das competições por medalhas, a IOL conta com atividades acadêmicas, culturais e lúdicas para os participantes, bem como promove ações para compartilhar boas práticas pedagógicas, aprimorar o ensino escolar e favorecer políticas públicas e iniciativas privadas envolvendo educação, língua e diversidade.
+A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimento em que estudantes de Ensino Médio se desafiam a resolver problemas complexos que envolvem línguas e linguística. Trata-se também da fase final das diferentes olimpíadas de linguística nacionais. O evento ocorre anualmente em um dos países participantes, durante cinco a sete dias, e reúne atualmente cerca de 40 delegações. Além das competições por medalhas, a IOL conta com atividades acadêmicas, culturais e lúdicas para os participantes, bem como promove ações para compartilhar boas práticas pedagógicas, aprimorar o ensino escolar e favorecer políticas públicas e iniciativas privadas envolvendo educação, língua e diversidade. Para saber mais, [leia aqui](https://iol2024.org/what) (em inglês)
 
 # Programação
 
 {{ schedule() }}
 
-Atenção! Todos os títulos são provisórios ainda.
-
 # Inscrição
 
-O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada, que estejam em atuação no Brasil. As inscrições para o evento devem ser feitas através do seguinte formulário. Inscrições abertas **até 20 de junho**.
+O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada, que estejam em atuação no Brasil. As inscrições para o evento devem ser feitas por meio do formulário abaixo. Inscrições abertas **até 20 de junho**.
+
+{{ single_button(link="https://forms.gle/17Z41YV8hkzt6fQe7", text="Inscreva-se aqui!")}}
 
 | <!-- --> | <!-- --> |
 |---|---|
