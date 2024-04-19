@@ -35,27 +35,27 @@ A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimen
 
 # Programação
 
-{{ schedule() }}
+Detalhes em breve.
 
 # Inscrição
 
-O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada, que estejam em atuação no Brasil. As inscrições para o evento devem ser feitas por meio do formulário abaixo. Inscrições abertas **até 20 de junho**.
+O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada do Brasil. As inscrições para o evento devem ser feitas por meio do formulário abaixo. Inscrições abertas **até 20 de junho**.
 
 {{ single_button(link="https://forms.gle/17Z41YV8hkzt6fQe7", text="Inscreva-se aqui!")}}
 
-| <!-- --> | <!-- --> |
-|---|---|
-| Gratuidade para DF | R$ 0,00 |
-| Até 20/06 | R$ 80,00 |
-| Inscrições na hora | R$ 100,00 |
+Para custear o evento, pedimos uma contribuição de inscrição, com o seguinte valor:
 
-Após preencher o formulário, solicitamos que efetue o pagamento mediante depósito bancário, conforme dados abaixo.
+| <!-- --> | <!-- --> |
+|---|---:|
+| Valor antecipado (para pagamento até 20/6) | R$&nbsp;80,00 |
+| Valor integral (para inscrição na hora do evento) | R$&nbsp;100,00 |
+| Isenção para professores da rede pública do Distrito Federal | R$&nbsp;0,00 |
+
+O pagamento pode ser feito através dos dados bancários abaixo. Solicitamos que envie o comprovante de depósito no preenchimento do formulário de inscrição.
 
 - Beneficiário: Instituto Vertere
-- CNPJ (e PIX): 29.078.053/0001-07
-- Banco Itaú
-- Agência 0445
-- Conta 93347-6
+- CNPJ e PIX: 29.078.053/0001-07
+- Banco Itaú | Agência 0445, Conta 93347-6
 
 
 # Para saber mais
