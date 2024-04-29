@@ -36,6 +36,12 @@ table {
     background-repeat: repeat-x;
     padding: 10px;
 }
+.urucum-divider {
+    width: 100%;
+    background-image: url(/cobra-urucum.svg);
+    background-repeat: repeat-x;
+    padding: 10px;
+}
 #sun-2 {
     margin-top: 20px;
 }

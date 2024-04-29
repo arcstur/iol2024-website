@@ -1,8 +1,8 @@
 # The URL the site will be built for
 base_url = "https://prof.iol2024.org"
 
-title = "I Encontro de Professores da IOL"
-description = "Site oficial do I Encontro de Professores da IOL"
+title = "Encontro de Professores da IOL"
+description = "Site oficial do Encontro de Professores da IOL"
 default_language = "pt"
 
 theme = "juice"
@@ -20,7 +20,7 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-juice_logo_name = "I Encontro de Professores da IOL"
+juice_logo_name = "IOL brasília 2024"
 juice_logo_path = "logo-header-sol.svg"
 juice_extra_menu = [
     { title = "Site principal", link = "https://iol2024.org"}
