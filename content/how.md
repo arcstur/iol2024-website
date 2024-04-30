@@ -32,14 +32,14 @@ Early Bird Registration: *In this modality, you should pay a 30% deposit by 1 Ma
 
 * Early Bird Registration opens: 28 January 2024
 * Early Bird Registration closes: 27 February 2024
-* Early Bird full payment has to be done by: 3 May 2024.
+* Early Bird full payment has to be done by: 20 May 2024.
 
 [Requesting of working languages](https://ioling.org/working_language/) ends: 12 February 2024
 
-Standard Registration: *In this modality, you should pay the full registration by 3 May 2024.*
+Standard Registration: *In this modality, you should pay the full registration by 20 May 2024.*
 
 * Standard Registration opens: 27 February 2024
-* Standard Registration closes: 27 April 2024
+* Standard Registration closes: 20 May 2024
 
 ## Fees
 
