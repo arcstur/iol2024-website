@@ -1,8 +1,8 @@
 # The URL the site will be built for
 base_url = "https://prof.iol2024.org"
 
-title = "Encontro de Professores da IOL"
-description = "Site oficial do Encontro de Professores da IOL"
+title = "Encontro de Professores com a IOL"
+description = "Site oficial do Encontro de Professores com a IOL"
 default_language = "pt"
 
 theme = "juice"
