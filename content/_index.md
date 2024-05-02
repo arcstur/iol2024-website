@@ -30,7 +30,7 @@ Esperamos, então, estimular e favorecer práticas de ensino-aprendizagem de por
 * promovam o respeito e a valorização da diversidade linguística e cultural no país e no mundo;
 * oportunizem atividades baseadas em autonomia, criatividade e investigação.
 
-Esta edição do evento é organizada pelo Comitê Organizador Local com a IOL, com o apoio do Instituto de Letras da Universidade de Brasília (IL/UnB), do Ministério da Ciência, Tecnologia e Informação (MCTI) e da Associação Brasileira de Linguística (ABRALIN).
+Esta edição do evento é organizada pelo Comitê Organizador Local da IOL, com o apoio do Instituto de Letras da Universidade de Brasília (IL/UnB), do Ministério da Ciência, Tecnologia e Informação (MCTI) e da Associação Brasileira de Linguística (ABRALIN).
 
 </details>
 
