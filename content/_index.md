@@ -9,13 +9,16 @@ Uma escola que valorize os diversos falares, línguas e culturas, instigue a cur
 
 Para compartilhar as experiências acumuladas das variadas olimpíadas nacionais de linguística e de outras iniciativas relacionadas, a Olimpíada Internacional de Linguística (IOL) realiza o seu **primeiro Encontro de Professores**. O objetivo do evento é divulgar a proposta pedagógica da olimpíada e espalhar práticas de ensino mais eficazes e significativas. Professores, pesquisadores e organizadores olímpicos de várias partes do globo estarão reunidos em Brasília para a Olimpíada, e aproveitarão sua presença para oferecer palestras e oficinas a professores das escolas brasileiras.
 
-Convidamos para o Encontro de Professores os **docentes brasileiros de escolas públicas e privadas**. Professores de todas as áreas são bem-vindos, mas fazemos o convite especialmente para os professores de língua materna e estrangeira. As atividades do Encontro de Professores da IOL ocorrerão em paralelo aos primeiros dias da olimpíada, 23 a 25 de julho de 2024, na Universidade de Brasília (UnB). Faça sua inscrição até o dia 20 de junho e venha se conectar com o espírito olímpico!
+Convidamos para o Encontro de Professores os **docentes brasileiros de escolas públicas e privadas**. Professores de todas as áreas são bem-vindos, mas fazemos o convite especialmente para os professores de língua materna e estrangeira. As atividades do Encontro de Professores com a IOL ocorrerão em paralelo aos primeiros dias da olimpíada, 23 a 25 de julho de 2024, na Universidade de Brasília (UnB). Faça sua inscrição até o dia 20 de junho e venha se conectar com o espírito olímpico!
 
 {{ single_button(link="#inscricao", text="Inscreva-se!", target="_self")}}
 
 # Proposta
 
-O Encontro de Professores da Olimpíada Internacional de Linguística é um evento de formação continuada para professores da Educação Básica – em especial para os que lecionam língua materna e língua estrangeira. Está em sua primeira edição e surgiu do desejo de compartilhar a gama de conhecimentos construídos em torno do movimento de olimpíadas de linguística para impactar positivamente o ensino escolar das localidades em que a IOL é sediada.
+<details>
+<summary> Leia ... <div class="down-button"></div> </summary>
+
+O Encontro de Professores com a Olimpíada Internacional de Linguística é um evento de formação continuada para professores da Educação Básica – em especial para os que lecionam língua materna e língua estrangeira. Está em sua primeira edição e surgiu do desejo de compartilhar a gama de conhecimentos construídos em torno do movimento de olimpíadas de linguística para impactar positivamente o ensino escolar das localidades em que a IOL é sediada.
 
 O tema desta edição põe em destaque três desafios para o ensino escolar: “Língua, Diversidade e Aprendizagem Ativa”. Infelizmente, em muitas escolas permanece como desafio abandonar a visão idealizada, padronizada e monolítica sobre a língua, que ignora e reprova suas manifestações naturais; superar o currículo que não reconhece a diversidade linguística e cultural; e rejeitar a perspectiva pedagógica que coloca os estudantes em posição passiva, tolhida e acrítica.
 
@@ -28,6 +31,8 @@ Esperamos, então, estimular e favorecer práticas de ensino-aprendizagem de por
 * oportunizem atividades baseadas em autonomia, criatividade e investigação.
 
 Esta edição do evento é organizada pelo Comitê Organizador Local da IOL, com o apoio do Instituto de Letras da Universidade de Brasília (IL/UnB), do Ministério da Ciência, Tecnologia e Informação (MCTI) e da Associação Brasileira de Linguística (ABRALIN).
+
+</details>
 
 # IOL
 
@@ -68,5 +73,5 @@ Se precisar entrar em contato, envie mensagem para o e-mail oficial do evento: [
 
 Siga também os perfis da Olimpíada Internacional de Linguística e da Olimpíada Brasileira de Linguística nas redes sociais.
 
-- [instagram da IOL](https://www.instagram.com/ioling.official)
+- [instagram com a IOL](https://www.instagram.com/ioling.official)
 - [instagram da OBL](https://www.instagram.com/obelegram)
