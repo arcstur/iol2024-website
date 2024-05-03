@@ -1,34 +1,66 @@
 {% set data = load_data(path="static/schedule.toml") %}
 <style>
   .grid-container {
-    display: grid;
-    overflow: auto;
+    display: flex;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    overflow-x: auto;
   }
 
   .week-day {
     display: flex;
-    min-width: 120px;
-    padding: 10px;
+    min-width: 80px;
+    height: 12px;
+
+    padding:2px;
     text-align: center;
     background-color: #f9bebe;
     border: 1px solid var(--primary-text-color);
     span {
         flex-grow: 1;
         align-self: center;
-        
     }
 }
 
   .day-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+  }
+  .time-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .time-interval {
+    display: flex;
+    text-align: center;
+    padding: 1px;
+    background-color: #b9d9f9;
+    span {
+        flex-grow: 1;
+        align-self: center;
+    }
+    position: relative;
+    height: 20px;
+  }
+
+  .time-divider {
+    position: absolute;
+    top: 11px;
+    width: 806px;
+    z-index: -999;
+    
+    height: 1px;
+    background-color: rgb(230, 230, 230);
   }
 
   .activity {
     display: flex;
-    flex: 1 1 0;
     text-align: center;
-    padding: 10px;
+    width: 84px;
     background-color: #ffd684;
     border: 1px solid var(--iol-yellow);
     span {
@@ -36,15 +68,28 @@
         align-self: center;
         
     }
+    position: absolute;
   }
 </style>
 
+
 <div class="grid-container">
+  <div class="time-row">
+    <div class="time-interval" style="max-height: 5px">
+      </div>
+    {% for time in data.timevalues %}
+      <div class="time-interval">
+        <span> {{ time.time }}</span>
+        <div class="time-divider"></div>
+      </div>
+    {% endfor %}
+    
+  </div>
   {% for day in data.days %}
   <div class="day-row">
     <div class="week-day"><span>{{ day.weekday }}, {{ day.name }}</span></div>
     {% for activity in day.activities %}
-    <div class="activity"> <span>{{ activity.name | safe }}</span></div>
+    <div class="activity" style="top: {{ (activity.start - 6) * 22 + 18}}px; height: {{ activity.duration * 22}}px"> <span>{{ activity.name | safe }}</span></div>
     {% endfor %}
   </div>
   {% endfor %}
