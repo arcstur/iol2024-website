@@ -46,18 +46,48 @@
     <span>{{ day.weekday }}, {{ day.name }}</span>
     </div>
   </div>
-  {% for activity in day.activities %}
-  <div class="day-row">
-    <div class="week-day"><span>{{ activity.start }} - {{ activity.end }}</span></div>
-    <div class="activity">
-      <span>
-        {{ activity.name | safe }}
-        {% if activity.who %}
-        <br><small> {{ activity.who | safe }} </small>
-        {% endif %}
-      </span>
+
+  {% set dayManha = day.activities | filter(attribute="periodTime", value="Manhã") %}
+  {% if dayManha | length > 0 %}
+    <div style="display: flex; flex-direction: row;">
+      <div class="week-day"><span>Manhã</span></div>
+      <div style="flex: 1">
+        {% for activity in dayManha %}
+          <div class="day-row" >
+            <div class="activity" >
+              <span>
+                {{ activity.name | safe }}
+                {% if activity.who %}
+                <br><small> {{ activity.who | safe }} </small>
+                {% endif %}
+              </span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      </div>
+    {% endif %}
+           
+  {% set dayTarde = day.activities | filter(attribute="periodTime", value="Tarde") %}
+  {% if dayTarde | length > 0 %}
+  <div style="display: flex; flex-direction: row;">
+    <div class="week-day"><span>Tarde</span></div>
+    <div style="flex: 1">
+      {% for activity in dayTarde %}
+        <div class="day-row" >
+          <div class="activity">
+            <span>
+              {{ activity.name | safe }}
+              {% if activity.who %}
+              <br><small> {{ activity.who | safe }} </small>
+              {% endif %}
+            </span>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
-  {% endfor %}
+  {% endif %}
+
   {% endfor %}
 </div>
