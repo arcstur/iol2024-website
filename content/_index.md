@@ -35,6 +35,8 @@ A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimen
 
 # Programação
 
+Programação provisória, sujeita a ajustes ao longo das próximas semanas.
+
 {{ schedule() }}
 
 # Inscrição
