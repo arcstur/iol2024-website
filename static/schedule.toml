@@ -21,6 +21,12 @@ weekday = "quarta-feira"
 periodTime = "Manhã"
 name = "Visita à IOL"
 
+[[days.activities]]
+start = "14h"
+end = "18h"
+periodTime = "Tarde"
+name = "Cerimônia de Abertura da IOL"
+
 
 
 [[days]]
