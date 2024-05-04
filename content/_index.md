@@ -15,9 +15,6 @@ Convidamos para o Encontro de Professores os **docentes brasileiros de escolas p
 
 # Proposta
 
-<details>
-<summary> Leia ... <div class="down-button"></div> </summary>
-
 O Encontro de Professores com a Olimpíada Internacional de Linguística é um evento de formação continuada para professores da Educação Básica – em especial para os que lecionam língua materna e língua estrangeira. Está em sua primeira edição e surgiu do desejo de compartilhar a gama de conhecimentos construídos em torno do movimento de olimpíadas de linguística para impactar positivamente o ensino escolar das localidades em que a IOL é sediada.
 
 O tema desta edição põe em destaque três desafios para o ensino escolar: “Língua, Diversidade e Aprendizagem Ativa”. Infelizmente, em muitas escolas permanece como desafio abandonar a visão idealizada, padronizada e monolítica sobre a língua, que ignora e reprova suas manifestações naturais; superar o currículo que não reconhece a diversidade linguística e cultural; e rejeitar a perspectiva pedagógica que coloca os estudantes em posição passiva, tolhida e acrítica.
@@ -32,15 +29,15 @@ Esperamos, então, estimular e favorecer práticas de ensino-aprendizagem de por
 
 Esta edição do evento é organizada pelo Comitê Organizador Local da IOL, com o apoio do Instituto de Letras da Universidade de Brasília (IL/UnB), do Ministério da Ciência, Tecnologia e Informação (MCTI) e da Associação Brasileira de Linguística (ABRALIN).
 
-</details>
-
 # IOL
 
 A Olimpíada Internacional de Linguística (IOL) é uma olimpíada de conhecimento em que estudantes de Ensino Médio se desafiam a resolver problemas complexos que envolvem línguas e linguística. Trata-se também da fase final das diferentes olimpíadas de linguística nacionais. O evento ocorre anualmente em um dos países participantes, durante cinco a sete dias, e reúne atualmente cerca de 40 delegações. Além das competições por medalhas, a IOL conta com atividades acadêmicas, culturais e lúdicas para os participantes, bem como promove ações para compartilhar boas práticas pedagógicas, aprimorar o ensino escolar e favorecer políticas públicas e iniciativas privadas envolvendo educação, língua e diversidade. Para saber mais, [leia aqui](https://iol2024.org/what) (em inglês)
 
 # Programação
 
-Detalhes em breve.
+Programação provisória, sujeita a ajustes ao longo das próximas semanas.
+
+{{ schedule() }}
 
 # Inscrição
 

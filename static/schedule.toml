@@ -3,45 +3,14 @@ name = "23/07"
 weekday = "terça-feira"
 
 [[days.activities]]
-name = "Credenciamento"
-start = "7h"
-end = "8h"
+periodTime = "Manhã"
+name = "O que são olimpíadas de linguística? Como resolver problemas de linguística? Como eles impactam a sala de aula?"
+who = "Bruno L’Astorina (Olimpíada Brasileira de Linguística) <br> Rodrigo Tiradentes (Olimpíada Brasileira de Linguística) <br> Eloisa Pilati (UnB) <br> Janaina Weissheimer (UFRN / Rede CpE) <br> Ivan Derjanski (Academia Búlgara de Ciências – Sofia) (Olimpíada de Linguística da Bulgária)"
 
 [[days.activities]]
-start = "8h"
-end = "8h45"
-name = "Abertura - Boas-vindas ao Universo Olímpico "
+periodTime = "Tarde"
+name = "Línguas e culturas indígenas"
 
-[[days.activities]]
-start = "8h45"
-end = "9h45"
-name = "Palestra 1 - Conhecendo as Olimpíadas de Linguística"
-
-[[days.activities]]
-start = "9h45"
-end = "10h"
-name = "Café"
-
-[[days.activities]]
-start = "10h"
-end = "12h"
-name = "Oficina 1 - Problemas de linguística em sala de aula"
-who = "Rodrigo Tiradentes (OBL / Olimpíada Brasileira de Linguística)"
-
-[[days.activities]]
-start = "13h30"
-end = "15h"
-name = "Oficina 2 - a definir Ivan Derjanski"
-
-[[days.activities]]
-start = "15h"
-end = "15h30"
-name = "Café"
-
-[[days.activities]]
-start = "15h30"
-end = "17h"
-name = "Oficina 3 - a definir"
 
 
 [[days]]
@@ -49,9 +18,15 @@ name = "24/07"
 weekday = "quarta-feira"
 
 [[days.activities]]
+periodTime = "Manhã"
+name = "Visita à IOL"
+
+[[days.activities]]
 start = "14h"
 end = "18h"
+periodTime = "Tarde"
 name = "Cerimônia de Abertura da IOL"
+
 
 
 [[days]]
@@ -61,44 +36,21 @@ weekday = "quinta-feira"
 [[days.activities]]
 start = "8h"
 end = "10h"
-name = "Oficina 4 - Gramaticoteca"
-who = "Prof. Eloisa Pilati (UnB)"
-
-[[days.activities]]
-start = "10h"
-end = "10h30"
-name = "Café"
+periodTime = "Manhã"
+name = "Consciência metalinguística e aprendizagem ativa"
+who = "Eloisa Pilati (UnB) <br> Bruno L’Astorina (Olimpíada Brasileira de Linguística)"
 
 [[days.activities]]
 start = "10h30"
 end = "11h"
-name = "Palestra 2 - Módulo de Olimpíada de Linguística nas escolas: relatos de experiências na Irlanda "
-who = "Cara Tighe (AILO / Olimpíada de Linguística da Irlanda)"
+periodTime = "Tarde"
+name = "Usando tradutores online gratuitos com aprendizes de línguas"
+who = "Harold Somers (Prof. emérito da Universidade de Manchester) (Olimpíada de Linguística da Irlanda) <br> *com tradução consecutiva"
 
 [[days.activities]]
 start = "11h"
 end = "12h"
-name = "Oficina 5 - a definir"
+periodTime = "Tarde"
+name = "Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
+who = "Janaina Weissheimer (UFRN / Rede CpE) <br> Nathalie Topaj (Centro Leibniz de Ciências da Linguagem) (Olimpíada de Linguística da Alemanha)"
 
-[[days.activities]]
-start = "13h30"
-end = "14h30"
-name = "Oficina 6 - Usando o Google Tradutor com aprendizes de língua"
-who = "Harold Somers (AILO / Olimpíada de Linguística da Irlanda)"
-
-[[days.activities]]
-start = "14h30"
-end = "15h"
-name = "Palestra 3 - Conhecimento linguístico"
-who = "Balaram Prasain (Hlon / Olimpíada de Linguística Computacional do Himalaia - Nepal) (Universidade Tribhuvan - Nepal) "
-
-[[days.activities]]
-start = "15h"
-end = "15h30"
-name = "Café"
-
-[[days.activities]]
-start = "15h30"
-end = "17h"
-name = "Palestra 4 - Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
-who = "Janaina Weissheimer (UFRN / Rede CpE) <br> Nathalie Topaj (DOL / Olimpíada Alemã de Linguística) (ZAS / Leibniz-Centre General Linguistics)"
