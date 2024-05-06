@@ -6,17 +6,53 @@ flag = "/country_flags/brazil.png"
 name = "United Kingdom"
 flag = "/country_flags/uk.png"
 
+[[countries.teams]]
+name = "United Kingdom"
+participants = [
+  "Alison Craig-Greene",
+  "Max Fisher-Ayres",
+  "Yipeng Xu",
+  "Zachary Yen",
+]
+
 [[countries]]
 name = "Thailand"
 flag = "/country_flags/thailand.png"
+
+[[countries.teams]]
+name = "Thailand"
+participants = [
+  "Pitchayapa Cusinsup",
+  "Siravit Sriboonjareanchai",
+  "Narongrith Artnarongrith",
+  "Tanupat Trakulthongchai",
+]
 
 [[countries]]
 name = "Ukraine"
 flag = "/country_flags/ukraine.png"
 
+[[countries.teams]]
+name = "Ukraine"
+participants = [
+  "Ostap Drushchak",
+  "Denys Tereshchenko",
+  "Oleksandra Gol'dina",
+  "Kateryna Berehulyak",
+]
+
 [[countries]]
 name = "Ireland"
 flag = "/country_flags/ireland.png"
+
+[[countries.teams]]
+name = "Ireland"
+participants = [
+  "Dáithí Butler",
+  "Paddy Clancy",
+  "Eliška Dvořáková",
+  "Patrick Chen",
+]
 
 [[countries]]
 name = "Germany"
@@ -95,9 +131,27 @@ flag = "/country_flags/canada.png"
 name = "Estonia"
 flag = "/country_flags/estonia.png"
 
+[[countries.teams]]
+name = "Estonia"
+participants = [
+  "Lisette-Liis Loorits",
+  "Margetta Pajuste",
+  "Karl-Erik Volberg",
+  "Margaret Braun",
+]
+
 [[countries]]
 name = "Netherlands"
 flag = "/country_flags/netherlands.png"
+
+[[countries.teams]]
+name = "Netherlands"
+participants = [
+  "Rens",
+  "Fiona",
+  "Matthijs",
+  "Andries",
+]
 
 [[countries]]
 name = "Vietnam"
@@ -119,9 +173,27 @@ flag = "/country_flags/india.png"
 name = "Israel"
 flag = "/country_flags/israel.png"
 
+[[countries.teams]]
+name = "Israel"
+participants = [
+  "Lev Ianushevich",
+  "Roman Roginsky",
+  "Martha Vogman",
+  "Olya Besova",
+]
+
 [[countries]]
 name = "Czechia"
 flag = "/country_flags/czechia.png"
+
+[[countries.teams]]
+name = "Czechia"
+participants = [
+  "Vít Černý",
+  "Richard Dobíšek",
+  "Miroslav Havel",
+  "Matěj Čapka",
+]
 
 [[countries]]
 name = "Bulgaria"
@@ -131,6 +203,15 @@ flag = "/country_flags/bulgaria.png"
 name = "Hong Kong"
 flag = "/country_flags/hong_kong.png"
 
+[[countries.teams]]
+name = "Hong Kong"
+participants = [
+  "Wong Tok Shing Henry",
+  "Ji Shu Ching",
+  "Choi John Nathaniel",
+  "Lin Cheuk Hang",
+]
+
 [[countries]]
 name = "Switzerland"
 flag = "/country_flags/switzerland.png"
@@ -139,28 +220,64 @@ flag = "/country_flags/switzerland.png"
 name = "Canada Francophone"
 flag = "/country_flags/canada_fr.png"
 
+[[countries.teams]]
+name = "Canada (FR)"
+participants = [
+  "Jonah Janzen",
+  "Mingzhe Li",
+  "Serine Shin",
+  "Jade Diwan",
+]
+
 [[countries]]
 name = "Belka Team"
 flag = "/country_flags/belka_team.png"
+
+[[countries.teams]]
+name = "Belka Team"
+participants = [
+  "Nadežda Efremova	",
+  "Ekaterina Churkina",
+  "Eleonora Stepanova",
+  "Mixail Nikitin",
+]
 
 [[countries]]
 name = "Nepal"
 flag = "/country_flags/nepal.png"
 no_box_shadow = true
 
-[[countries.teams]]
-name = "Nepal"
-participants = [
-  "test1",
-  "test4",
-  "test3",
-  "test2",
-]
-
 [[countries]]
 name = "Iran"
 flag = "/country_flags/iran.png"
 
+[[countries.teams]]
+name = "Iran (Islamic Republic of)"
+participants = [
+  "Amir Mahdi Jamshidiha",
+  "Farnam Ahmadian",
+  "Sara Toor",
+  "Mohammad Hassan Zare Bidaki",
+]
+
 [[countries]]
 name = "Sweden"
 flag = "/country_flags/sweden.png"
+
+[[countries.teams]]
+name = "Sweden Älg"
+participants = [
+  "Elisabet Xie",
+  "Jacob Strömgård",
+  "Elvin Runeson",
+  "Adam Ahlberg",
+]
+
+[[countries.teams]]
+name = "Sweden Mård"
+participants = [
+  "Moaaz Saad",
+  "Markus Farnebäck",
+  "William Eriksson",
+  "Allan Ismail",
+]
