@@ -281,3 +281,15 @@ participants = [
   "William Eriksson",
   "Allan Ismail",
 ]
+
+[[countries]]
+name = "Portugal"
+flag = "/country_flags/portugal.png"
+
+[[countries]]
+name = "Romania"
+flag = "/country_flags/romania.png"
+
+[[countries]]
+name = "Malta"
+flag = "/country_flags/malta.png"
