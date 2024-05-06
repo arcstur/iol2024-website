@@ -13,43 +13,78 @@
     max-height: 100px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+
+  .flex-container {
+    display: flex;
+  }
+
+  dialog::backdrop {
+    background-color: black;
+    opacity: 70%;
+  }
 </style>
 <div class="table-contaier">
   {% for country in data.countries | sort(attribute="name") %}
   <div class="country-container">
     {% if country.teams %}
-    <a style="cursor: pointer;"
+    <a
+      style="cursor: pointer"
       onclick="document.getElementById('dialog-{{ country.name }}').showModal()"
     >
-    {% endif %}
+      {% endif %}
 
-    <img
-    class = "country-flag"
-    src= {{ country.flag }}
-    {% if country.no_box_shadow %}
-      style="box-shadow: none;"
-    {% endif %}
-    />
-    <p style="text-align: center; padding: 0; margin: 0">{{ country.name }}</p>
+      <img
+        class="country-flag"
+        src={{ country.flag }}
+        {% if country.no_box_shadow %}
+        style="box-shadow: none"
+        {% endif %}
+      />
+      <p style="text-align: center; padding: 0; margin: 0">
+        {{ country.name }}
+      </p>
 
-    {% if country.teams %}
+      {% if country.teams %}
     </a>
-    <dialog id="dialog-{{ country.name }}">
-      <button
-        autofocus
-        onclick="document.getElementById('dialog-{{ country.name }}').close()"
-      >Close</button>
-      {% for team in country.teams %}
-      <h2>{{ team.name }}</h2>
-      <ul>
-        {% for participant in team.participants %}
-        <li>{{ participant }}</li>
-        {% endfor %}
-      </ul>
-      {% endfor %}
+    <dialog
+      id="dialog-{{ country.name }}"
+      style="padding: 0"
+      onmousedown="event.target==this && this.close()"
+    >
+      <div style="padding: 10px">
+        <img
+          src="icons/x.svg"
+          onclick="document.getElementById('dialog-{{ country.name }}').close()"
+          style="border: 0; padding: 4px; margin: 0;"
+        />
+
+        <div class="flex-container">
+          <div>
+            {% for team in country.teams %}
+            <h2>{{ team.name }}</h2>
+            <ul>
+              {% for participant in team.participants %}
+              <li>{{ participant }}</li>
+              {% endfor %}
+            </ul>
+            {% endfor %}
+          </div>
+          <div>
+            <img
+              class="country-flag"
+              src={{ country.flag }}
+              style="max-height: 50px;
+              margin-left: 30px;
+              {% if country.no_box_shadow %}
+              box-shadow: none; 
+              {% endif %}
+              "
+            />
+          </div>
+        </div>
+      </div>
     </dialog>
     {% endif %}
-
   </div>
   {% endfor %}
 </div>
