@@ -17,6 +17,12 @@
 <div class="table-contaier">
   {% for country in data.countries | sort(attribute="name") %}
   <div class="country-container">
+    {% if country.teams %}
+    <a style="cursor: pointer;"
+      onclick="document.getElementById('dialog-{{ country.name }}').showModal()"
+    >
+    {% endif %}
+
     <img
     class = "country-flag"
     src= {{ country.flag }}
@@ -25,20 +31,25 @@
     {% endif %}
     />
     <p style="text-align: center; padding: 0; margin: 0">{{ country.name }}</p>
-    <ul> 
-      {% if country.teams %}
-        {% for team in country.teams %}
-        <li>
-          <h2>{{ team.name }}</h2>
-          <ul>
-            {% for participant in team.participants %}
-            <li>{{ participant }}</li>
-            {% endfor %}
-          </ul>
-        </li>
+
+    {% if country.teams %}
+    </a>
+    <dialog id="dialog-{{ country.name }}">
+      <button
+        autofocus
+        onclick="document.getElementById('dialog-{{ country.name }}').close()"
+      >Close</button>
+      {% for team in country.teams %}
+      <h2>{{ team.name }}</h2>
+      <ul>
+        {% for participant in team.participants %}
+        <li>{{ participant }}</li>
         {% endfor %}
-      {% endif %}
-    </ul>
+      </ul>
+      {% endfor %}
+    </dialog>
+    {% endif %}
+
   </div>
   {% endfor %}
 </div>

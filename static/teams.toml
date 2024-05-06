@@ -1,9 +1,6 @@
 [[countries]]
 name = "Brazil"
 flag = "/country_flags/brazil.png"
-# [[countries.teams]]
-# name = "Brazil 1"
-# participants = ["Fulano 1", "Fulana 2", "Fulano 3", "Fulana 4"]
 
 [[countries]]
 name = "United Kingdom"
@@ -68,6 +65,15 @@ flag = "/country_flags/taiwan.png"
 [[countries]]
 name = "Slovenia"
 flag = "/country_flags/slovenia.png"
+
+[[countries.teams]]
+name = "Slovenia"
+participants = [
+  "Patricia Király",
+  "Brest Lenarčič",
+  "Bruno Žižmund",
+  "Nives Gošnjak",
+]
 
 [[countries]]
 name = "Republic of Moldova"
