@@ -22,6 +22,12 @@
     background-color: black;
     opacity: 70%;
   }
+
+  dialog {
+    outline: none;
+    padding: 0;
+    border: 0;
+  }
 </style>
 <div class="table-contaier">
   {% for country in data.countries | sort(attribute="name") %}
@@ -48,7 +54,6 @@
     </a>
     <dialog
       id="dialog-{{ country.name }}"
-      style="padding: 0"
       onmousedown="event.target==this && this.close()"
     >
       <div style="padding: 10px">
