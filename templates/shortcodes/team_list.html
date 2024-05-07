@@ -68,8 +68,12 @@
             {% for team in country.teams %}
             <h2>{{ team.name }}</h2>
             <p style="margin: 0px; margin-left: 20px;">
-              <strong>Team leader:</strong> {{ team.team_leader }}
+              <strong>Team leader:</strong>
             </p>
+            <ul style="margin-top: 0px">
+              <li>{{ team.team_leader }}</li>
+            </ul>
+            
             <p style="margin: 0px; margin-left: 20px">
               <strong>Contestants:</strong>
             </p>
@@ -85,7 +89,6 @@
               class="country-flag"
               src={{ country.flag }}
               style="max-height: 50px;
-              margin-left: 30px;
               margin-right: 20px;
               {% if country.no_box_shadow %}
               box-shadow: none; 
