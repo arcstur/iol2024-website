@@ -67,7 +67,13 @@
           <div>
             {% for team in country.teams %}
             <h2>{{ team.name }}</h2>
-            <ul>
+            <p style="margin: 0px; margin-left: 20px;">
+              <strong>Team leader:</strong> {{ team.team_leader }}
+            </p>
+            <p style="margin: 0px; margin-left: 20px">
+              <strong>Contestants:</strong>
+            </p>
+            <ul style="margin-top: 0px">
               {% for participant in team.participants %}
               <li>{{ participant }}</li>
               {% endfor %}
