@@ -13,32 +13,111 @@
     max-height: 100px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+
+  .flex-container {
+    display: flex;
+  }
+
+  dialog::backdrop {
+    background-color: black;
+    opacity: 70%;
+  }
+
+  dialog {
+    outline: none;
+    padding: 0;
+    border: 0;
+  }
 </style>
 <div class="table-contaier">
   {% for country in data.countries | sort(attribute="name") %}
   <div class="country-container">
-    <img
-    class = "country-flag"
-    src= {{ country.flag }}
-    {% if country.no_box_shadow %}
-      style="box-shadow: none;"
-    {% endif %}
-    />
-    <p style="text-align: center; padding: 0; margin: 0">{{ country.name }}</p>
-    <ul> 
-      {% if country.teams %}
-        {% for team in country.teams %}
-        <li>
-          <h2>{{ team.name }}</h2>
-          <ul>
-            {% for participant in team.participants %}
-            <li>{{ participant }}</li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endfor %}
+    {% if country.teams %}
+    <a
+      style="cursor: pointer"
+      onclick="document.getElementById('dialog-{{ country.name }}').showModal()"
+    >
       {% endif %}
-    </ul>
+
+      <img
+        class="country-flag"
+        src={{ country.flag }}
+        {% if country.no_box_shadow %}
+        style="box-shadow: none"
+        {% endif %}
+      />
+      <p style="text-align: center; padding: 0; margin: 0">
+        {{ country.name }}
+      </p>
+
+      {% if country.teams %}
+    </a>
+    <dialog
+      id="dialog-{{ country.name }}"
+      onmousedown="event.target==this && this.close()"
+    >
+      <div style="padding: 10px">
+        <img
+          src="/icons/x.svg"
+          onclick="document.getElementById('dialog-{{ country.name }}').close()"
+          style="border: 0; padding: 4px; margin: 0; cursor: pointer;"
+        />
+
+        <div class="flex-container">
+          <div>
+            {% for team in country.teams %}
+            <h2>{{ team.name }}</h2>
+            <p style="margin: 0px; margin-left: 20px;">
+              <strong>Team leader:</strong>
+            </p>
+            <ul style="margin-top: 0px">
+              <li>{{ team.team_leader }}</li>
+            </ul>
+            
+            <p style="margin: 0px; margin-left: 20px">
+              <strong>Contestants:</strong>
+            </p>
+            <ul style="margin-top: 0px">
+              {% for participant in team.participants %}
+              <li>{{ participant }}</li>
+              {% endfor %}
+            </ul>
+            {% endfor %}
+
+            {% if country.observers %}
+            {% for observer in country.observers %}
+            <p
+              {% if country.teams|length == 1 %}
+              style="margin: 0px; margin-left: 20px;"
+              {% elif country.teams|length >= 2 %}
+              style="margin: 0px; margin-left: 7px;"
+              {% endif %}
+            >
+              <strong>Observers:</strong>
+            </p>
+            <ul style="margin-top: 0px">
+              <li>{{ observer }}</li>
+            </ul>
+            {% endfor %}
+            {% endif %}
+
+          </div>
+          <div>
+            <img
+              class="country-flag"
+              src={{ country.flag }}
+              style="max-height: 50px;
+              margin-right: 20px;
+              {% if country.no_box_shadow %}
+              box-shadow: none; 
+              {% endif %}
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </dialog>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
