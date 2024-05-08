@@ -86,6 +86,16 @@ flag = "/country_flags/bangladesh.png"
 name = "Latvia"
 flag = "/country_flags/latvia.png"
 
+[[countries.teams]]
+name = "Latvia"
+team_leader = "Vladimirs Ļitvinskis"
+participants = [
+  "Anna Loseva",
+  "Varvara Gromova",
+  "Matěj Čapka",
+  "Vít Černý",
+]
+
 [[countries]]
 name = "Finland"
 flag = "/country_flags/finland.png"
