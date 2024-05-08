@@ -5,6 +5,9 @@ flag = "/country_flags/brazil.png"
 [[countries]]
 name = "United Kingdom"
 flag = "/country_flags/uk.png"
+observers = [
+  "Daniel Turaev",
+]
 
 [[countries.teams]]
 name = "United Kingdom"
@@ -19,6 +22,9 @@ participants = [
 [[countries]]
 name = "Thailand"
 flag = "/country_flags/thailand.png"
+observers = [
+  "Natchanan Natpratan",
+]
 
 [[countries.teams]]
 name = "Thailand"
@@ -47,6 +53,9 @@ participants = [
 [[countries]]
 name = "Ireland"
 flag = "/country_flags/ireland.png"
+observers = [
+  "Harold Somers",
+]
 
 [[countries.teams]]
 name = "Ireland"
@@ -85,6 +94,9 @@ flag = "/country_flags/bangladesh.png"
 [[countries]]
 name = "Latvia"
 flag = "/country_flags/latvia.png"
+observers = [
+  "Ata Krūmiņa",
+]
 
 [[countries.teams]]
 name = "Latvia"
@@ -212,6 +224,9 @@ flag = "/country_flags/bulgaria.png"
 [[countries]]
 name = "Hong Kong"
 flag = "/country_flags/hong_kong.png"
+observers = [
+  "Lok Hang Tam",
+]
 
 [[countries.teams]]
 name = "Hong Kong"
@@ -244,6 +259,9 @@ participants = [
 [[countries]]
 name = "Belka Team"
 flag = "/country_flags/belka_team.png"
+observers = [
+  "Anastasiia Puchkova",
+]
 
 [[countries.teams]]
 name = "Belka Team"
@@ -313,6 +331,9 @@ flag = "/country_flags/malta.png"
 [[countries]]
 name = "Philippines"
 flag = "/country_flags/philippines.png"
+observers = [
+  "Emerita Danac",
+]
 
 [[countries.teams]]
 name = "Philippines"
