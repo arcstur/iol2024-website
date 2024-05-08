@@ -150,15 +150,6 @@ participants = [
 name = "Netherlands"
 flag = "/country_flags/netherlands.png"
 
-[[countries.teams]]
-name = "Netherlands"
-team_leader = "Charlotte"
-participants = [
-  "Rens",
-  "Fiona",
-  "Matthijs",
-  "Andries",
-]
 
 [[countries]]
 name = "Vietnam"
