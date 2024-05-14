@@ -225,17 +225,17 @@ flag = "/country_flags/bulgaria.png"
 name = "Hong Kong"
 flag = "/country_flags/hong_kong.png"
 observers = [
-  "Lok Hang Tam",
+  "Ian Tam", # Tam Lok Hang
 ]
 
 [[countries.teams]]
 name = "Hong Kong"
-team_leader = "Vlad A. Neacșu"
+team_leader = "Vlad A. Neacșu" # Vlad-Andrei Neacșu
 participants = [
-  "Wong Tok Shing Henry",
-  "Ji Shu Ching",
-  "Choi John Nathaniel",
-  "Lin Cheuk Hang",
+  "Choi John Nathaniel", # Choi John Nathaniel
+  "Daniel Lin", # Lin Cheuk Hang
+  "Henry Wong", # Wong Tok Shing Henry
+  "Maxwell Ji", # Ji Shu Ching
 ]
 
 [[countries]]
