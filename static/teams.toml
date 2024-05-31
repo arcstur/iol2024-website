@@ -88,10 +88,6 @@ name = "Colombia"
 flag = "/country_flags/colombia.png"
 
 [[countries]]
-name = "Bangladesh"
-flag = "/country_flags/bangladesh.png"
-
-[[countries]]
 name = "Latvia"
 flag = "/country_flags/latvia.png"
 observers = [
@@ -171,6 +167,16 @@ participants = [
 [[countries]]
 name = "Netherlands"
 flag = "/country_flags/netherlands.png"
+
+[[countries.teams]]
+name = "Netherlands"
+team_leader = "Charlotte Wennekes"
+participants = [
+  "Fiona Haarbrink",
+  "Rens van Haaster",
+  "Hu-Yen Tang",
+  "Andries Zijlstra",
+]
 
 
 [[countries]]
