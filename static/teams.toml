@@ -71,6 +71,26 @@ participants = [
 name = "Germany"
 flag = "/country_flags/germany.png"
 
+[[countries.teams]]
+name = "Eszett"
+team_leader = "André Meinunger"
+participants = [
+  "Tara-Yasmin Heil",
+  "Stella Heinzelmann",
+  "Lennart Zenker",
+  "Eva Lotte Lindner",
+]
+
+[[countries.teams]]
+name = "Umlaut"
+team_leader = "Nathalie Topaj"
+participants = [
+  "Daniel Pahi",
+  "Leonard Kottisch",
+  "Philipp Lörcks",
+  "Mikhail Iomdin",
+]
+
 [[countries]]
 name = "Australia"
 flag = "/country_flags/australia.png"
@@ -79,9 +99,39 @@ flag = "/country_flags/australia.png"
 name = "Malaysia"
 flag = "/country_flags/malaysia.png"
 
+[[countries.teams]]
+name = "Malaysia"
+team_leader = "Deborah Chow"
+participants = [
+  "Lim Ming Wen",
+  "Tan Yu Xuan",
+  "Leang Kar Men",
+  "Adib Asyraf Bin Abdul Aziz",
+]
+
 [[countries]]
 name = "China"
 flag = "/country_flags/china.png"
+
+[[countries.teams]]
+name = "China Team Kun"
+team_leader = "Miao Di"
+participants = [
+  "Guo, Tianyuan",
+  "Yiling Jiang",
+  "Zhu, Yucheng",
+  "Li, Zhengze",
+]
+
+[[countries.teams]]
+name = "China Team Qian"
+team_leader = "Yili"
+participants = [
+  "Liu Jiahong",
+  "Yijin Gui",
+  "Wen Feiran",
+  "He Jianxing",
+]
 
 [[countries]]
 name = "Colombia"
@@ -108,6 +158,16 @@ participants = [
 name = "Finland"
 flag = "/country_flags/finland.png"
 
+[[countries.teams]]
+name = "Finland"
+team_leader = "Emma Vesakoivu"
+participants = [
+  "Emilia Ovaskainen",
+  "Inka Pekkola",
+  "Emma Suomalainen",
+  "Terho Thorel",
+]
+
 [[countries]]
 name = "Japan"
 flag = "/country_flags/japan.png"
@@ -116,9 +176,49 @@ flag = "/country_flags/japan.png"
 name = "Republic of Korea"
 flag = "/country_flags/south_korea.webp"
 
+[[countries.teams]]
+name = "Korea Hae"
+team_leader = "Jaeyeong Yang"
+participants = [
+  "Nayoon Goo",
+  "Solyeop Kim",
+  "Ahreum Ryu",
+  "Gyuhwa Lee",
+]
+
+[[countries.teams]]
+name = "Korea Dal"
+team_leader = "Sooyoun Im"
+participants = [
+  "Seoyeon Ku",
+  "Gangrae Kim",
+  "Sihoo Lee",
+  "Jaehyun Lee",
+]
+
 [[countries]]
 name = "Taiwan"
 flag = "/country_flags/taiwan.png"
+
+[[countries.teams]]
+name = "Taiwan Blue Magpie"
+team_leader = "Grace Kuo"
+participants = [
+  "Li-Bang Chen",
+  "Jen-Chien Hou",
+  "Yu-Chiao Liao",
+  "Po-Hsiang Wang",
+]
+
+[[countries.teams]]
+name = "Taiwan Black Bear"
+team_leader = "Chenhao Chiu"
+participants = [
+  "Bo-Siang Chen",
+  "Cheng-You Ko",
+  "Eric Wu",
+  "Samantha Kao",
+]
 
 [[countries]]
 name = "Slovenia"
@@ -142,6 +242,16 @@ flag = "/country_flags/moldova.png"
 name = "Kazakhstan"
 flag = "/country_flags/kazakhstan.png"
 
+[[countries.teams]]
+name = "Kazakhstan"
+team_leader = "Mukash Gulsara"
+participants = [
+  "Glukhikh Yegor",
+  "Darkhan Poyezkanov",
+  "Galymzhankyzy Amina",
+  "Yessenkulov Yelizar",
+]
+
 [[countries]]
 name = "Poland"
 flag = "/country_flags/poland.png"
@@ -149,6 +259,16 @@ flag = "/country_flags/poland.png"
 [[countries]]
 name = "Canada Anglophone"
 flag = "/country_flags/canada.png"
+
+[[countries.teams]]
+name = "Canada (EN)"
+team_leader = "Ken Jiang"
+participants = [
+  "Marvin Mao",
+  "Aidan Wang",
+  "Perry Dai",
+  "Sophia Davis Morris",
+]
 
 [[countries]]
 name = "Estonia"
@@ -174,10 +294,9 @@ team_leader = "Charlotte Wennekes"
 participants = [
   "Fiona Haarbrink",
   "Rens van Haaster",
-  "Hu-Yen Tang",
+  "Matthijs Tang",
   "Andries Zijlstra",
 ]
-
 
 [[countries]]
 name = "Vietnam"
@@ -186,6 +305,26 @@ flag = "/country_flags/vietnam.png"
 [[countries]]
 name = "United States of America"
 flag = "/country_flags/usa.png"
+
+[[countries.teams]]
+name = "United States of America"
+team_leader = "Lorraine Levin"
+participants = [
+  "Jonathan Sakunkoo",
+  "Deeraj Pothapragada",
+  "Jonathan Ding",
+  "Aaron Chai",
+]
+
+[[countries.teams]]
+name = "United States of America 2"
+team_leader = "Robin Hammer"
+participants = [
+  "Devin Joe",
+  "Varin Sikka",
+  "Linus Law",
+  "Kevin Wang",
+]
 
 [[countries]]
 name = "Hungary"
@@ -334,6 +473,16 @@ flag = "/country_flags/romania.png"
 name = "Malta"
 flag = "/country_flags/malta.png"
 
+[[countries.teams]]
+name = "Maltilinguals"
+team_leader = "Sandra Vella"
+participants = [
+  "Jade Xuereb",
+  "Shanel Cassar",
+  "Ariana McCarthy",
+  "Carlo Rossi",
+]
+
 [[countries]]
 name = "Philippines"
 flag = "/country_flags/philippines.png"
@@ -349,4 +498,18 @@ participants = [
   "Maddigan Hailey Sy",
   "Rainier Roi Tayam",
   "Erika Fiel Danac",
+]
+
+[[countries]]
+name = "Singapore"
+flag = "/country_flags/singapore.png"
+
+[[countries.teams]]
+name = "Singapore"
+team_leader = "Chong Han"
+participants = [
+  "Cheng Dylan Shiying",
+  "Tan Junheng",
+  "Jaeden Soon Chuankai",
+  "Yutong Heng",
 ]
