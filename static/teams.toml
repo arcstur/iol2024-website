@@ -106,7 +106,7 @@ participants = [
   "Lim Ming Wen",
   "Tan Yu Xuan",
   "Leang Kar Men",
-  "ADIB ASYRAF BIN ABDUL AZIZ",
+  "Adib Asyraf Bin Abdul Aziz",
 ]
 
 [[countries]]
@@ -115,22 +115,22 @@ flag = "/country_flags/china.png"
 
 [[countries.teams]]
 name = "China Team Kun"
-team_leader = "MIAO DI"
+team_leader = "Miao Di"
 participants = [
-  "GUO, TIANYUAN",
-  "YILING JIANG",
-  "ZHU, YUCHENG",
-  "LI, ZHENGZE",
+  "Guo, Tianyuan",
+  "Yiling Jiang",
+  "Zhu, Yucheng",
+  "Li, Zhengze",
 ]
 
 [[countries.teams]]
 name = "China Team Qian"
-team_leader = "YILI"
+team_leader = "Yili"
 participants = [
-  "LIU JIAHONG",
-  "YIJIN GUI",
-  "WEN FEIRAN",
-  "HE JIANXING",
+  "Liu Jiahong",
+  "Yijin Gui",
+  "Wen Feiran",
+  "He Jianxing",
 ]
 
 [[countries]]
