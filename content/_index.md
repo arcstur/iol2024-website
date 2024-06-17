@@ -9,7 +9,7 @@ Uma escola que valorize os diversos falares, línguas e culturas, instigue a cur
 
 Para compartilhar as experiências acumuladas das variadas olimpíadas nacionais de linguística e de outras iniciativas relacionadas, a Olimpíada Internacional de Linguística (IOL) realiza o seu **primeiro Encontro de Professores**. O objetivo do evento é divulgar a proposta pedagógica da olimpíada e espalhar práticas de ensino mais eficazes e significativas. Professores, pesquisadores e organizadores olímpicos de várias partes do globo estarão reunidos em Brasília para a Olimpíada, e aproveitarão sua presença para oferecer palestras e oficinas a professores das escolas brasileiras.
 
-Convidamos para o Encontro de Professores os **docentes brasileiros de escolas públicas e privadas**. Professores de todas as áreas são bem-vindos, mas fazemos o convite especialmente para os professores de língua materna e estrangeira. As atividades do Encontro de Professores com a IOL ocorrerão em paralelo aos primeiros dias da olimpíada, 23 a 25 de julho de 2024, na Universidade de Brasília (UnB). Faça sua inscrição até o dia 10 de julho e venha se conectar com o espírito olímpico!
+Convidamos para o Encontro de Professores os **docentes brasileiros de escolas públicas e privadas**. Professores de todas as áreas são bem-vindos, mas fazemos o convite especialmente para os professores de língua materna e estrangeira. As atividades do Encontro de Professores com a IOL ocorrerão em paralelo aos primeiros dias da olimpíada, 23 a 25 de julho de 2024, na Universidade de Brasília (UnB). Faça sua inscrição até o dia <s>20 de junho</s> 10 de julho e venha se conectar com o espírito olímpico!
 
 {{ single_button(link="#inscricao", text="Inscreva-se!", target="_self")}}
 
@@ -41,7 +41,7 @@ Programação provisória, sujeita a ajustes ao longo das próximas semanas.
 
 # Inscrição
 
-O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada do Brasil. As inscrições para o evento devem ser feitas por meio do formulário abaixo. Inscrições abertas **até 10 de julho**.
+O evento é aberto para todos os profissionais da Educação Básica, da rede pública e privada do Brasil. As inscrições para o evento devem ser feitas por meio do formulário abaixo. Inscrições abertas <s>até 20 de junho</s> **até 10 de julho**.
 
 {{ single_button(link="https://forms.gle/17Z41YV8hkzt6fQe7", text="Inscreva-se aqui!")}}
 
