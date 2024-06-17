@@ -15,9 +15,10 @@
     {% endif %}
     {% endfor %}
     {% if config.extra.juice_extra_menu %}
-        {% for menu in config.extra.juice_extra_menu %}
-        <a class="nav-item subtitle-text" href="{{ menu.link | safe }}">{{ menu.title }}</a>
-        {% endfor %}
+    {% for menu in config.extra.juice_extra_menu %}
+    <a class="nav-item subtitle-text" href="{{ menu.link | safe }}">{{ menu.title }}</a>
+    {% endfor %}
     {% endif %}
+    <a class="nav-item subtitle-text" href="https://prof.iol2024.org/">Teachers</a>
 </nav>
 {% endmacro render_header %}
