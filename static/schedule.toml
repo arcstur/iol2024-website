@@ -109,10 +109,6 @@ duration = 3
 name = "Lunch + City Walk"
 start = 12
 duration = 4
-[[days.activities]]
-name = "Dinner"
-start = 18
-duration = 2
 
 [[days]]
 name = "July 29"
