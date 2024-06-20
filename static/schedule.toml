@@ -2,7 +2,7 @@
 name = "July 23"
 weekday = "Tue"
 [[days.activities]]
-name = "Arrivals"
+name = "Arrivals <br>Registering"
 start = 6
 duration = 16
 
@@ -10,85 +10,161 @@ duration = 16
 name = "July 24"
 weekday = "Wed"
 [[days.activities]]
-name = "Opening Ceremory"
-start = 7
+name = "Breakfast"
+start = 6
 duration = 2
 [[days.activities]]
 name = "Integration Games"
-start = 12
-duration = 3
+start = 8.5
+duration = 2.5
+[[days.activities]]
+name = "Lunch with Ambassadors"
+start = 11.5
+duration = 3.5
+[[days.activities]]
+name = "Opening Lecture"
+start = 15.5
+duration = 1
+[[days.activities]]
+name = "Dinner"
+start = 17
+duration = 1
+[[days.activities]]
+name = "Opening Ceremory"
+start = 19
+duration = 2.5
 
 [[days]]
 name = "July 25"
 weekday = "Thu"
 [[days.activities]]
+name = "Breakfast"
+start = 6
+duration = 2
+[[days.activities]]
 name = "IOLwiki"
-start = 10
-duration = 4
+start = 8.7
+duration = 3.3
+[[days.activities]]
+name = "Lunch"
+start = 12.5
+duration = 1.5
 [[days.activities]]
 name = "City Tour"
-start = 10
-duration = 10
+start = 14
+duration = 4
+[[days.activities]]
+name = "Dinner"
+start = 18
+duration = 1.5
+[[days.activities]]
+name = "Brasília Orchestra"
+start = 20
+duration = 1.5
 
 [[days]]
 name = "July 26"
 weekday = "Fri"
 [[days.activities]]
+name = "Breakfast"
+start = 6
+duration = 2
+[[days.activities]]
 name = "<strong>Individual Contest</strong>"
 start = 9
 duration = 6
 [[days.activities]]
-name = "Party"
-start = 18
+name = "June festivities"
+start = 17
 duration = 4
 
 [[days]]
 name = "July 27"
 weekday = "Sat"
 [[days.activities]]
+name = "Breakfast"
+start = 6
+duration = 2
+[[days.activities]]
 name = "Excursion"
 start = 8
 duration = 10
+[[days.activities]]
+name = "Dinner"
+start = 18
+duration = 1.5
 
 [[days]]
 name = "July 28"
 weekday = "Sun"
 [[days.activities]]
-name = "Cultural and Learning activities in Brasília"
-start = 8
-duration = 10
+name = "Breakfast"
+start = 6
+duration = 2
+[[days.activities]]
+name = "Indigenous Culture Activities"
+start = 8.5
+duration = 3
+[[days.activities]]
+name = "Lunch + City Walk"
+start = 12
+duration = 4
+[[days.activities]]
+name = "Dinner"
+start = 18
+duration = 2
 
 [[days]]
 name = "July 29"
 weekday = "Mon"
 [[days.activities]]
+name = "Breakfast"
+start = 6
+duration = 2
+[[days.activities]]
 name = "<strong>Team Contest</strong>"
 start = 9
-duration = 6
+duration = 4
+[[days.activities]]
+name = "Lunch"
+start = 13
+duration = 1.5
+[[days.activities]]
+name = "Lecture"
+start = 16
+duration = 1
+[[days.activities]]
+name = "Dinner"
+start = 18
+duration = 1.5
 [[days.activities]]
 name = "IOL Quiz"
-start = 18
+start = 20
 duration = 2
 
 [[days]]
 name = "July 30"
 weekday = "Tue"
 [[days.activities]]
-name = "Solution Presentation"
+name = "Breakfast"
+start = 6
+duration = 2
+[[days.activities]]
+name = "Problem Solutions"
 start = 9
-duration = 3
+duration = 1.5
+[[days.activities]]
+name = "Lunch"
+start = 12
+duration = 2
 [[days.activities]]
 name = "Closing Ceremony"
-start = 13
-duration = 2
-[[days.activities]]
-name = "IOL's Got Talent"
-start = 16
-duration = 2
+start = 15
+duration = 2.5
 [[days.activities]]
 name = "Farewell Party"
-start = 19
-duration = 3
+start = 19.5
+duration = 2.5
 
 [[days]]
 name = "July 31"
