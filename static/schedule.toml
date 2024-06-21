@@ -1,174 +1,310 @@
 [[days]]
 name = "July 23"
 weekday = "Tue"
+
 [[days.activities]]
 name = "Arrivals <br>Registering"
 start = 6
 duration = 16
+interval = "6:00 - 22:00"
+background = "#f0f0f0"
+location = "Hotel"
+
 
 [[days]]
 name = "July 24"
 weekday = "Wed"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
 name = "Integration Games"
 start = 8.5
 duration = 2.5
+interval = "8:30 - 11:00"
+location = "Parque da Cidade / Torre de TV"
+
 [[days.activities]]
-name = "Lunch with Ambassadors"
+name = "Program with Embassies"
 start = 11.5
 duration = 3.5
+interval = "11:30 - 15:00"
+background = "#fcfcc5"
+location = "Embassies"
+
 [[days.activities]]
 name = "Opening Lecture"
 start = 15.5
 duration = 1
+interval = "15:30 - 16:30"
+location = "ADUnB"
+
 [[days.activities]]
 name = "Dinner"
 start = 17
 duration = 1
+interval = "17:00 - 18:00"
+location = "UnB RU"
+
+background = "#fcfcc5"
 [[days.activities]]
 name = "Opening Ceremory"
 start = 19
 duration = 2.5
+interval = "19:00 - 21:30"
+location = "ADUnB"
+
 
 [[days]]
 name = "July 25"
 weekday = "Thu"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
-name = "IOLwiki"
+name = "Wikidata IOLab"
 start = 8.7
 duration = 3.3
+interval = "8:40 - 12:00"
+location = "Memorial Darcy Ribeiro"
+
 [[days.activities]]
 name = "Lunch"
 start = 12.5
 duration = 1.5
+interval = "12:30 - 14:00"
+background = "#fcfcc5"
+location = "UnB RU"
+
 [[days.activities]]
 name = "City Tour"
 start = 14
 duration = 4
+interval = "14:00 - 18:00"
+location = "Brasília"
+
 [[days.activities]]
 name = "Dinner"
 start = 18
 duration = 1.5
-[[days.activities]]
-name = "Brasília Orchestra"
-start = 20
-duration = 1.5
+interval = "18:00 - 19:30"
+background = "#fcfcc5"
+
 
 [[days]]
 name = "July 26"
 weekday = "Fri"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
 name = "<strong>Individual Contest</strong>"
 start = 9
 duration = 6
+interval = "9:00 - 15:00"
+background = "#dbffb8"
+location = "UnB - Salas BSAS"
+
 [[days.activities]]
-name = "June festivities"
+name = "Juline Party"
 start = 17
 duration = 4
+interval = "17:00 - 21:00"
+background = "#e5b5ff"
+location = "Seriös School"
+
 
 [[days]]
 name = "July 27"
 weekday = "Sat"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
 name = "Excursion"
 start = 8
 duration = 10
+interval = "8:00 - 18:00"
+background = "#b8e6ff"
+location = "Salto do Itiquira"
+
 [[days.activities]]
 name = "Dinner"
 start = 18
 duration = 1.5
+interval = "18:00 - 19:30"
+background = "#fcfcc5"
+location = "Hotel"
+
 
 [[days]]
 name = "July 28"
 weekday = "Sun"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
-name = "Indigenous Culture Activities"
+name = "Meeting with Indigenous Leaders"
 start = 8.5
 duration = 3
+interval = "8:30 - 11:30"
+location = "Memorial dos Povos Indigenas"
+
 [[days.activities]]
-name = "Lunch + City Walk"
+name = "Lunch with Families"
 start = 12
 duration = 4
+interval = "12:00 - 16:00"
+background = "#fcfcc5"
+
+[[days.activities]]
+name = "Cinema Session"
+start = 18
+duration = 2
+interval = "18:00 - 20:00"
+location = "Cine Brasília"
+
 
 [[days]]
 name = "July 29"
 weekday = "Mon"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
 name = "<strong>Team Contest</strong>"
 start = 9
 duration = 4
+interval = "9:00 - 13:00"
+background = "#dbffb8"
+location = "UnB - BSAS"
+
 [[days.activities]]
 name = "Lunch"
 start = 13
 duration = 1.5
+interval = "13:00 - 14:30"
+background = "#fcfcc5"
+location = "UnB RU"
+
 [[days.activities]]
-name = "Lecture"
+name = "Lecture 1"
 start = 16
 duration = 1
+interval = "16:00 - 17:00"
+
+[[days.activities]]
+name = "Lecture 2"
+start = 17
+duration = 1
+interval = "17:00 - 18:00"
+
 [[days.activities]]
 name = "Dinner"
 start = 18
 duration = 1.5
+interval = "18:00 - 19:30"
+background = "#fcfcc5"
+location = "UnB"
+
 [[days.activities]]
 name = "IOL Quiz"
 start = 20
 duration = 2
+interval = "20:00 - 22:00"
+location = "Seriös School"
+
 
 [[days]]
 name = "July 30"
 weekday = "Tue"
+
 [[days.activities]]
 name = "Breakfast"
 start = 6
 duration = 2
+interval = "6:00 - 8:00"
+background = "#fcfcc5"
+location = "Hotel"
+
 [[days.activities]]
 name = "Problem Solutions"
 start = 9
 duration = 1.5
+interval = "9:00 - 10:30"
+location = "Auditório ADUnB"
+
 [[days.activities]]
 name = "Lunch"
 start = 12
 duration = 2
+interval = "12:00 - 14:00"
+background = "#fcfcc5"
+location = "Mangai"
+
 [[days.activities]]
 name = "Closing Ceremony"
 start = 15
 duration = 2.5
+interval = "15:00 - 17:30"
+location = "Auditório ADUnB"
+
 [[days.activities]]
 name = "Farewell Party"
 start = 19.5
 duration = 2.5
+interval = "19:30 - 22:00"
+background = "#e5b5ff"
+
 
 [[days]]
 name = "July 31"
 weekday = "Wed"
+
 [[days.activities]]
 name = "Departures"
 start = 6
 duration = 16
+interval = "6:00 - 22:00"
+background = "#f0f0f0"
+location = "Hotel"
+
 
 [[timevalues]]
 time = "6:00"

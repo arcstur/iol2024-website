@@ -59,16 +59,24 @@
 
   .activity {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     width: 84px;
-    background-color: #ffd684;
     border: 1px solid var(--iol-yellow);
-    span {
-        flex-grow: 1;
-        align-self: center;
-        
-    }
     position: absolute;
+  }
+
+  .activity-time-interval {
+    top: 0;
+    z-index: 9999;
+    position: absolute;
+    font-size: 6px;
+    line-height: 5px;
+  }
+
+  .activity-location {
+    font-size: 8px;
   }
 </style>
 
@@ -89,7 +97,34 @@
   <div class="day-row">
     <div class="week-day"><span>{{ day.weekday }}, {{ day.name }}</span></div>
     {% for activity in day.activities %}
-    <div class="activity" style="top: {{ (activity.start - 6) * 22 + 18}}px; height: {{ activity.duration * 22}}px"> <span>{{ activity.name | safe }}</span></div>
+    <div class="activity" 
+    style="top: {{ (activity.start - 6) * 22 + 18}}px; 
+    height: {{ activity.duration * 22}}px;
+    {% if activity.background %}
+    background-color: {{ activity.background }};
+    {% else %}
+    background-color: #ffd684;
+    {% endif %}"
+    >
+        <div class="activity-time-interval"> {{ activity.interval }} </div>
+        <div
+        style="
+        {% if activity.duration < 2 %}
+        font-size: 8px;
+        line-height: 9px;
+        {% endif %}"
+        >{{ activity.name | safe }}</br></div>
+        
+        {% if activity.location %}
+            <div class="activity-location"
+            style="
+            {% if activity.duration < 2 %}
+            font-size: 5px;
+            line-height: 6px;
+            {% endif %}"
+            > {{ activity.location }}</div>
+        {% endif %}
+    </div>
     {% endfor %}
   </div>
   {% endfor %}
