@@ -5,6 +5,10 @@
     font-size: 0.7rem;
     line-height: 0.7rem;
     overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 365px;
+    max-width: 774px;
+    border-bottom: 1px solid var(--iol-yellow);
   }
 
   .week-day {
@@ -28,34 +32,6 @@
     flex-direction: column;
     position: relative;
   }
-  .time-row {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-
-  .time-interval {
-    display: flex;
-    text-align: center;
-    padding: 1px;
-    background-color: #b9d9f9;
-    span {
-        flex-grow: 1;
-        align-self: center;
-    }
-    position: relative;
-    height: 20px;
-  }
-
-  .time-divider {
-    position: absolute;
-    top: 11px;
-    width: 806px;
-    z-index: -999;
-    
-    height: 1px;
-    background-color: rgb(230, 230, 230);
-  }
 
   .activity {
     display: flex;
@@ -65,12 +41,25 @@
     width: 84px;
     border: 1px solid var(--iol-yellow);
     position: absolute;
+    &:first-child {
+        margin-bottom: auto;
+    }
+  }
+
+  .activity :first-child{
+    margin-bottom: auto;
+  }
+
+  .activity :last-child{
+    margin-bottom: auto;
   }
 
   .activity-time-interval {
-    top: 0;
+    position: relative;
+    align-self: flex-start;
+    /* top: 0;
     z-index: 9999;
-    position: absolute;
+    position: absolute; */
     font-size: 6px;
     line-height: 5px;
   }
@@ -82,17 +71,6 @@
 
 
 <div class="grid-container">
-  <div class="time-row">
-    <div class="time-interval" style="max-height: 5px">
-      </div>
-    {% for time in data.timevalues %}
-      <div class="time-interval">
-        <span> {{ time.time }}</span>
-        <div class="time-divider"></div>
-      </div>
-    {% endfor %}
-    
-  </div>
   {% for day in data.days %}
   <div class="day-row">
     <div class="week-day"><span>{{ day.weekday }}, {{ day.name }}</span></div>
