@@ -95,6 +95,26 @@ participants = [
 name = "Australia"
 flag = "/country_flags/australia.png"
 
+[[countries.teams]]
+name = "Australia - Warrang"
+team_leader = "Deborah Panaretto"
+participants = [
+  "Tyson Lieu",
+  "Matthew Gu",
+  "Conrad Liu",
+  "James Fifield",
+]
+
+[[countries.teams]]
+name = "Australia - Meanjin"
+team_leader = "Bronwyn Dewar"
+participants = [
+  "Mia Braun",
+  "Rory Ambrosius",
+  "Atako Nakamura",
+  "Yolanda Liang",
+]
+
 [[countries]]
 name = "Malaysia"
 flag = "/country_flags/malaysia.png"
@@ -136,6 +156,16 @@ participants = [
 [[countries]]
 name = "Colombia"
 flag = "/country_flags/colombia.png"
+
+[[countries.teams]]
+name = "Colombia"
+team_leader = "Misha Fomine"
+participants = [
+  "Margarita Carranza",
+  "Sofia Soto",
+  "Mariana Aguirre",
+  "Maria Ramos",
+]
 
 [[countries]]
 name = "Latvia"
@@ -330,9 +360,49 @@ participants = [
 name = "Hungary"
 flag = "/country_flags/hungary.png"
 
+[[countries.teams]]
+name = "Teniszütő"
+team_leader = "Ákos Blaskovics"
+participants = [
+  "Lili Baranyai",
+  "Máté Gergely Virág",
+  "Júlia Hegedűs",
+  "Flóra Leiszter",
+]
+
+[[countries.teams]]
+name = "Uborka"
+team_leader = "Blanka Kövér"
+participants = [
+  "Pál Czanik",
+  "Gergő Holló",
+  "Ágnes Anna Hornok",
+  "Rudolf András Virág",
+]
+
 [[countries]]
 name = "India"
 flag = "/country_flags/india.png"
+
+[[countries.teams]]
+name = "India"
+team_leader = "Manish Shrivastava"
+participants = [
+  "Faraz Ahmed Siddiqui",
+  "Aadibhav Prasad",
+  "Animikha Dutta Dhar",
+  "Pratyush Vempati",
+]
+
+[[countries.teams]]
+name = "India 2"
+team_leader = "Parameshwari Krishnamurthi"
+participants = [
+  "Ananya Agarwal",
+  "H Jatin Vikash",
+  "Shrilakshmi Venkatraman",
+  "Diya Agrawal",
+]
 
 [[countries]]
 name = "Israel"
@@ -365,6 +435,26 @@ participants = [
 [[countries]]
 name = "Bulgaria"
 flag = "/country_flags/bulgaria.png"
+
+[[countries.teams]]
+name = "Bulgaria"
+team_leader = "Aleksandar Velinov"
+participants = [
+  "Ivanimira Nedelcheva",
+  "Nikolay Georgiev",
+  "Theodor Totev",
+  "Magdalena Vigenina",
+]
+
+[[countries.teams]]
+name = "Bulgaria 2"
+team_leader = "Lyubomir Zlatkov"
+participants = [
+  "Nia Dimitrova",
+  "Sirma Karadjova",
+  "Siyana Pavlova",
+  "Ani Katelieva",
+]
 
 [[countries]]
 name = "Hong Kong"
