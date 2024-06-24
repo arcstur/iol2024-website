@@ -6,9 +6,9 @@
     line-height: 0.7rem;
     overflow-x: auto;
     overflow-y: hidden;
-    min-height: 365px;
+    min-height: 400px;
     max-width: 774px;
-    border-bottom: 1px solid var(--iol-yellow);
+    position: relative;
   }
 
   .week-day {
@@ -67,6 +67,15 @@
   .activity-location {
     font-size: 8px;
   }
+
+  .border {
+    width: 772px;
+    border-bottom: 1px solid var(--iol-yellow);
+    position: absolute;
+    top: 371px;
+    z-index: 100;
+    max-width: 772px;
+  }
 </style>
 
 
@@ -106,4 +115,5 @@
     {% endfor %}
   </div>
   {% endfor %}
+  <div class="border"></div>
 </div>
