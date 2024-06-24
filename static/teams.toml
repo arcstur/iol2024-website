@@ -558,6 +558,29 @@ flag = "/country_flags/portugal.png"
 [[countries]]
 name = "Romania"
 flag = "/country_flags/romania.png"
+observers = [
+  "Roxana-Magdalena Preda",
+]
+
+[[countries.teams]]
+name = "Romania 1"
+team_leader = "Robert-Paul Helmer"
+participants = [
+  "Ioana-Steliana Barbu",
+  "Matei Chirilă",
+  "Ioana Stănoiu",
+  "Elena Păvăloaia",
+]
+
+[[countries.teams]]
+name = "Romania 2"
+team_leader = "Mihai-Alexandru Bratu"
+participants = [
+  "Mihaela Anghel",
+  "Karina-Adriana Stăncescu",
+  "Sergiu Manea",
+  "Luiza-Teodora Mihai",
+]
 
 [[countries]]
 name = "Malta"
