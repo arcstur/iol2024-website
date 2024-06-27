@@ -1,51 +1,119 @@
 {% set data = load_data(path="static/schedule.toml") %}
 <style>
   .grid-container {
-    display: grid;
-    overflow: auto;
+    display: flex;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 400px;
+    max-width: 774px;
+    position: relative;
   }
 
   .week-day {
     display: flex;
-    min-width: 120px;
-    padding: 10px;
+    min-width: 80px;
+    height: 12px;
+
+    padding:2px;
     text-align: center;
     background-color: #f9bebe;
     border: 1px solid var(--primary-text-color);
     span {
         flex-grow: 1;
         align-self: center;
-        
     }
 }
 
   .day-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
   }
 
   .activity {
     display: flex;
-    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 10px;
-    background-color: #ffd684;
+    width: 84px;
     border: 1px solid var(--iol-yellow);
-    span {
-        flex-grow: 1;
-        align-self: center;
-        
+    position: absolute;
+    &:first-child {
+        margin-bottom: auto;
     }
   }
+
+  .activity :first-child{
+    margin-bottom: auto;
+  }
+
+  .activity :last-child{
+    margin-bottom: auto;
+  }
+
+  .activity-time-interval {
+    position: relative;
+    align-self: flex-start;
+    /* top: 0;
+    z-index: 9999;
+    position: absolute; */
+    font-size: 6px;
+    line-height: 5px;
+  }
+
+  .activity-location {
+    font-size: 8px;
+  }
+
+  .border {
+    width: 772px;
+    border-bottom: 1px solid var(--iol-yellow);
+    position: absolute;
+    top: 371px;
+    z-index: 100;
+    max-width: 772px;
+  }
 </style>
+
 
 <div class="grid-container">
   {% for day in data.days %}
   <div class="day-row">
     <div class="week-day"><span>{{ day.weekday }}, {{ day.name }}</span></div>
     {% for activity in day.activities %}
-    <div class="activity"> <span>{{ activity.name | safe }}</span></div>
+    <div class="activity" 
+    style="top: {{ (activity.start - 6) * 22 + 18}}px; 
+    height: {{ activity.duration * 22}}px;
+    {% if activity.background %}
+    background-color: {{ activity.background }};
+    {% else %}
+    background-color: #ffd684;
+    {% endif %}"
+    >
+        <div class="activity-time-interval"> {{ activity.interval }} </div>
+        <div
+        style="
+        {% if activity.duration < 2 %}
+        font-size: 8px;
+        line-height: 9px;
+        {% endif %}"
+        >{{ activity.name | safe }}</br></div>
+        
+        {% if activity.location %}
+            <div class="activity-location"
+            style="
+            {% if activity.duration < 2 %}
+            font-size: 5px;
+            line-height: 6px;
+            {% endif %}"
+            > {{ activity.location }}</div>
+        {% endif %}
+    </div>
     {% endfor %}
   </div>
   {% endfor %}
+  <div class="border"></div>
 </div>
