@@ -2,6 +2,26 @@
 name = "Brazil"
 flag = "/country_flags/brazil.png"
 
+[[countries.teams]]
+name = "Îasy"
+team_leader = "Rafaella Carvalho"
+participants = [
+    "Felipe Moraes Barros",
+    "Giovanna Longo",
+    "Daiki Ando",
+    "Luisa Ramscheid Güntert"
+]
+
+[[countries.teams]]
+name = "Kûarasy"
+team_leader = "João Otavio"
+participants = [
+    "Paulo Portela",
+    "Pedro Rocha",
+    "João Guilherme Camilo",
+    "Sócrates Souto"
+]
+
 [[countries]]
 name = "United Kingdom"
 flag = "/country_flags/uk.png"
@@ -202,6 +222,26 @@ participants = [
 name = "Japan"
 flag = "/country_flags/japan.png"
 
+[[countries.teams]]
+name = "Japan Ninja"
+team_leader = "Tsuyoshi Kobayashi"
+participants = [
+    "Ryusei Omiya",
+    "Joji Mushiaki",
+    "Keisuke Taeda",
+    "Chihiro Hachiya"
+]
+
+[[countries.teams]]
+name = "Japan Samurai"
+team_leader = "Tsubasa Takahashi"
+participants = [
+    "Kantetsu Oh (Hanzhe Wang)",
+    "Yuji Hokugo",
+    "Keigo Yoshioka",
+    "Satoshi Tsukada"
+]
+
 [[countries]]
 name = "Republic of Korea"
 flag = "/country_flags/south_korea.webp"
@@ -285,6 +325,26 @@ participants = [
 [[countries]]
 name = "Poland"
 flag = "/country_flags/poland.png"
+
+[[countries.teams]]
+name = "Poland Świerszcze"
+team_leader = "Michał Śliwiński"
+participants = [
+    "Urszula Wąsiewicz",
+    "Krzysztof Lalicki",
+    "Anna Bryłowska",
+    "Nina Borowiec"
+]
+
+[[countries.teams]]
+name = "Poland Chrząszcze"
+team_leader = "Anna Grzeszak"
+participants = [
+    "Ignacy Jackl",
+    "Natalia Rewaj",
+    "Jakub Korzeniewicz",
+    "Iwo Miśkowiak"
+]
 
 [[countries]]
 name = "Canada Anglophone"
@@ -385,7 +445,7 @@ name = "India"
 flag = "/country_flags/india.png"
 
 [[countries.teams]]
-name = "India"
+name = "Saffron"
 team_leader = "Manish Shrivastava"
 participants = [
   "Faraz Ahmed Siddiqui",
@@ -395,7 +455,7 @@ participants = [
 ]
 
 [[countries.teams]]
-name = "India 2"
+name = "Green"
 team_leader = "Parameshwari Krishnamurthi"
 participants = [
   "Ananya Agarwal",
@@ -476,6 +536,16 @@ participants = [
 [[countries]]
 name = "Switzerland"
 flag = "/country_flags/switzerland.png"
+
+[[countries.teams]]
+name = "Switzerland"
+team_leader = "Dr. Tatiana Samrowski"
+participants = [
+    "Sofia Lundgren",
+    "Gavriel Harvey",
+    "Hanna Balmer",
+    "Dana Niederhäuser"
+]
 
 [[countries]]
 name = "Canada Francophone"
