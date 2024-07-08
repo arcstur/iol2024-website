@@ -578,6 +578,17 @@ participants = [
 name = "Nepal"
 flag = "/country_flags/nepal.png"
 no_box_shadow = true
+observers = [
+  "Chandan Prasad Gupta",
+]
+
+[[countries.teams]]
+name = "Nepal"
+team_leader = "Santosh Prasad Sah"
+participants = [
+  "Amash Khadka",
+  "Krish Yadav",
+]
 
 [[countries]]
 name = "Iran"
