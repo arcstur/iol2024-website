@@ -305,10 +305,6 @@ participants = [
 ]
 
 [[countries]]
-name = "Republic of Moldova"
-flag = "/country_flags/moldova.png"
-
-[[countries]]
 name = "Kazakhstan"
 flag = "/country_flags/kazakhstan.png"
 
@@ -620,10 +616,6 @@ participants = [
   "William Eriksson",
   "Allan Ismail",
 ]
-
-[[countries]]
-name = "Portugal"
-flag = "/country_flags/portugal.png"
 
 [[countries]]
 name = "Romania"
