@@ -1,0 +1,56 @@
+<script>
+    function startTimer(end, display) {
+    var start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+    function timer() {
+        // get the number of seconds that have elapsed since 
+        // startTimer() was called
+        diff = (end - Date.now()) / 1000;
+        diff = diff < 0 ? 0 : diff
+
+        // does the same job as parseInt truncates the float
+        days = diff / (24 * 60 * 60) | 0;
+        diff -= days * (24 * 60 * 60) | 0;
+        hours = diff / (60 * 60) | 0;
+        diff -= hours * (60 * 60) | 0;
+        minutes = (diff / 60) | 0;
+        seconds = (diff % 60) | 0;
+
+        hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = days + "d " + hours + "h " + minutes + "m " + seconds + "s"; 
+
+        if (diff <= 0) {
+            // add one second so that the count down starts at the full duration
+            // example 05:00 not 04:59
+            start = Date.now() + 1000;
+        }
+    };
+    // we don't want to wait a full second before the timer starts
+    timer();
+    setInterval(timer, 1000);
+}
+
+window.onload = function () {
+    var end = new Date('2024-07-24T19:00:00'),
+        display = document.querySelector('#countdown');
+    startTimer(end, display);
+};
+</script>
+<style>
+.timer {
+    font-size: xx-large;
+    font-variant-numeric: tabular-nums;
+}
+.timer-wrapper {
+    font-size: x-large;
+}
+</style>
+
+<div class="timer-wrapper">
+    <span id="countdown" class="timer"></span> until the Opening Ceremony!
+</div>
