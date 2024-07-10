@@ -43,20 +43,26 @@ window.onload = function () {
 </script>
 <style>
 .timer {
-    font-size: xx-large;
-    font-variant-numeric: tabular-nums;
+    font-size: 70px;
+    margin-bottom: 40px;
 }
+
 .timer-wrapper {
-    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 40px;
+    font-variant-numeric: tabular-nums;
+    margin: 40px;
 }
-a {
-    color: var(--primary-text-color) !important;
-    text-decoration: none !important;
+.content {
+    max-width: 100% !important;
+    width: 100%;
 }
 </style>
 
 <div class="timer-wrapper">
-    <a href="/countdown">
-        <span id="countdown" class="timer"></span> to the Opening of IOL 2024
-    </a>
+    <div id="countdown" class="timer"></div> 
+    <div>to the Opening of IOL 2024</div>
 </div>
