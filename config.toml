@@ -25,6 +25,7 @@ juice_logo_path = "logo-header-sol.svg"
 juice_exclude_menu = [
   "Volunteers",
   "Map",
+  "Countdown",
 ]
 juice_extra_menu = [
     { title = "Teachers", link = "https://prof.iol2024.org/"}
