@@ -497,6 +497,9 @@ participants = [
 [[countries]]
 name = "Bulgaria"
 flag = "/country_flags/bulgaria.png"
+observers = [
+  "Rositsa Dekova",
+]
 
 [[countries.teams]]
 name = "Bulgaria"
