@@ -502,7 +502,7 @@ observers = [
 ]
 
 [[countries.teams]]
-name = "Bulgaria"
+name = "Bulgaria 1"
 team_leader = "Aleksandar Velinov"
 participants = [
   "Ivanimira Nedelcheva",
