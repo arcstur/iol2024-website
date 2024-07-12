@@ -207,6 +207,9 @@ participants = [
 [[countries]]
 name = "Finland"
 flag = "/country_flags/finland.png"
+observers = [
+  "Heini Arjava",
+]
 
 [[countries.teams]]
 name = "Finland"
