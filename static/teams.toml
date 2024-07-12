@@ -310,6 +310,9 @@ participants = [
 [[countries]]
 name = "Kazakhstan"
 flag = "/country_flags/kazakhstan.png"
+observers = [
+  "Karkulova Aigul",
+]
 
 [[countries.teams]]
 name = "Kazakhstan"
