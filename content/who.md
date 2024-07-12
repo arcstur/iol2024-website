@@ -40,7 +40,7 @@ The LOC can only coordinate the IOL effort by counting with the help of several 
 | **Thiago Augusto Santos** | ELO 2023 | Communication |
 | **Senas Araújo** | ELO 2023 | Communication |
 | **Maria Luporini** | UFRJ | Cultural Program |
-| **Rafael Santiago** | UnB | Cerimonial |
+| **Rafael Santiago** | UnB | Ceremonial |
 | **Lai Otsuka** | IOL 2022 | Exam Logistics |
 | **Fernando César** | IOL 2022 | User Experience |
 
