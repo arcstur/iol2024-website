@@ -74,12 +74,12 @@ participants = [
 name = "Ireland"
 flag = "/country_flags/ireland.png"
 observers = [
-  "Harold Somers",
+  "Faye Murphy",
 ]
 
 [[countries.teams]]
 name = "Ireland"
-team_leader = "Cara Tighe"
+team_leader = "Harold Somers"
 participants = [
   "Dáithí Butler",
   "Paddy Clancy",
