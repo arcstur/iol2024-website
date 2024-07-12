@@ -133,4 +133,4 @@ For the closed space, there will be three options:
 
 </div>
 
-Please remember that spots are limited for each of the three options. Please fill in <strong><a href="https://docs.google.com/forms/d/1_hT5HnDZL2Jpztv4tp21F_bCYtos6ZWPAHS-xjhib4A/edit?usp=drivesdk">this form</a></strong> to register your preference.
+Please remember that spots are limited for each of the three options. Please fill in <strong><a href="https://docs.google.com/forms/d/1_hT5HnDZL2Jpztv4tp21F_bCYtos6ZWPAHS-xjhib4A/edit?usp=drivesdk">this form</a></strong> to register your preference until July 16.
