@@ -90,3 +90,47 @@ The Cerrado is extremely rich in vegetal and animal species, and the Central Pla
 
 {{ content_image(source="/where/sunset.jpg", width="600px", caption="Sunset at Chapada dos Veadeiros. Source: Bruno L'Astorina") }}
 
+# City tour
+
+For the afternoon of the city tour we chose three main points to be visited, two in the open and one in closed space -- the last one has to be chosen among three options. 
+
+All groups will descend by bus the Monumental Axis, especially around the Esplanda of the Ministries, and will stop at the Plaza of the Three Powers (Praça dos Três Poderes), the political center of Brazil. This rectangular plaza has, in its three sides, the iconic main buildings of the three powers: the Planalto Palace (which hosts the Preisident and the Executive Power), the National Congress (which hosts the deputies and senators, the Legislative Power) and the Supreme Court (the Judiciary Power). The fourth side is bordered by a park of cerrado trees. The plaza also contains some iconic monuments and a small memorial of the city.
+
+Groups will also go up in the old TV Tower, further west in the Monumental Axis. From up there, it is possible to see the entire Pilot Plan and the horizons around the city of Brasília. 
+
+For the closed space, there will be three options: 
+
+* Centro Cultural Banco do Brasil (CCBB), a modernist exhibition hall which will have two exihibitions: "Ancient Treasures of Peru", which shows metalworks, ceramics and threadwork from old Andine cultures, including the Inca Empire; and "Hiromi Nagakura to the Amazon with Ailton Krenak", which shows beautiful pictures of Amazonian indigenous people made by the Japanese photograph in his travels with the famous indigenous leader Ailton Krenak. 
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center">
+
+{{ content_image(source="/where/city_tour/ccbb1.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/ccbb2.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/ccbb3.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/ccbb4.jpeg", width="250px") }}
+
+</div>
+
+* Palácio do Itamaraty, the palace of the Ministry of External Affairs, one of the jewels of the Esplanada of the Ministries, combines the modernist architecture with classic mobiliary and beautiful inner gardens, it showcases the corridors of the diplomacy in the world, its ceremonies, negotiations and reception.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center">
+
+{{ content_image(source="/where/city_tour/itamaraty1.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/itamaraty2.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/itamaraty3.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/itamaraty4.jpeg", width="250px") }}
+
+</div>
+
+* Brasilia Cathedral + National Museum, two neighbor buildings in the Esplanada. The Cathedral is one of the symbols of the city, while the National Museum, drawn by Oscar Niemeyer, will feature also two exhibitions: selected works from São Paulo Bienal 2023, including contemporary indigenous and afroamerican artists, and the expo from "Festival Latinidades", showing the latin-american woman from different perspectives. 
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center">
+
+{{ content_image(source="/where/city_tour/museu_nacional1.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/museu_nacional2.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/museu_nacional3.jpeg", width="250px") }}
+{{ content_image(source="/where/city_tour/museu_nacional4.jpeg", width="250px") }}
+
+</div>
+
+Please remember that spots are limited for each of the three options. Please fill in <strong><a href="https://docs.google.com/forms/d/1_hT5HnDZL2Jpztv4tp21F_bCYtos6ZWPAHS-xjhib4A/edit?usp=drivesdk">this form</a></strong> to register your preference until July 16.
