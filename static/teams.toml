@@ -418,6 +418,9 @@ participants = [
 [[countries]]
 name = "Hungary"
 flag = "/country_flags/hungary.png"
+observers = [
+  "János Egressy",
+]
 
 [[countries.teams]]
 name = "Teniszütő"
