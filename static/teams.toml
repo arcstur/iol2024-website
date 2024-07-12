@@ -224,6 +224,11 @@ participants = [
 [[countries]]
 name = "Japan"
 flag = "/country_flags/japan.png"
+observers = [
+  "Yukiko Takada",
+  "Yusuke Ohtani",
+  "Emiri Oda",
+]
 
 [[countries.teams]]
 name = "Japan Ninja"
