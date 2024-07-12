@@ -356,6 +356,9 @@ participants = [
 [[countries]]
 name = "Canada Anglophone"
 flag = "/country_flags/canada.png"
+observers = [
+  "Carrie Davis",
+]
 
 [[countries.teams]]
 name = "Canada (EN)"
