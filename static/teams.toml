@@ -81,7 +81,7 @@ observers = [
 name = "Ireland"
 team_leader = "Harold Somers"
 participants = [
-  "Dáithí Butler",
+  "Dáithí de Buitléir",
   "Paddy Clancy",
   "Eliška Dvořáková",
   "Patrick Chen",
@@ -179,7 +179,7 @@ flag = "/country_flags/colombia.png"
 
 [[countries.teams]]
 name = "Colombia"
-team_leader = "Misha Fomine"
+team_leader = "Misha Fomin"
 participants = [
   "Margarita Carranza",
   "Sofia Soto",
@@ -253,6 +253,9 @@ participants = [
 [[countries]]
 name = "Republic of Korea"
 flag = "/country_flags/south_korea.webp"
+observers = [
+  "Berm Lee",
+]
 
 [[countries.teams]]
 name = "Korea Hae"
@@ -456,6 +459,9 @@ participants = [
 [[countries]]
 name = "India"
 flag = "/country_flags/india.png"
+observers = [
+  "Anshul Krishnadas Bhagwat",
+]
 
 [[countries.teams]]
 name = "Saffron"
@@ -486,7 +492,7 @@ name = "Israel"
 team_leader = "Sophya Welle"
 participants = [
   "Lev Ianushevich",
-  "Roman Roginsky",
+  "Roman Roginskii",
   "Martha Vogman",
   "Olya Besova",
 ]
@@ -678,6 +684,10 @@ participants = [
 [[countries]]
 name = "Malta"
 flag = "/country_flags/malta.png"
+observers = [
+  "Michela Vella",
+  "Ayrton-D Brincat",
+]
 
 [[countries.teams]]
 name = "Maltilinguals"
