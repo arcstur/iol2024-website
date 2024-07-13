@@ -54,7 +54,7 @@ location = "UnB RU"
 
 background = "#fcfcc5"
 [[days.activities]]
-name = "Opening Ceremory"
+name = "Opening Ceremony"
 start = 19
 duration = 2.5
 interval = "19:00 - 21:30"
