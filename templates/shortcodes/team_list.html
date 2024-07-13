@@ -85,17 +85,17 @@
             {% endfor %}
 
             {% if country.observers %}
-            {% for observer in country.observers %}
             <p
-              {% if country.teams|length == 1 %}
-              style="margin: 0px; margin-left: 20px;"
-              {% elif country.teams|length >= 2 %}
-              style="margin: 0px; margin-left: 7px;"
-              {% endif %}
-            >
-              <strong>Observers:</strong>
+                {% if country.teams|length == 1 %}
+                style="margin: 0px; margin-left: 20px;"
+                {% elif country.teams|length >= 2 %}
+                style="margin: 0px; margin-left: 7px;"
+                {% endif %}
+                >
+                <strong>Observers:</strong>
             </p>
-            <ul style="margin-top: 0px">
+            {% for observer in country.observers %}
+            <ul style="margin-top: 0px; margin-bottom: 0px">
               <li>{{ observer }}</li>
             </ul>
             {% endfor %}
