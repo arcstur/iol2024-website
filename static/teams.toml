@@ -280,25 +280,29 @@ participants = [
 [[countries]]
 name = "Taiwan"
 flag = "/country_flags/taiwan.png"
+observers = [
+  "Chien-Chih Lin",
+  "Yu-Wei Chu"
+]
 
 [[countries.teams]]
 name = "Taiwan Blue Magpie"
 team_leader = "Grace Kuo"
 participants = [
-  "Li-Bang Chen",
-  "Jen-Chien Hou",
+  "Samantha Kao",
   "Yu-Chiao Liao",
-  "Po-Hsiang Wang",
+  "Eric Wu",
+  "Bo-Siang Chen",
 ]
 
 [[countries.teams]]
 name = "Taiwan Black Bear"
 team_leader = "Chenhao Chiu"
 participants = [
-  "Bo-Siang Chen",
   "Cheng-You Ko",
-  "Eric Wu",
-  "Samantha Kao",
+  "Po-Hsiang Wang",
+  "Li-Bang Chen",
+  "Jen-Chien Hou",
 ]
 
 [[countries]]
