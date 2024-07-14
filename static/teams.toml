@@ -117,7 +117,7 @@ flag = "/country_flags/australia.png"
 
 [[countries.teams]]
 name = "Australia - Warrang"
-team_leader = "Deborah Panaretto"
+team_leader = "Simon Bootle"
 participants = [
   "Tyson Lieu",
   "Matthew Gu",
@@ -406,16 +406,12 @@ participants = [
 ]
 
 [[countries]]
-name = "Vietnam"
-flag = "/country_flags/vietnam.png"
-
-[[countries]]
 name = "United States of America"
 flag = "/country_flags/usa.png"
 
 [[countries.teams]]
 name = "United States of America"
-team_leader = "Lorraine Levin"
+team_leader = "Lori Levin"
 participants = [
   "Jonathan Sakunkoo",
   "Deeraj Pothapragada",
