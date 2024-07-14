@@ -1,93 +1,155 @@
 {% set data = load_data(path="static/schedule.toml") %}
 <style>
+  @media screen and (min-width: 1280px) {
+  .content {
+    max-width: 70%;
+    min-width: 800px;
+  }
+}
+
   .grid-container {
-    display: grid;
-    overflow: auto;
+    display: flex;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 1050px;
+    max-width: 900px;
+    position: relative;
+  }
+
+  .week-day-container {
+    display: flex;
+    min-width: 180px;
+    height: 12px;
   }
 
   .week-day {
-    display: flex;
-    min-width: 120px;
-    padding: 10px;
+    flex-grow: 1;
+    min-width: 180px;
+    max-width: 360px;
+    height: 36px;
+    padding:2px;
     text-align: center;
     background-color: #f9bebe;
     border: 1px solid var(--primary-text-color);
-    span {
-        flex-grow: 1;
-        align-self: center;
-        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     }
-}
 
   .day-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
   }
 
   .activity {
     display: flex;
-    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 10px;
-    background-color: #ffd684;
+    width: 184px;
     border: 1px solid var(--iol-yellow);
-    span {
-        flex-grow: 1;
-        align-self: center;
-        
+    position: absolute;
+    &:first-child {
+        margin-bottom: auto;
     }
   }
+
+  .activity :first-child{
+    margin-bottom: auto;
+  }
+
+  .activity :last-child{
+    margin-bottom: auto;
+  }
+
+  .activity-time-interval {
+    position: relative;
+    align-self: flex-start;
+    /* top: 0;
+    z-index: 9999;
+    position: absolute; */
+    font-size: 6px;
+    line-height: 5px;
+  }
+
+  .activity-location {
+    font-size: 8px;
+  }
+
+  .long {
+    width: 364px;
+    position: absolute;
+  }
+
+  .activity-text-container {
+    margin: 0 auto;
+    max-height: 90%;
+    max-width: 90%;
+  }
 </style>
+
 
 <div class="grid-container">
   {% for day in data.days %}
   <div class="day-row">
-    <div class="week-day" style="width: 100%">
-    <span>{{ day.weekday }}, {{ day.name }}</span>
-    </div>
-  </div>
-
-  {% set dayManha = day.activities | filter(attribute="periodTime", value="Manhã") %}
-  {% if dayManha | length > 0 %}
-    <div style="display: flex; flex-direction: row;">
-      <div class="week-day"><span>Manhã</span></div>
-      <div style="flex: 1">
-        {% for activity in dayManha %}
-          <div class="day-row" >
-            <div class="activity" >
-              <span>
-                {{ activity.name | safe }}
-                {% if activity.who %}
-                <br><small> {{ activity.who | safe }} </small>
-                {% endif %}
-              </span>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-      </div>
-    {% endif %}
-           
-  {% set dayTarde = day.activities | filter(attribute="periodTime", value="Tarde") %}
-  {% if dayTarde | length > 0 %}
-  <div style="display: flex; flex-direction: row;">
-    <div class="week-day"><span>Tarde</span></div>
-    <div style="flex: 1">
-      {% for activity in dayTarde %}
-        <div class="day-row" >
-          <div class="activity">
-            <span>
-              {{ activity.name | safe }}
-              {% if activity.who %}
-              <br><small> {{ activity.who | safe }} </small>
-              {% endif %}
+    <div class="week-day-container">
+        {% if day.name %}
+        <div
+            class="
+            week-day
+            {% if day.long %}
+            long
+            {% endif %}"
+            >
+            {{ day.name }}
+            {% if day.location %}
+            <br>
+            <span style="font-size: 10px">
+                {{ day.location }}
             </span>
-          </div>
+            {% endif %}
         </div>
-      {% endfor %}
+        {% endif %}
     </div>
+    {% for activity in day.activities %}
+    <div class="activity
+    {% if activity.long %}
+    long
+    {% endif %}"
+    style="top: {{ (activity.start - 8) * 110 + 42}}px; 
+    height: {{ activity.duration * 110}}px;
+    {% if activity.background %}
+    background-color: {{ activity.background }};
+    {% else %}
+    background-color: #ffd684;
+    {% endif %}"
+    >
+        <div class="activity-time-interval"> {{ activity.interval }} </div>
+        <div class="activity-text-container">
+        <div
+        style="
+        {% if activity.small %}
+        font-size: 8px;
+        line-height: 9px;
+        {% endif %}"
+        >{{ activity.name | safe }}</br></div>
+        
+        {% if activity.location %}
+            <div class="activity-location"
+            style="
+            {% if activity.small %}
+            font-size: 5px;
+            line-height: 6px;
+            {% endif %}"
+            > {{ activity.location | safe}}</div>
+        {% endif %}
+    </div>
+    </div>
+    {% endfor %}
   </div>
-  {% endif %}
-
   {% endfor %}
 </div>
