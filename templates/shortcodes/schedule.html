@@ -99,6 +99,10 @@
         {% if activity.duration <= 2 %}
         font-size: 8px;
         line-height: 9px;
+        {% endif %}
+        {% if activity.small_text %}
+        font-size: 7px;
+        line-height: 7px;
         {% endif %}"
         >{{ activity.name | safe }}</br></div>
         
