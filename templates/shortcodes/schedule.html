@@ -13,23 +13,21 @@
     line-height: 0.7rem;
     overflow-x: auto;
     overflow-y: hidden;
-    min-height: 1050px;
+    min-height: 700px;
     max-width: 900px;
-    position: relative;
   }
 
   .week-day-container {
     display: flex;
+    min-height: 38px;;
     min-width: 180px;
-    height: 12px;
+    position: relative;
   }
 
   .week-day {
     flex-grow: 1;
     min-width: 180px;
-    max-width: 360px;
     height: 36px;
-    padding:2px;
     text-align: center;
     background-color: #f9bebe;
     border: 1px solid var(--primary-text-color);
@@ -42,17 +40,16 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    position: relative;
   }
 
   .activity {
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     width: 184px;
     border: 1px solid var(--iol-yellow);
-    position: absolute;
     &:first-child {
         margin-bottom: auto;
     }
@@ -69,11 +66,8 @@
   .activity-time-interval {
     position: relative;
     align-self: flex-start;
-    /* top: 0;
-    z-index: 9999;
-    position: absolute; */
-    font-size: 6px;
-    line-height: 5px;
+    font-size: 8px;
+    line-height: 8px;
   }
 
   .activity-location {
@@ -81,8 +75,13 @@
   }
 
   .long {
-    width: 364px;
+    width: 370px;
     position: absolute;
+    z-index: 99;
+  }
+
+  .tall {
+    height: 182px;
   }
 
   .activity-text-container {
@@ -95,7 +94,8 @@
 
 <div class="grid-container">
   {% for day in data.days %}
-  <div class="day-row">
+  <div class="day-row
+  ">
     <div class="week-day-container">
         {% if day.name %}
         <div
@@ -116,38 +116,33 @@
         {% endif %}
     </div>
     {% for activity in day.activities %}
-    <div class="activity
-    {% if activity.long %}
-    long
-    {% endif %}"
-    style="top: {{ (activity.start - 8) * 110 + 42}}px; 
-    height: {{ activity.duration * 110}}px;
-    {% if activity.background %}
-    background-color: {{ activity.background }};
-    {% else %}
-    background-color: #ffd684;
-    {% endif %}"
-    >
-        <div class="activity-time-interval"> {{ activity.interval }} </div>
-        <div class="activity-text-container">
-        <div
-        style="
-        {% if activity.small %}
-        font-size: 8px;
-        line-height: 9px;
-        {% endif %}"
-        >{{ activity.name | safe }}</br></div>
-        
-        {% if activity.location %}
-            <div class="activity-location"
-            style="
-            {% if activity.small %}
-            font-size: 5px;
-            line-height: 6px;
-            {% endif %}"
-            > {{ activity.location | safe}}</div>
+    <div style="position: relative; height: 90px;">
+        <div class="activity
+        {% if activity.long %}
+        long
         {% endif %}
-    </div>
+        {% if activity.tall %}
+        tall
+        {% endif %}"
+        
+        style="
+        {% if activity.background %}
+        background-color: {{ activity.background }};
+        {% else %}
+        background-color: #ffd684;
+        {% endif %}"
+        >
+            <div class="activity-time-interval"> {{ activity.interval }} </div>
+            <div class="activity-text-container">
+            <div
+            >{{ activity.name | safe }}</br></div>
+            
+            {% if activity.location %}
+                <div class="activity-location"
+                > {{ activity.location | safe}}</div>
+            {% endif %}
+        </div>
+        </div>
     </div>
     {% endfor %}
   </div>

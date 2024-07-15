@@ -1,6 +1,6 @@
 [[days]]
 name = "Terça-feira (23/07)"
-location = "Coordenação das Licenciaturas, ICC Centro, Mezanino, sala 402"
+location = "ICC Centro, Mezanino, sala 402"
 
 [[days.activities]]
 name = "Abertura – Boas-vindas ao Universo Olímpico"
@@ -71,7 +71,7 @@ location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba
 
 [[days]]
 name = "Quinta-feira (25/07)"
-location = "Coordenação das Licenciaturas, ICC Centro, Mezanino, sala 402"
+location = "ICC Centro, Mezanino, sala 402"
 long = 1
 
 [[days.activities]]
@@ -138,7 +138,11 @@ long = 1
 [[days]]
 
 [[days.activities]]
-name = "Seção 2 <br>Coordenação das Licenciaturas, ICC Centro, Mezanino, sala 402"
+name = ""
+interval = ""
+
+[[days.activities]]
+name = "Seção 2 <br>ICC Centro, Mezanino, sala 402"
 start = 9.7
 duration = 0.3
 interval = ""
@@ -159,3 +163,4 @@ duration = 1
 interval = "11h - 12h"
 background = "#f0f0f0"
 location = "Vlad A. Neacșu (Olimpíada de Linguística de Hong Kong) <br>*com tradução consecutiva"
+tall = 1
