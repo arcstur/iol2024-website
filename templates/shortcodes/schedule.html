@@ -13,20 +13,20 @@
     line-height: 0.7rem;
     overflow-x: auto;
     overflow-y: hidden;
-    min-height: 820px;
+    min-height: 1100px;
     max-width: 900px;
   }
 
   .week-day-container {
     display: flex;
     min-height: 38px;;
-    min-width: 180px;
+    min-width: 140px;
     position: relative;
   }
 
   .week-day {
     flex-grow: 1;
-    min-width: 180px;
+    min-width: 140px;
     height: 36px;
     text-align: center;
     background-color: #f9bebe;
@@ -43,12 +43,12 @@
   }
 
   .activity {
-    height: 90px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 184px;
+    width: 140px;
     border: 1px solid var(--iol-yellow);
     &:first-child {
         margin-bottom: auto;
@@ -76,26 +76,29 @@
   }
 
   .long {
-    width: 370px;
+    width: 282px;
     position: absolute;
     z-index: 99;
   }
 
   .tall {
-    height: 182px;
+    height: 299px;
+  }
+
+  .very-tall {
+    height: 297px;
   }
 
   .short {
-    height: 40px;
+    height: 36px;
   }
 
   .normal-height {
-    height: 90px;
+    height: 150px;
   }
 
   .activity-text-container {
     margin: 0 auto;
-    max-height: 90%;
     max-width: 90%;
   }
 </style>
@@ -129,6 +132,8 @@
     class="
         {% if activity.short %}
         short
+        {% elif activity.verytall %}
+        very-tall
         {% else %}
         normal-height
         {% endif %}">
@@ -141,6 +146,9 @@
         {% endif %}
         {% if activity.short %}
         short
+        {% endif %}
+        {% if activity.verytall %}
+        very-tall
         {% endif %}"
         
         style="
@@ -157,7 +165,7 @@
             
             {% if activity.location %}
                 <div class="activity-location"
-                > {{ activity.location | safe}}</div>
+                > <br>{{ activity.location | safe}}</div>
             {% endif %}
         </div>
         </div>

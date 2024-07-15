@@ -61,12 +61,24 @@ name = "Quarta-feira (24/07)"
 [[days.activities]]
 name = "Visita ao SESI Lab"
 interval = "9h30 (opcional)"
-location = "Chegada às 9h15 <br>Limitado a 100 vagas - inscrição via formulário próprio <br>*Endereço: Setor Cultural Sul, Bloco A, Asa Sul, Brasília."
+location = "<strong>Chegada às 9h15</strong> <br>Limitado a 100 vagas - inscrição via formulário próprio <br>*Endereço: Setor Cultural Sul, Bloco A, Asa Sul, Brasília."
+
+[[days.activities]]
+name = "Livre"
+interval = ""
+background = "#f0f0f0"
+verytall = 1
 
 [[days.activities]]
 name = "Palestra de Abertura da IOL"
 interval = "15h30 (opcional)"
 location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba A - Casa do Professor)"
+
+[[days.activities]]
+name = "Livre"
+interval = ""
+background = "#f0f0f0"
+verytall = 1
 
 [[days.activities]]
 name = "Cerimônia de Abertura da IOL"
@@ -128,7 +140,6 @@ name = "Oficina – Consciência metalinguística e aprendizagem ativa"
 interval = "13h30 - 15h30"
 location = "Eloisa Pilati (UnB) <br>Bruno L’Astorina (OBL)"
 long = 1
-short = 1
 
 [[days.activities]]
 name = "Intervalo"
