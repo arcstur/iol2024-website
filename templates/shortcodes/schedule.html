@@ -13,7 +13,7 @@
     line-height: 0.7rem;
     overflow-x: auto;
     overflow-y: hidden;
-    min-height: 700px;
+    min-height: 820px;
     max-width: 900px;
   }
 
@@ -84,6 +84,14 @@
     height: 182px;
   }
 
+  .short {
+    height: 40px;
+  }
+
+  .normal-height {
+    height: 90px;
+  }
+
   .activity-text-container {
     margin: 0 auto;
     max-height: 90%;
@@ -116,20 +124,29 @@
         {% endif %}
     </div>
     {% for activity in day.activities %}
-    <div style="position: relative; height: 90px;">
+    <div style="position: relative;"
+    class="
+        {% if activity.short %}
+        short
+        {% else %}
+        normal-height
+        {% endif %}">
         <div class="activity
         {% if activity.long %}
         long
         {% endif %}
         {% if activity.tall %}
         tall
+        {% endif %}
+        {% if activity.short %}
+        short
         {% endif %}"
         
         style="
         {% if activity.background %}
         background-color: {{ activity.background }};
         {% else %}
-        background-color: #ffd684;
+        background-color: #fffa96;
         {% endif %}"
         >
             <div class="activity-time-interval"> {{ activity.interval }} </div>

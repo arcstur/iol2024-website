@@ -3,43 +3,56 @@ name = "Terça-feira (23/07)"
 location = "ICC Centro, Mezanino, sala 402"
 
 [[days.activities]]
+name = "Credenciamento"
+interval = "7h - 8h"
+short = 1
+
+[[days.activities]]
 name = "Abertura – Boas-vindas ao Universo Olímpico"
-start = 8.75
-duration = 1.25
+interval = "8h - 8h45"
+location = "Eloisa Pilati (UnB) <br>Janaina Weissheimer (UFRN / Rede CpE) <br>Rodrigo Pinto Tiradentes (OBL)"
+
+[[days.activities]]
+name = "Conhecendo as Olimpíadas de Linguística: o que são e qual seu impacto na escola?"
 interval = "8h45 - 10h"
-background = "#f0f0f0"
 location = "Bruno L’Astorina (OBL) <br>Rodrigo Pinto Tiradentes (OBL)"
 
 [[days.activities]]
-name = "Palestra – Aprendizagem Criativa e Inovação na Educação"
-start = 10.5
-duration = 1.5
-interval = "10h30 - 12h"
+name = "Intervalo"
+interval = ""
+short = 1
 background = "#f0f0f0"
+
+[[days.activities]]
+name = "Palestra – Aprendizagem Criativa e Inovação na Educação"
+interval = "10h30 - 12h"
 location = "Ana Luiza Snoeck Neiva do Amaral (Rede SESI)"
 
 [[days.activities]]
-name = "Oficina – Problemas de linguística em sala de aula: como resolver com os alunos?"
-start = 12.5
-duration = 1.5
-interval = "13h30 - 15h"
+name = "Almoço"
+interval = ""
+short = 1
 background = "#f0f0f0"
+
+[[days.activities]]
+name = "Oficina – Problemas de linguística em sala de aula: como resolver com os alunos?"
+interval = "13h30 - 15h"
 location = "Rodrigo Pinto Tiradentes (OBL)"
 
 [[days.activities]]
-name = "Palestra – Multiletramentos na sala de aula"
-start = 14.5
-duration = 0.5
-interval = "15h30 - 16h"
+name = "Intervalo"
+interval = ""
+short = 1
 background = "#f0f0f0"
+
+[[days.activities]]
+name = "Palestra – Multiletramentos na sala de aula"
+interval = "15h30 - 16h"
 location = "Fernando Felix (UnDF)"
 
 [[days.activities]]
 name = "Oficina – Sintaxe através de problemas de linguística"
-start = 15
-duration = 1
 interval = "16h - 17h"
-background = "#f0f0f0"
 location = "Ivan Derjanski (Academia Búlgara de Ciências / Olimpíada de Linguística da Bulgária) <br>*em português"
 
 [[days]]
@@ -47,26 +60,17 @@ name = "Quarta-feira (24/07)"
 
 [[days.activities]]
 name = "Visita ao SESI Lab"
-start = 9.5
-duration = 2.5
 interval = "9h30 (opcional)"
-background = "#f0f0f0"
 location = "Chegada às 9h15 <br>Limitado a 100 vagas - inscrição via formulário próprio <br>*Endereço: Setor Cultural Sul, Bloco A, Asa Sul, Brasília."
 
 [[days.activities]]
 name = "Palestra de Abertura da IOL"
-start = 14.5
-duration = 1
 interval = "15h30 (opcional)"
-background = "#f0f0f0"
 location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba A - Casa do Professor)"
 
 [[days.activities]]
 name = "Cerimônia de Abertura da IOL"
-start = 18
-duration = 2
 interval = "19h"
-background = "#f0f0f0"
 location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba A - Casa do Professor)"
 
 [[days]]
@@ -76,62 +80,66 @@ long = 1
 
 [[days.activities]]
 name = "Palestra – Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
-start = 8
-duration = 1.5
 interval = "8h - 9h30"
-background = "#f0f0f0"
 location = "Janaina Weissheimer (UFRN / Rede CpE) <br>Nathalie Topaj (Centro Leibniz de Ciências da Linguagem / Olimpíada de Linguística da Alemanha) <br>*com tradução consecutiva"
 long = 1
 
 [[days.activities]]
+name = "Intervalo"
+interval = ""
+long = 1
+short = 1
+background = "#f0f0f0"
+
+[[days.activities]]
 name = "Seção 1 <br>Sala a ser definida"
-start = 9.7
-duration = 0.3
 interval = ""
 small = 1
+short = 1
+background = "#96c7ff"
 
 [[days.activities]]
 name = "Oficina – Usando tradutores online gratuitos com aprendizes de línguas"
-start = 10
-duration = 1
 interval = "10h - 11h"
-background = "#f0f0f0"
 location = "Harold Somers (Prof. emérito da Universidade de Manchester / Olimpíada de Linguística da Irlanda) <br>*com tradução consecutiva"
 small = 1
 
 [[days.activities]]
 name = "Palestra – Integrando a Olimpíada de Linguística à Educação: insights diretamente da Coreia do Sul"
-start = 11
-duration = 0.5
 interval = "11h - 11h30"
-background = "#f0f0f0"
 location = "Minkyu Kim (Universidade da Califórnia - Irvine / Olimpíada de Linguística da Coreia do Sul) <br>*com tradução consecutiva"
 small = 1
 
 [[days.activities]]
 name = "Palestra – Conhecendo novas culturas a partir dos problemas de linguística"
-start = 11.5
-duration = 0.5
 interval = "11h30 - 12h"
-background = "#f0f0f0"
 location = "Shinjini Gosh (Instituto de Tecnologia de Massachusetts) <br>* com tradução consecutiva"
 small = 1
 
 [[days.activities]]
-name = "Oficina – Consciência metalinguística e aprendizagem ativa"
-start = 12.5
-duration = 2
-interval = "13h30 - 15h30"
+name = "Almoço"
+interval = ""
+long = 1
+short = 1
 background = "#f0f0f0"
+
+[[days.activities]]
+name = "Oficina – Consciência metalinguística e aprendizagem ativa"
+interval = "13h30 - 15h30"
 location = "Eloisa Pilati (UnB) <br>Bruno L’Astorina (OBL)"
 long = 1
+short = 1
+
+[[days.activities]]
+name = "Intervalo"
+interval = ""
+long = 1
+short = 1
+background = "#f0f0f0"
 
 [[days.activities]]
 name = "Palestra – A língua espírito refloresta mentes"
-start = 15
-duration = 1
 interval = "16h - 17h"
-background = "#f0f0f0"
 location = "Altaci Kokama (UnB / Ministério dos Povos Indígenas)"
 long = 1
 
@@ -142,25 +150,24 @@ name = ""
 interval = ""
 
 [[days.activities]]
+name = ""
+interval = ""
+short = 1
+
+[[days.activities]]
 name = "Seção 2 <br>ICC Centro, Mezanino, sala 402"
-start = 9.7
-duration = 0.3
 interval = ""
 small = 1
+short = 1
+background = "#96c7ff"
 
 [[days.activities]]
 name = "Oficina – Construindo pontes entre matemática e linguística"
-start = 10
-duration = 1
 interval = "10h - 11h"
-background = "#f0f0f0"
 location = "Michał Śliwiński (Universidade de Wrocław / Olimpíada de Linguística da Polônia) <br>*com tradução consecutiva"
 
 [[days.activities]]
 name = "Oficina – Problemas de linguística: uma abordagem mão na massa"
-start = 11
-duration = 1
 interval = "11h - 12h"
-background = "#f0f0f0"
 location = "Vlad A. Neacșu (Olimpíada de Linguística de Hong Kong) <br>*com tradução consecutiva"
 tall = 1
