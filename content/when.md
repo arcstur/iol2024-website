@@ -21,11 +21,17 @@ In addition to the international gathering of **high-school students**, IOL also
 
 The schematic, day-by-day calendar, will be as such:
 
+## Students
+
 <a href="/schedule-students">
 {{ schedule(source="static/schedule.toml") }}
 </a>
 
-The Team Leaders have a <a href="/schedule-tl">slightly different schedule.</a>
+## Team leaders
+
+<a href="/schedule-tl">
+{{ schedule(source="static/schedule-tl.toml") }}
+</a>
 
 This page is being constantly updated; details about each activity will come in due time.
 
