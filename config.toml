@@ -26,6 +26,8 @@ juice_exclude_menu = [
   "Volunteers",
   "Map",
   "Countdown",
+  "Schedule",
+  "Schedule - Team Leaders"
 ]
 juice_extra_menu = [
     { title = "Teachers", link = "https://prof.iol2024.org/"}

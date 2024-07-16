@@ -24,11 +24,11 @@ background = "#fcfcc5"
 location = "Hotel"
 
 [[days.activities]]
-name = "Integration Games"
-start = 8.5
+name = "Board meeting"
+start = 9
 duration = 2
-interval = "8:30 - 10:30"
-location = "Parque Burle Marx"
+interval = "09:00 - 11:00"
+location = "Hotel"
 
 [[days.activities]]
 name = "Program with Embassies"
@@ -74,17 +74,17 @@ background = "#fcfcc5"
 location = "Hotel"
 
 [[days.activities]]
-name = "Wikidata IOLab"
+name = "National Olympiads Meeting"
 start = 8.7
-duration = 2.8
-interval = "8:40 - 11:30"
-location = "Memorial Darcy Ribeiro"
+duration = 3.5
+interval = "8:40 - 12:15"
+location = "UnB"
 
 [[days.activities]]
 name = "Lunch"
-start = 12
-duration = 1.5
-interval = "12:00 - 13:30"
+start = 12.5
+duration = 1
+interval = "12:30 - 13:30"
 background = "#fcfcc5"
 location = "UnB RU"
 
@@ -115,12 +115,19 @@ background = "#fcfcc5"
 location = "Hotel"
 
 [[days.activities]]
-name = "<strong>Individual Contest</strong>"
-start = 9.25
-duration = 6
-interval = "9:15 - 15:15"
-background = "#dbffb8"
+name = "International Organising Committee Meeting"
+start = 9.5
+duration = 2.5
+interval = "09:30 - 12:00"
 location = "UnDF"
+small_text = 1
+
+[[days.activities]]
+name = "Lunch"
+start = 12.25
+duration = 1.25
+interval = "12:15 - 13:30"
+background = "#fcfcc5"
 
 [[days.activities]]
 name = "Juline Party"
@@ -227,7 +234,7 @@ background = "#fcfcc5"
 location = "Hotel"
 
 [[days.activities]]
-name = "<strong>Team Contest</strong>"
+name = "<strong>Invigilation of the Team Contest</strong>"
 start = 9.25
 duration = 4
 interval = "9:15 - 13:15"

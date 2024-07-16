@@ -21,9 +21,21 @@ In addition to the international gathering of **high-school students**, IOL also
 
 The schematic, day-by-day calendar, will be as such:
 
-{{ schedule() }}
+## Students
+
+<a href="/schedule-students">
+{{ schedule(source="static/schedule.toml") }}
+</a>
+
+## Team leaders
+
+<a href="/schedule-tl">
+{{ schedule(source="static/schedule-tl.toml") }}
+</a>
 
 This page is being constantly updated; details about each activity will come in due time.
+0
+In parallel, there will be the program of the <a href="https://prof.iol2024.org/#programacao"><strong>Teacher's Training</strong></a>
 
 # Teacher's Program
 
