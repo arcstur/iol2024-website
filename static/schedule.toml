@@ -1,56 +1,184 @@
 [[days]]
-name = "23/07"
-weekday = "terça-feira"
+name = "Terça-feira (23/07)"
+location = "ICC Centro, Mezanino, sala 402"
 
 [[days.activities]]
-periodTime = "Manhã"
-name = "O que são olimpíadas de linguística? Como resolver problemas de linguística? Como eles impactam a sala de aula?"
-who = "Bruno L’Astorina (Olimpíada Brasileira de Linguística) <br> Rodrigo Tiradentes (Olimpíada Brasileira de Linguística) <br> Eloisa Pilati (UnB) <br> Janaina Weissheimer (UFRN / Rede CpE) <br> Ivan Derjanski (Academia Búlgara de Ciências – Sofia) (Olimpíada de Linguística da Bulgária)"
+name = "Credenciamento"
+interval = "7h - 8h"
+short = 1
 
 [[days.activities]]
-periodTime = "Tarde"
-name = "Línguas e culturas indígenas"
+name = "Abertura – Boas-vindas ao Universo Olímpico"
+interval = "8h - 8h45"
+location = "Eloisa Pilati (UnB) <br>Janaina Weissheimer (UFRN / Rede CpE) <br>Rodrigo Pinto Tiradentes (OBL)"
 
+[[days.activities]]
+name = "Conhecendo as Olimpíadas de Linguística: o que são e qual seu impacto na escola?"
+interval = "8h45 - 10h"
+location = "Bruno L’Astorina (OBL) <br>Rodrigo Pinto Tiradentes (OBL)"
 
+[[days.activities]]
+name = "Intervalo"
+interval = ""
+short = 1
+background = "#f0f0f0"
+
+[[days.activities]]
+name = "Palestra – Aprendizagem Criativa e Inovação na Educação"
+interval = "10h30 - 12h"
+location = "Ana Luiza Snoeck Neiva do Amaral (Rede SESI)"
+
+[[days.activities]]
+name = "Almoço"
+interval = ""
+short = 1
+background = "#f0f0f0"
+
+[[days.activities]]
+name = "Oficina – Problemas de linguística em sala de aula: como resolver com os alunos?"
+interval = "13h30 - 15h"
+location = "Rodrigo Pinto Tiradentes (OBL)"
+
+[[days.activities]]
+name = "Intervalo"
+interval = ""
+short = 1
+background = "#f0f0f0"
+
+[[days.activities]]
+name = "Palestra – Multiletramentos na sala de aula"
+interval = "15h30 - 16h"
+location = "Fernando Fidelix Nunes (UnDF / SEEDF)"
+
+[[days.activities]]
+name = "Oficina – Sintaxe através de problemas de linguística"
+interval = "16h - 17h"
+location = "Ivan Derjanski (Academia Búlgara de Ciências / Olimpíada de Linguística da Bulgária) <br>*em português"
 
 [[days]]
-name = "24/07"
-weekday = "quarta-feira"
+name = "Quarta-feira (24/07)"
 
 [[days.activities]]
-periodTime = "Manhã"
-name = "Visita à IOL"
+name = "Visita ao SESI Lab"
+interval = "9h30 (opcional)"
+location = "<strong>Chegada às 9h15</strong> <br>Limitado a 100 vagas - inscrição via formulário próprio <br>*Endereço: Setor Cultural Sul, Bloco A, Asa Sul, Brasília."
 
 [[days.activities]]
-start = "14h"
-end = "18h"
-periodTime = "Tarde"
+name = "Livre"
+interval = ""
+background = "#f0f0f0"
+verytall = 1
+
+[[days.activities]]
+name = "Palestra de Abertura da IOL"
+interval = "15h30 (opcional)"
+location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba A - Casa do Professor)"
+
+[[days.activities]]
+name = "Livre"
+interval = ""
+background = "#f0f0f0"
+verytall = 1
+
+[[days.activities]]
 name = "Cerimônia de Abertura da IOL"
-
-
+interval = "19h"
+location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba A - Casa do Professor)"
 
 [[days]]
-name = "25/07"
-weekday = "quinta-feira"
+name = "Quinta-feira (25/07)"
+location = "ICC Centro, Mezanino, sala 402"
+long = 1
 
 [[days.activities]]
-start = "8h"
-end = "10h"
-periodTime = "Manhã"
-name = "Consciência metalinguística e aprendizagem ativa"
-who = "Eloisa Pilati (UnB) <br> Bruno L’Astorina (Olimpíada Brasileira de Linguística)"
+name = "Palestra – Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
+interval = "8h - 9h30"
+location = "Janaina Weissheimer (UFRN / Rede CpE) <br>Nathalie Topaj (Centro Leibniz de Ciências da Linguagem / Olimpíada de Linguística da Alemanha) <br>*com tradução consecutiva"
+long = 1
 
 [[days.activities]]
-start = "10h30"
-end = "11h"
-periodTime = "Tarde"
-name = "Usando tradutores online gratuitos com aprendizes de línguas"
-who = "Harold Somers (Prof. emérito da Universidade de Manchester) (Olimpíada de Linguística da Irlanda) <br> *com tradução consecutiva"
+name = "Intervalo"
+interval = ""
+long = 1
+short = 1
+background = "#f0f0f0"
 
 [[days.activities]]
-start = "11h"
-end = "12h"
-periodTime = "Tarde"
-name = "Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
-who = "Janaina Weissheimer (UFRN / Rede CpE) <br> Nathalie Topaj (Centro Leibniz de Ciências da Linguagem) (Olimpíada de Linguística da Alemanha)"
+name = "Seção 1 <br>Sala a ser definida"
+interval = ""
+small = 1
+short = 1
+background = "#96c7ff"
 
+[[days.activities]]
+name = "Oficina – Usando tradutores online gratuitos com aprendizes de línguas"
+interval = "10h - 11h"
+location = "Harold Somers (Prof. emérito da Universidade de Manchester / Olimpíada de Linguística da Irlanda) <br>*com tradução consecutiva"
+small = 1
+
+[[days.activities]]
+name = "Palestra – Integrando a Olimpíada de Linguística à Educação: insights diretamente da Coreia do Sul"
+interval = "11h - 11h30"
+location = "Minkyu Kim (Universidade da Califórnia - Irvine / Olimpíada de Linguística da Coreia do Sul) <br>*com tradução consecutiva"
+small = 1
+
+[[days.activities]]
+name = "Palestra – Conhecendo novas culturas a partir dos problemas de linguística"
+interval = "11h30 - 12h"
+location = "Shinjini Gosh (Instituto de Tecnologia de Massachusetts) <br>* com tradução consecutiva"
+small = 1
+
+[[days.activities]]
+name = "Almoço"
+interval = ""
+long = 1
+short = 1
+background = "#f0f0f0"
+
+[[days.activities]]
+name = "Oficina – Consciência metalinguística e aprendizagem ativa"
+interval = "13h30 - 15h30"
+location = "Eloisa Pilati (UnB) <br>Bruno L’Astorina (OBL)"
+long = 1
+
+[[days.activities]]
+name = "Intervalo"
+interval = ""
+long = 1
+short = 1
+background = "#f0f0f0"
+
+[[days.activities]]
+name = "Palestra – A língua espírito refloresta mentes"
+interval = "16h - 17h"
+location = "Altaci Kokama (UnB / Ministério dos Povos Indígenas)"
+long = 1
+
+[[days]]
+
+[[days.activities]]
+name = ""
+interval = ""
+
+[[days.activities]]
+name = ""
+interval = ""
+short = 1
+
+[[days.activities]]
+name = "Seção 2 <br>ICC Centro, Mezanino, sala 402"
+interval = ""
+small = 1
+short = 1
+background = "#96c7ff"
+
+[[days.activities]]
+name = "Oficina – Construindo pontes entre matemática e linguística"
+interval = "10h - 11h"
+location = "Michał Śliwiński (Universidade de Wrocław / Olimpíada de Linguística da Polônia) <br>*com tradução consecutiva"
+
+[[days.activities]]
+name = "Oficina – Problemas de linguística: uma abordagem mão na massa"
+interval = "11h - 12h"
+location = "Vlad A. Neacșu (Olimpíada de Linguística de Hong Kong) <br>*com tradução consecutiva"
+tall = 1
