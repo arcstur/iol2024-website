@@ -34,6 +34,8 @@ The schematic, day-by-day calendar, will be as such:
 </a>
 
 This page is being constantly updated; details about each activity will come in due time.
+0
+In parallel, there will be the program of the <a href="https://prof.iol2024.org/#programacao"><strong>Teacher's Training</strong></a>
 
 # Teacher's Program
 
