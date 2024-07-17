@@ -32,4 +32,34 @@ O Brasil é o país com mais participantes de olimpíadas do conhecimento do mun
 
 A 21ª Olimpíada Internacional de Linguística ocorre do dia 23 a 31 de julho, na UnB. A abertura ocorrerá no Museu da República, com a participação de todas as delegações e autoridades.
 
-Para mais informações de imprensa, contate Juliana Barbosa – (61) 99559-3713.
+Para mais informações de imprensa, contate Juliana Barbosa: +55 61 99559-3713.
+
+# Brasilia hosts 21st International Linguistics Olympiad
+
+_For the first time in history, the event takes place in Latin America and the Southern Hemisphere_
+
+Young people from 39 countries will gather in Brasilia from July 23rd to 31st at the University of Brasilia (UnB) to take part in the 21st International Linguistics Olympiad (IOL). A total of 53 delegations will be participate in the event, which in addition to the competition will include parallel events and a meeting between these young people and indigenous leaders. The 21st IOL is organized by Instituto Vertere and the Brazilian Linguistics Association.
+
+The event addresses three major dimensions that guide IOL: the meeting of students from all over the world, the impact on local education and the stimulation of public policies related to linguistics. To this end, in addition to the competition, which will take place at the University of Brasilia (UnB), the students will visit tourist and ecotourism sites in the region, organize workshops for teachers in the Federal District and meet with authorities, including indigenous authorities.
+
+IOL assesses students' ability to understand how the patterns of an unknown language work. The test is taken in the language of the competitor's choice, but the challenge is in a language other than their own.
+
+"The student is given a problem question in an unknown language and is offered elements in the text of the exercise that allow them to understand the text. The participant must be able to interpret the text and solve the proposed activity based on the elements presented," explains Bruno L'Astorina, Vertere's coordinator in charge of IOL.
+
+Fifty-three delegations are competing, and each delegation is made up of four students and a teacher responsible for the team.
+
+"It's an important integration between students from all over the world. There are students from Germany and Nepal, with different languages and cultures, living together for a week in an integrated way, with joint activities on many occasions. This is one of the guiding principles of the Knowledge Olympiads in general and especially of IOL," says L'Astorina.
+
+For Vertere's president, Gustavo Wigman, the Knowledge Olympiads dates to the 19th century, and for the whole world it is an important space for selecting the intellectual elite in academia and the market. But not in Brazil, where it's an opportunity to bring science into schools.
+
+"Throughout the world, the Knowledge Olympiads are an important policy for stimulating education and have always sought to bring academic knowledge closer to market demand. Students are subjected to practical problems that can be solved objectively, so they are encouraged to have formative autonomy," explains Wigman.
+
+Another important axis for IOL is the qualification of local education. In this regard, the event's organizers will be promoting a training course for Brazilian teachers.
+
+The course aims to train teachers in problem-solving pedagogy, which seeks to develop three skills in students: interest, autonomy and cooperation. "These are values that guide all of the Olympiads. Students sign up on their own or are signed up by their teachers, but the first phase is an online one, in which they solve the problems on their own. Then, in the second phase, there is a meeting, generally face-to-face, in which they are once again individually confronted with new problems. The third stage, which qualifies them for the international stage that is taking place now, is face-to-face and in groups, where cooperative work is fundamental," says L'Astorina.
+
+Brazil is the country with the most participants in the Knowledge Olympiads in the world, with three times as many participants as the runner-up. In this edition of the IOL, two teams are competing, which is the maximum number of delegations each country can register.
+
+The 21st International Linguistics Olympiad takes place from July 23rd to 31st at UnB. The opening ceremony will be held at the Museum of the Republic, with the participation of all the delegations and authorities.
+
+For more press information, contact Juliana Barbosa: +55 61 99559-3713.
