@@ -28,7 +28,7 @@ name = "Integration Games"
 start = 8.5
 duration = 2
 interval = "8:30 - 10:30"
-location = "Parque Burle Marx"
+location = "Burle Marx Garden"
 
 [[days.activities]]
 name = "Program with Embassies"
