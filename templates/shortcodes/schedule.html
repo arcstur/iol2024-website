@@ -93,7 +93,12 @@
     background-color: #ffd684;
     {% endif %}"
     >
-        <div class="activity-time-interval"> {{ activity.interval }} </div>
+        <div style="
+            {% if activity.small_text2 %}
+            font-size: 3px;
+            line-height: 3px;
+            {% endif %}"
+            class="activity-time-interval"> {{ activity.interval }} </div>
         <div
         style="
         {% if activity.duration <= 2 %}
@@ -103,6 +108,10 @@
         {% if activity.small_text %}
         font-size: 7px;
         line-height: 7px;
+        {% endif %}
+        {% if activity.small_text2 %}
+        font-size: 6px;
+        line-height: 6px;
         {% endif %}"
         >{{ activity.name | safe }}</br></div>
         
@@ -112,6 +121,10 @@
             {% if activity.duration <= 2 %}
             font-size: 5px;
             line-height: 6px;
+            {% endif %}
+            {% if activity.small_text2 %}
+            font-size: 4px;
+            line-height: 4px;
             {% endif %}"
             > {{ activity.location }}</div>
         {% endif %}

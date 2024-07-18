@@ -246,14 +246,16 @@ name = "Languages of Brazil - Prof. Marcus Maia (UFRJ)"
 start = 15
 duration = 1
 interval = "15:00 - 16:00"
-small_text = 1
+small_text2 = 1
+location = "Chemistry Institute auditorium"
 
 [[days.activities]]
 name = "Brazilian Sign Language"
 start = 16
 duration = 1
 interval = "16:00 - 17:00"
-small_text = 1
+small_text2 = 1
+location = "Chemistry Institute auditorium"
 
 [[days.activities]]
 name = "Dinner"
