@@ -75,9 +75,9 @@ location = "Hotel"
 
 [[days.activities]]
 name = "National Olympiads Meeting"
-start = 8
-duration = 4.5
-interval = "8:00 - 12:30"
+start = 8.7
+duration = 3.55
+interval = "8:40 - 12:15"
 location = "Chemistry Institute auditorium"
 
 [[days.activities]]
@@ -116,9 +116,9 @@ location = "Hotel"
 
 [[days.activities]]
 name = "International Organising Committee Meeting"
-start = 10
-duration = 2
-interval = "10:00 - 12:00"
+start = 9
+duration = 2.5
+interval = "9:30 - 12:00"
 location = "UnDF"
 small_text = 1
 
