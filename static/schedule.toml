@@ -149,9 +149,9 @@ short = 1
 background = "#f0f0f0"
 
 [[days.activities]]
-name = "Palestra – A língua espírito refloresta mentes"
+name = "Palestra – Concepção e o ensino da Língua e linguagem indígena"
 interval = "16h - 17h"
-location = "Altaci Kokama (UnB / Ministério dos Povos Indígenas)"
+location = "Edilson Baniwa (MPI / SEART / DELING)"
 long = 1
 
 [[days]]
