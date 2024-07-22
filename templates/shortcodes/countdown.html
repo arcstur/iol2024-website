@@ -45,6 +45,7 @@ window.onload = function () {
 };
 </script>
 <style>
+{% if full_page == "true" %}
 header {
     display: none
 }
@@ -52,6 +53,7 @@ header {
 footer { 
     display: none
 }
+{% endif %}
 
 .timer-finished {
     display: none
