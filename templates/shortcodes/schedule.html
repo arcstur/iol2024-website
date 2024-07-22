@@ -159,7 +159,12 @@
         {% endif %}"
         >
             <div class="activity-time-interval"> {{ activity.interval }} </div>
-            <div class="activity-text-container">
+            <div class="activity-text-container"
+            style = "
+            {% if activity.small_text %}
+            font-size: 8px;
+            {% endif %}
+            ">
             <div
             >{{ activity.name | safe }}</br></div>
             

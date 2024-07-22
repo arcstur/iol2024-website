@@ -1,6 +1,6 @@
 [[days]]
 name = "Terça-feira (23/07)"
-location = "ICC Centro, Mezanino, sala 402"
+location = "Instituto de Química (IQ) - Auditório Lauro Morhy"
 
 [[days.activities]]
 name = "Credenciamento"
@@ -87,8 +87,9 @@ location = "*no auditório da ADUnB (Campus Universitário Darcy Ribeiro - Gleba
 
 [[days]]
 name = "Quinta-feira (25/07)"
-location = "ICC Centro, Mezanino, sala 402"
+location = "Instituto de Relações Internacionais (IREL) - Auditório"
 long = 1
+
 
 [[days.activities]]
 name = "Palestra – Multilinguismo na sociedade e na escola: exemplos da Alemanha e do Brasil"
@@ -104,11 +105,12 @@ short = 1
 background = "#f0f0f0"
 
 [[days.activities]]
-name = "Seção 1 <br>Sala a ser definida"
+name = "Seção 1 <br>Instituto de Relações Internacionais (IREL) - Auditório"
 interval = ""
 small = 1
 short = 1
 background = "#96c7ff"
+small_text = 1
 
 [[days.activities]]
 name = "Oficina – Usando tradutores online gratuitos com aprendizes de línguas"
@@ -171,6 +173,7 @@ interval = ""
 small = 1
 short = 1
 background = "#96c7ff"
+small_text = 1
 
 [[days.activities]]
 name = "Oficina – Construindo pontes entre matemática e linguística"
