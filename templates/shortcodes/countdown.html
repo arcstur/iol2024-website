@@ -1,16 +1,12 @@
 <script>
-    function startTimer(end, display) {
-    var start = Date.now(),
-        diff,
+    function startTimer(end, counter, text) {
+    var diff,
         minutes,
         seconds;
     function timer() {
-        // get the number of seconds that have elapsed since 
-        // startTimer() was called
         diff = (end - Date.now()) / 1000;
         diff = diff < 0 ? 0 : diff
 
-        // does the same job as parseInt truncates the float
         days = diff / (24 * 60 * 60) | 0;
         diff -= days * (24 * 60 * 60) | 0;
         hours = diff / (60 * 60) | 0;
@@ -18,45 +14,112 @@
         minutes = (diff / 60) | 0;
         seconds = (diff % 60) | 0;
 
-        hours = hours < 10 ? "0" + hours : hours;
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
+        if(days === 0 && hours === 0 && minutes === 0 && seconds === 0){
+            
+            counter.className = "timer-finished";
+            counter.textContent = ""; 
+            
+            text.className = "text-finished";
+            text.textContent = "The IOL2024 has begun!";
+        }else{
+            hours = hours < 10 ? "0" + hours : hours;
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
 
-        display.textContent = days + "d " + hours + "h " + minutes + "m " + seconds + "s"; 
-
-        if (diff <= 0) {
-            // add one second so that the count down starts at the full duration
-            // example 05:00 not 04:59
-            start = Date.now() + 1000;
+            counter.className = "timer";
+            counter.textContent = days + "d " + hours + "h " + minutes + "m " + seconds + "s"; 
+            
+            text.className = "text-";
+            text.textContent = "to the Opening of IOL 2024";
         }
     };
-    // we don't want to wait a full second before the timer starts
     timer();
     setInterval(timer, 1000);
 }
 
 window.onload = function () {
     var end = new Date('2024-07-24T19:00:00'),
-        display = document.querySelector('#countdown');
-    startTimer(end, display);
+        counter = document.querySelector('#countdown-timer'),
+        text = document.querySelector('#countdown-text');;
+    startTimer(end, counter, text);
 };
 </script>
 <style>
+header {
+    display: none
+}
+
+footer { 
+    display: none
+}
+
+.timer-finished {
+    display: none
+}
+
+.text-finished {
+    {% if full_page == "true" %}
+    padding-top: 50px;
+    font-size: 70px;
+    {% else %}
+    padding-top: 0px;
+    {% endif %}
+}
+
+.text- {
+
+}
+
 .timer {
+    {% if full_page == "true" %}
+    font-size: 70px;
+    line-height: 70px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    {% else %}
     font-size: xx-large;
-    font-variant-numeric: tabular-nums;
+    {% endif %}
 }
+
 .timer-wrapper {
+    font-variant-numeric: tabular-nums;
+    {% if full_page == "true" %}
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    {% else %}
+    margin-left: 40px;
     font-size: x-large;
+    {% endif %}
+    
 }
+
 a {
     color: var(--primary-text-color) !important;
     text-decoration: none !important;
 }
+
+.content {
+    max-width: 100% !important;
+    width: 100%;
+}
+.heading-text {
+    display: none !important;
+}
 </style>
 
+{% if full_page == "true" %}
+<div class="timer-wrapper">
+    <div id="countdown-timer" class="timer"></div> 
+    <div id="countdown-text" class="text-">to the Opening of IOL 2024</div>
+</div>
+{% else %}
 <div class="timer-wrapper">
     <a href="/countdown">
-        <span id="countdown" class="timer"></span> to the Opening of IOL 2024
+        <span id="countdown-timer" class="timer"></span> <span id="countdown-text" class="text-">to the Opening of IOL 2024</span>
     </a>
 </div>
+{% endif %}
