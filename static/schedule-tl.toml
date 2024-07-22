@@ -175,8 +175,8 @@ location = "Salto do Itiquira"
 
 [[days.activities]]
 name = "Dinner"
-start = 18
-duration = 1.5
+start = 19
+duration = 2
 interval = "19:00 - 21:00"
 background = "#fcfcc5"
 location = "Hotel"
