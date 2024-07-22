@@ -34,6 +34,12 @@ A 21ª Olimpíada Internacional de Linguística ocorre do dia 23 a 31 de julho, 
 
 Para mais informações de imprensa, contate Juliana Barbosa: +55 61 99559-3713.
 
+# Olimpíada Internacional de Linguística terá atividade na Wikimedia
+
+Pela primeira vez, uma atividade de edição em projetos da Wikimedia vai integrar a etapa internacional, realizada com apoio do Wiki Movimento Brasil (WMB), associação afiliada à Fundação Wikimedia.
+
+{{ single_button(link="/press/wikimedia_release.pdf", text="Acessar release") }}
+
 # Brasilia hosts 21st International Linguistics Olympiad
 
 _For the first time in history, the event takes place in Latin America and the Southern Hemisphere_
