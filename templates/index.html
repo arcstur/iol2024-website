@@ -52,50 +52,78 @@
 
 {% block footer %}
 <style type="text/css" rel="stylesheet">
-  .footer_social_media_logo {
-    align-self: center;
-    align-items: center;
-    height: 25px;
-    filter: brightness(0) invert(1);
-  }
-
-  .footer_sponsor_box {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
-  }
-
-  .footer_sponsor_logo {
-    align-self: center;
-    height: 120px;
-    filter: brightness(0) invert(1);
-  }
-
-  @media ( max-width: 815px ) {
-    .footer_sponsor_box {
-      flex-direction: column;
+  footer {
+    h1 {
+      border: 0px;
+      font-weight: bold;
+      font-size: xx-large;
     }
-    .footer_sponsor_logo {
-      max-height: 120px;
+
+    >div {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 50px;
+
+      a>img {
+        align-self: center;
+        max-height: 120px;
+        filter: brightness(0) invert(1);
+      }
+    }
+
+    div.rowBreak {
+      height: 0;
+      flex-basis: 100%;
+    }
+
+    a>img {
+      height: auto;
       max-width: 99%;
+    }
+
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 50px;
+
+      a>img {
+        align-self: center;
+        align-items: center;
+        max-height: 25px;
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  @media (max-width: 815px) {
+    footer>span {
+      flex-direction: column;
     }
   }
 </style>
 
 <footer style="padding-bottom: 10px">
-  <a href="https://ioling.org/">
-    <img class="footer_sponsor_logo" src="/footer/logo_iol.png" />
-  </a>
-  <h1 style="border: 0px; font-weight: bold; font-size: xx-large">Support</h1>
-  <div class="footer_sponsor_box">
+  <div>
+    <a href="https://ioling.org/">
+      <img src="/footer/logo_iol.png">
+    </a>
+  </div>
+
+  <h1> Organization </h1>
+
+  <div>
     <a href="https://obling.org/">
-      <img class="footer_sponsor_logo" src="/footer/logo_obl.png" />
+      <img src="/footer/logo_obl.png">
     </a>
     <a href="https://institutovertere.org/">
-      <img class="footer_sponsor_logo" src="/footer/logo_vertere.svg" style="height: 50px" />
+      <img src="/footer/logo_vertere.svg" style="height: 50px" />
     </a>
     <a href="https://www.unb.br/">
       <img class="footer_sponsor_logo" src="/footer/logo_unb.png" />
@@ -104,28 +132,93 @@
       <img class="footer_sponsor_logo" src="/footer/logo_abralin.svg" style="height: 120px" />
     </a>
   </div>
-  <h1 style="border: 0px; font-weight: bold; font-size: xx-large">Sponsors</h1>
-  <div class="footer_sponsor_box">
+
+  <h1> Sponsors </h1>
+
+  <div>
     <a href="https://www.aclweb.org/portal/">
-      <img class="footer_sponsor_logo" src="/footer/logo_acl.png" />
+      <img src="/footer/logo_acl.svg" style="height: 70px" />
     </a>
     <a href="https://www.gov.br/mcti/pt-br">
-      <img class="footer_sponsor_logo" src="/footer/logo_mcti.svg" />
+      <img src="/footer/logo_mcti.svg" style="height: 120px"/>
+    </a>
+  </div>
+
+  <h1> Strategic support </h1>
+
+  <div>
+    <a href="https://www.unesco.org/en/decades/indigenous-languages">
+        <img src="/footer/idil.png" />
+    </a>
+    <a href="https://www.gov.br/povosindigenas/pt-br">
+      <img src="/footer/logo_mpi.png" />
+    </a>
+    <!-- We can't have another logo to the right of the MPI logo -->
+    <div class="rowBreak" ></div>
+    <a href="https://www.universidade.df.gov.br/">
+      <img src="/footer/logo_undf.png" style="height: 150px"/>
+    </a>
+    <a href="https://www.df.gov.br/">
+      <img src="/footer/logo_gdf.svg" style="height: 150px"/>
+    </a>
+    <!-- We can't have another logo to the right of the GDF logo -->
+    <div class="rowBreak" ></div>
+    <a href="https://www.brasal.com.br/">
+      <img src="/footer/logo_brasal.png" />
+    </a>
+    <a href="https://www.brasal.com.br/instituto/">
+      <img src="/footer/logo_inst_brasal.png" />
+    </a>
+    <a href="https://www.iesb.br/">
+        <img style="filter: none;" src="/footer/iesb.jpg">
+    </a>
+    <a href="https://formosa.go.gov.br/turismo/parque-municipal-do-itiquira-2/">
+        <img style="filter: invert(1);" src="/footer/itiquira.svg">
+    </a>
+  </div>
+
+  <h1> Partners </h1>
+  <div style="gap: 50px;">
+    <a href="https://wmnobrasil.org/en/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Wiki_Movimento_Brasil_logo.svg/512px-Wiki_Movimento_Brasil_logo.svg.png?20210717065521" />
+    </a>
+    <a href="https://cienciaparaeducacao.org">
+      <img src="/footer/logo_cpe.svg" style="height: 120px">
+    </a>
+    <a href="https://www.gov.br/ibict/pt-br">
+        <img src="/footer/ibicit.png" />
+    </a>
+    <a href="https://canalciencia.ibict.br/">
+        <img src="/footer/canal_ciencia.png" />
+    </a>
+    <a href="https://www.instagram.com/colegioserios/">
+        <img src="/footer/serios.png" />
+    </a>
+    <a href="https://www.cultura.df.gov.br/memorial-dos-povos-indigenas/">
+      <img src="/footer/logo_memorial.svg" style="height: 120px">
+    </a>
+    <a href="https://cinebrasilia.com/">
+        <img src="/footer/cine_bsb.png" />
+    </a>
+    <a href="https://fundar.org.br/">
+        <img src="/footer/fund_darcy_ribeiro.png" />
     </a>
   </div>
 
   <h2>© 2024 - International Linguistics Olympiad</h2>
-  <div class="footer_sponsor_box" style="width: 100%; flex-direction: row">
-    <a
-      href="https://www.instagram.com/ioling.official"
-      style="align-items: center; align-content: center"
-    >
-      <img class="footer_social_media_logo" src="/footer/instagram_logo.png" />
+
+  <span>
+    <a href="https://github.com/arcstur/iol2024-website" style="align-items: center; align-content: center">
+      <img src="/footer/github_logo.png" />
+    </a>
+    <a href="https://www.instagram.com/ioling.official" style="align-items: center; align-content: center">
+      <img src="/footer/instagram_logo.png" />
     </a>
     <a href="mailto:iol2024@obling.org">
-      <img class="footer_social_media_logo" src="/footer/email_logo.png" />
+      <img src="/footer/email_logo.png" />
     </a>
     <a href="mailto:iol2024@obling.org"> iol2024@obling.org </a>
-  </div>
+  </span>
+
 </footer>
 {% endblock footer %}
