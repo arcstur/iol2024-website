@@ -117,11 +117,11 @@
             long
             {% endif %}"
             >
-            {{ day.name }}
+            {{ day.name | safe}}
             {% if day.location %}
             <br>
             <span style="font-size: 10px">
-                {{ day.location }}
+                {{ day.location | safe }}
             </span>
             {% endif %}
         </div>
