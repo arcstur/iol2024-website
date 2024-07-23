@@ -24,13 +24,6 @@ background = "#fcfcc5"
 location = "Hotel"
 
 [[days.activities]]
-name = "Board meeting"
-start = 9
-duration = 2
-interval = "09:00 - 11:00"
-location = "Hotel"
-
-[[days.activities]]
 name = "Program with Embassies"
 start = 11.5
 duration = 3.5
