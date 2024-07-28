@@ -188,23 +188,23 @@ location = "Hotel"
 
 [[days.activities]]
 name = "Meeting with Indigenous Leaders"
-start = 8.5
+start = 9
 duration = 3
-interval = "8:30 - 11:30"
+interval = "9:00 - 12:00"
 location = "Memorial dos Povos Indigenas"
 
 [[days.activities]]
 name = "Lunch"
-start = 12
+start = 12.5
 duration = 1.5
-interval = "12:00 - 13:30"
+interval = "12:30 - 14:00"
 background = "#fcfcc5"
 
 [[days.activities]]
 name = "Workshops of Brazilian Culture"
-start = 13.5
-duration = 3.5
-interval = "13:30 - 17:00"
+start = 14.0
+duration = 3
+interval = "14:00 - 17:00"
 location = "Colegio Seriös"
 
 [[days.activities]]
@@ -228,16 +228,17 @@ location = "Hotel"
 
 [[days.activities]]
 name = "<strong>Team Contest</strong>"
-start = 9.25
+start = 9
 duration = 4
-interval = "9:15 - 13:15"
+interval = "9:00 - 13:00"
 background = "#dbffb8"
+location = "Hotel"
 
 [[days.activities]]
 name = "Lunch"
-start = 13.75
-duration = 1.25
-interval = "13:45 - 15:00"
+start = 13.5
+duration = 1
+interval = "13:30 - 14:30"
 background = "#fcfcc5"
 location = "UnB RU"
 
