@@ -25,7 +25,6 @@ juice_logo_path = "logo-header-sol.svg"
 juice_exclude_menu = [
   "Volunteers",
   "Map",
-  "Countdown",
   "Schedule",
   "Schedule - Team Leaders",
 ]
